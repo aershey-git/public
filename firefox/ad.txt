@@ -263,12 +263,15 @@ finance.yahoo.com###Navigation
 finance.yahoo.com###YDC-UH-Stack-Composite
 forecast.weather.gov###fcst-search
 forecast.weather.gov###news-items
+forecast.weather.gov###quickLinkscom
 forecast.weather.gov##.clearfix.row
 forecast.weather.gov##.row.navbar-default.navbar
 fredericknewspost.com###site-header-container
+fredericknewspost.com###site-top-nav > .row
 fredericknewspost.com##.affix-top.hidden-print
 imdb.com###promoted-partner-bar
 lobste.rs##.comment_form_container.comment
+login.yahoo.com##.mbr-desktop-hd
 news.ycombinator.com##.fatitem form
 nytimes.com###in-story-masthead
 nytimes.com##.css-1y7qxpi
@@ -294,3 +297,4 @@ washingtonpost.com##.fixed.w-100.justify-center.items-center.hide-for-print.flex
 washingtonpost.com##.mb-lg.hide-for-print
 washingtonpost.com##.mb-lg.tight-b.spacing.mt-sm.dn-hp-md-to-xs.db
 zdnet.com##.page-header
+
