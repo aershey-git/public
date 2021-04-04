@@ -1,6 +1,6 @@
-youtube-dl -v -4 -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
+youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-youtube-dl -4 -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
+youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 
 ###############################################################################
 
@@ -13,6 +13,8 @@ youtube-dl -4 -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 -hide_banner -f mp4 -movflags +faststart -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 160k -ac 2 0.mp4
 
 -map_metadata -1 -sn -dn -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
+
+bitrate: 96, 112, 128, 160, 192, 224, 256, or 320
 
 https://trac.ffmpeg.org/wiki/Map
 https://trac.ffmpeg.org/wiki/Hardware/QuickSync
