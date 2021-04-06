@@ -101,6 +101,7 @@
 ||bing.com^$important,third-party
 ||live.com^$important,third-party
 ||msn.com^$important,third-party
+||weather.com^$important,third-party
 #######################################################
 ||tradingview.com^
 #######################################################
