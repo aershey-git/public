@@ -6,14 +6,16 @@ youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 
 -hide_banner -f srt -map 0:s:0 0-movie.srt
 
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
+-hide_banner -f mp4 -movflags +faststart -force_key_frames expr:gte(t\,n_forced/2) -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
 
--hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
+-hide_banner -f matroska -movflags +faststart -force_key_frames expr:gte(t\,n_forced/2) -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
 
--hide_banner -f mp4 -movflags +faststart -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 160k -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -force_key_frames expr:gte(t\,n_forced/2) -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 1 -ac 2 0.mp4
 
--map_metadata -1 -sn -dn -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
+-map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
+https://trac.ffmpeg.org/attachment/wiki/Map/map.png
 
+-b:a 160k
 bitrate: 96, 112, 128, 160, 192, 224, 256, or 320
 
 https://trac.ffmpeg.org/wiki/Map
