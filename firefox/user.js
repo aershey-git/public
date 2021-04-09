@@ -526,4 +526,3 @@ user_pref("webgl.disabled", true);
 user_pref("webgl.dxgl.enabled", false);
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.enable-webgl2", false);
-user_pref("webgl.min_capability_mode", true);
