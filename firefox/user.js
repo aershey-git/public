@@ -102,6 +102,7 @@ user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.page", 0);
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.tabs.extraDragSpace", true);
+user_pref("browser.tabs.loadDivertedInBackground", true);
 user_pref("browser.tabs.remote.allowLinkedWebInFileUriProcess", false);
 user_pref("browser.taskbar.lists.enabled", false);
 user_pref("browser.taskbar.lists.frequent.enabled", false);
