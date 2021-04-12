@@ -1,6 +1,7 @@
 {
     "policies": {
       "AppAutoUpdate": false,
+      "ManualAppUpdateOnly": true,        
       "DisableAppUpdate": true,
       "DisableFormHistory": true,
       "DisablePasswordReveal": true,
