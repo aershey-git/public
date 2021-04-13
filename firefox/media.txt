@@ -4,13 +4,13 @@ youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 
 ###############################################################################
 
--hide_banner -f srt -map 0:s:0 0-movie.srt
+-hide_banner -f srt -map 0:s:0 0.srt
 
 -hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
 
 -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
 
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 1 -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 128k -ac 2 0.mp4
 
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 https://trac.ffmpeg.org/attachment/wiki/Map/map.png
@@ -21,5 +21,11 @@ bitrate: 96, 112, 128, 160, 192, 224, 256, or 320
 https://trac.ffmpeg.org/wiki/Map
 https://trac.ffmpeg.org/wiki/Hardware/QuickSync
 https://trac.ffmpeg.org/wiki/Encode/HighQualityAudio
+
+ffmpeg -encoders
+ffmpeg -h encoder=aac
+ffmpeg -h encoder=h264
+ffmpeg -h encoder=h264_qsv
+ffmpeg -h encoder=hevc_qsv
 
 -init_hw_device qsv=hw -filter_hw_device hw -i input.mp4 -vf hwupload=extra_hw_frames=64,format=qsv,setsar=1:1 -c:v h264_qsv -profile:v high -preset 3 -q 24 -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0-movie.mkv
