@@ -1,0 +1,38 @@
+openssl ecparam -list_curves
+
+openssl ecparam -outform PEM -genkey -name secp521r1 -out ca_ec.key
+openssl req -outform PEM -x509 -new -nodes -key ca_ec.key -config domain.cnf -sha512 -days 3651 -out ca_ec.pem -utf8
+
+openssl ecparam -outform PEM -genkey -name prime256v1 -out domain.key
+openssl req -outform PEM -new -nodes -sha512 -key domain.key -out domain.csr -config domain.cnf -extensions v3_req -utf8
+
+openssl x509 -outform PEM -req -sha512 -in domain.csr -CA ca_ec.pem -CAkey ca_ec.key -out domain.pem -days 3650 -extensions v3_req -extfile domain.cnf -trustout -CAcreateserial -CAserial domain.srl
+
+openssl ecparam -in ca_ec.key -text -noout
+openssl x509 -noout -text -in ca_ec.pem
+openssl ecparam -in domain.key -text -noout
+openssl req -in domain.csr -noout -text
+openssl x509 -noout -text -in domain.pem
+
+#######################################################
+certtool --generate-privkey --ecc --curve=secp521r1 --sec-param=ultra --outfile ca-key.pem
+certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --outfile ca-cert.pem
+certtool --generate-privkey --ecc --curve=secp256r1 --sec-param=ultra --outfile domain.key
+certtool --generate-certificate --load-privkey domain.key --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile domain.pem
+
+  ca.tmpl
+cn = ""
+serial = 1
+expiration_days = -1
+ca
+signing_key
+cert_signing_key
+crl_signing_key
+
+  server.tmpl
+cn = "*.neoajna.com"
+dns_name = ""
+ip_address = ""
+expiration_days = -1
+signing_key
+tls_www_server
