@@ -1,0 +1,1 @@
+gs -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf -dFirstPage=XX -dLastPage=YY -sDEVICE=pdfwrite input.pdf
