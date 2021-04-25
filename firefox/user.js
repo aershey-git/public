@@ -354,6 +354,7 @@ user_pref("network.trr.uri", "https://dns11.quad9.net/dns-query");
 user_pref("network.trr.wait-for-A-and-AAAA", false);
 user_pref("offline-apps.allow_by_default", false);
 user_pref("pdfjs.disabled", false);
+user_pref("pdfjs.enableScripting", false);
 user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.shortcuts", 2);
