@@ -12,6 +12,8 @@ youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 
 -hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 128k -ac 2 0.mp4
 
+-hwaccel qsv -c:v hevc_qsv  -i input-file -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -look_ahead 1 -preset slow -profile:v high -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
+
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 https://trac.ffmpeg.org/attachment/wiki/Map/map.png
 
