@@ -30,7 +30,7 @@ cert_signing_key
 crl_signing_key
 
   server.tmpl
-cn = "*.neoajna.com"
+cn = ""
 dns_name = ""
 ip_address = ""
 expiration_days = -1
