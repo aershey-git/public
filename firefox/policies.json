@@ -444,6 +444,31 @@
           "Value": true,
           "Status": "locked"
         },
+
+        "browser.urlbar.suggest.calculator": {
+          "Value": true,
+          "Status": "locked"
+        },
+
+        "browser.compactmode.show": {
+          "Value": true,
+          "Status": "locked"
+        },
+
+        "layout.css.backdrop-filter.enabled": {
+          "Value": true,
+          "Status": "locked"
+        },
+
+        "svg.context-properties.content.enabled": {
+          "Value": true,
+          "Status": "locked"
+        },
+
+        "toolkit.legacyUserProfileCustomizations.stylesheets": {
+          "Value": true,
+          "Status": "locked"
+        },
   
         "browser.ping-centre.telemetry": {
           "Value": false,
