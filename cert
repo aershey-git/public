@@ -1,3 +1,5 @@
+sudo certbot certonly --redirect --uir --auto-hsts --manual --key-type=ecdsa --elliptic-curve=secp256r1 --preferred-challenges=dns  -d 
+
 openssl ecparam -list_curves
 
 openssl ecparam -outform PEM -genkey -name secp521r1 -out ca_ec.key
