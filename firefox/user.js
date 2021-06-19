@@ -531,3 +531,4 @@ user_pref("webgl.disabled", true);
 user_pref("webgl.dxgl.enabled", false);
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.enable-webgl2", false);
+user_pref("widget.non-native-theme.enabled", true);
