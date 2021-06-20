@@ -909,12 +909,7 @@
           "Value": false,
           "Status": "locked"
         },
-  
-        "dom.webaudio.enabled": {
-          "Value": false,
-          "Status": "locked"
-        },
-  
+   
         "dom.webnotifications.enabled": {
           "Value": false,
           "Status": "locked"
@@ -1440,10 +1435,6 @@
           "Status": "locked"
         },
   
-        "media.navigator.enabled": {
-          "Value": false,
-          "Status": "locked"
-        },
   
         "media.navigator.video.enabled": {
           "Value": false,
