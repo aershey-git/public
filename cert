@@ -1,4 +1,5 @@
-sudo certbot certonly --redirect --uir --auto-hsts --manual --key-type=ecdsa --elliptic-curve=secp256r1 --preferred-challenges=dns  -d 
+sudo certbot certonly --redirect --uir --auto-hsts --manual --key-type=ecdsa --elliptic-curve=secp256r1 --preferred-challenges=dns  -d
+sudo certbot --apache --agree-tos --redirect --uir --staple-ocsp --must-staple --auto-hsts --key-type=ecdsa --elliptic-curve=secp256r1 -d
 
 openssl ecparam -list_curves
 
