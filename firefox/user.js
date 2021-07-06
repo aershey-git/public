@@ -129,6 +129,7 @@ user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.trimURLs", false);
+user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
 user_pref("browser.zoom.siteSpecific", false);
 user_pref("camera.control.face_detection.enabled", false);
