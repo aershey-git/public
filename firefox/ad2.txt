@@ -1,12 +1,17 @@
 ||bbci.co.uk^$font
+||bestbuy.com^$font
 ||cbsistatic.com^$font
+||gstatic.com^$font
 ||m.media-amazon.com^$font
+||media-amazon.com^$font
 ||medium.com^$font
 ||mucdn.net^$font
 ||nyt.com^$font
 ||slickdeals.net^$font
 ||washingtonpost.com^$font
 ||yahoo.com^$font
+||yahoodns.net^$font
+||yimg.com^$font
 
 /graphics/icons/comment/*
 /michaellarabel.jpg
