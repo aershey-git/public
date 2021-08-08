@@ -538,3 +538,4 @@ user_pref("webgl.enable-webgl2", false);
 user_pref("widget.non-native-theme.enabled", true);
 user_pref("network.http.windows-sso.enabled", false);
 user_pref("app.update.background.scheduling.enabled", false);
+user_pref("identity.fxaccounts.toolbar.enabled", false);
