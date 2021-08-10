@@ -216,6 +216,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||bbci.co.uk/modules/$script
 ||bbc.com^$xhr
 
+/ads/*
 /ads/google/*
 /adsby*
 /advertis*
