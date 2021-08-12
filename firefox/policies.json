@@ -1563,6 +1563,9 @@
       "amazon@search.mozilla.org": {
         "installation_mode": "blocked"
       },
+      "amazondotcom@search.mozilla.org": {
+        "installation_mode": "blocked"
+      },          
       "bing@search.mozilla.org": {
         "installation_mode": "blocked"
       },
