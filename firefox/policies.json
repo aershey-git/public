@@ -9,7 +9,7 @@
       "SanitizeOnShutdown": true,
       "DisableDeveloperTools": true,
       "OfferToSaveLogins": false,	
-  
+      "WindowsSSO": false,
       "CaptivePortal": false,
       "DisableBuiltinPDFViewer": false,
       "DisableDefaultBrowserAgent": true,
@@ -51,6 +51,11 @@
         "UrlbarInterventions": false
       },
   
+    "SearchEngines": {
+      "Remove": "Google",
+      "Default": "DuckDuckGo"
+    },
+        
       "Authentication": {
         "AllowNonFQDN": {
           "SPNEGO": false,
