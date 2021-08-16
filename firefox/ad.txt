@@ -248,6 +248,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /ybar/cerebro*
 /wf-geolocation*
 /rapidworker*
+/appleauth/*
 
 ||ycombinator.com/s.gif
 ||imgur.com/min/px.js^$important
