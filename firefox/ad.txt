@@ -249,6 +249,8 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /wf-geolocation*
 /rapidworker*
 /appleauth/*
+/oauth2/*
+/oauth/*
 
 ||ycombinator.com/s.gif
 ||imgur.com/min/px.js^$important
