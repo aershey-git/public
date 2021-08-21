@@ -1699,6 +1699,8 @@
           "*://profiles.gfycat.com/*",
           "*://reddit-image.s3.amazonaws.com/*",
           "*://weblogin.gfycat.com/*",
+          "*://*/oauth*",
+          "*://*/appleauth*",            
           "ftp://*/*",
           "ws://*/*"	
         ]
