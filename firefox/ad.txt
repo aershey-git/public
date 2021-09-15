@@ -55,6 +55,9 @@
 ||imrworldwide.com^$important
 ||indexww.com^$important
 ||instagram.com^$important
+||realsrv.com^$important
+||camsoda.com^$important
+||stats.externulls.com^$important
 ||janrain.com^$important
 ||js-agent.newrelic.com^$important
 ||jwpltx.com^$important
@@ -251,6 +254,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /appleauth/*
 /oauth2/*
 /oauth/*
+/facebook*
 
 ||ycombinator.com/s.gif
 ||imgur.com/min/px.js^$important
