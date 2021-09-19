@@ -1554,8 +1554,7 @@
       "Certificates": {
         "ImportEnterpriseRoots": false
       },
-  
-  
+   
       "ExtensionSettings": {
       "google@search.mozilla.org": {
         "installation_mode": "blocked"
@@ -1572,16 +1571,20 @@
       "ebay@search.mozilla.org": {
         "installation_mode": "blocked"
       },          
-        "uBlock0@raymondhill.net": {
+      "uBlock0@raymondhill.net": {
           "installation_mode": "force_installed",
           "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
-        },
-        "@unitedstatesenglishdictionary": {
-          "installation_mode": "force_installed",
-          "install_url": "https://addons.mozilla.org/firefox/downloads/file/3658646/english_united_states_dictionary-78.0.xpi"
-        }
       },
-  
+      "{74145f27-f039-47ce-a470-a662b129930a}": {
+          "installation_mode": "force_installed",
+          "install_url": "https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi"
+      },          
+      "@unitedstatesenglishdictionary": {
+          "installation_mode": "force_installed",
+          "install_url": "https://addons.mozilla.org/firefox/downloads/latest/us-english-dictionary/latest.xpi"
+       }
+      },
+          
       "EncryptedMediaExtensions": {
         "Enabled": true,
         "Locked": true
