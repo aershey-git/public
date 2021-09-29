@@ -219,6 +219,11 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||bbci.co.uk/modules/$script
 ||bbc.com^$xhr
 
+||assets.video.yahoo.net^
+||video-api.yql.yahoo.com^
+||yep.video.yahoo.com^
+||s.yimg.com/bx/adb/
+
 /ads/*
 /ads/google/*
 /adsby*
