@@ -42,6 +42,7 @@ finance.yahoo.com###Lead-2-FeatureBar-Proxy
 finance.yahoo.com###mrt-node-Lead-1-FinanceHeader
 finance.yahoo.com###Navigation
 finance.yahoo.com###YDC-UH-Stack-Composite
+finance.yahoo.com###Lead-4-ScreenerCriteria-Proxy
 forecast.weather.gov###fcst-search
 forecast.weather.gov###news-items
 forecast.weather.gov###quickLinkscom
