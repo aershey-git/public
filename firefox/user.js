@@ -557,3 +557,4 @@ user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.enable-webgl2", false);
 user_pref("widget.non-native-theme.enabled", true);
 user_pref("network.proxy.failover_direct", false);
+user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
