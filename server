@@ -1,0 +1,61 @@
+adduser user
+adduser user sudo
+
+exit
+
+vi ~/.ssh/authorized_keys
+
+/etc/ssh/sshd_config
+
+Port 
+AddressFamily inet6
+PermitRootLogin no
+PasswordAuthentication no
+
+net.ipv4.ip_forward = 1
+net.ipv6.conf.all.forwarding = 1
+
+deb http://deb.debian.org/debian bullseye-backports main contrib non-free
+deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
+
+sudo apt update && sudo apt upgrade && sudo apt -t bullseye-backports upgrade
+
+sudo apt install wireguard ocserv dnsmasq netfilter-persistent
+sudo apt -t bullseye-backports upgrade
+apt-cache show ocserv
+
+sudo vi ocserv.conf
+sudo vi ocpasswd
+sudo vi fullchain.pem
+sudo vi privkey.pem
+
+sudo systemctl enable ocserv.service
+sudo systemctl start ocserv.service
+
+sudo systemctl enable dnsmasq.service
+sudo systemctl start dnsmasq.service
+
+sudo vi /etc/nftables.conf
+table ip nat {
+        chain postrouting {
+                type nat hook postrouting priority srcnat; policy accept;
+                ip saddr 10.0.0.0/8 oifname eth0 snat to X.X.X.X fully-random
+        }
+}
+
+
+sudo systemctl enable nftables.service
+sudo systemctl start nftables.service
+
+sudo systemctl start wg-quick@wg0.service
+sudo systemctl enable wg-quick@wg0.service
+
+/etc/preferences
+
+Package: linux-doc linux-headers-amd64 linux-image-amd64 linux-source 
+Pin: release o=Debian Backports
+Pin-Priority: -1
+
+Package: *
+Pin: release o=Debian Backports
+Pin-Priority: 600
