@@ -1014,17 +1014,7 @@
           "Value": false,
           "Status": "locked"
         },
-  
-        "extensions.systemAddon.update.enabled": {
-          "Value": false,
-          "Status": "locked"
-        },
-  
-        "extensions.systemAddon.update.url": {
-          "Value": "",
-          "Status": "locked"
-        },
-  
+   
         "extensions.update.enabled": {
           "Value": true,
           "Status": "locked"
