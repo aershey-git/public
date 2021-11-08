@@ -133,6 +133,7 @@
 ||launch.inform.com^
 ||pusher.com^
 ||a-reporting.nytimes.com^
+||polyfill.io^
 #######################################################
 ||unagi.amazon.com^$xhr
 ||imdb.com^$xhr
@@ -147,6 +148,7 @@
 ||slashdot.org/favicon.ico^$important
 ||slashdot.org^$script
 ||slashdot.org^$xhr
+slashdot.org/images/js.gif
 
 ||gql.reddit.com^
 ||reddit-image.s3.amazonaws.com^
@@ -157,6 +159,7 @@
 ||redditstatic.com/logo.svg^$important
 ||redditstatic.com^$font
 ||thumbs.redditmedia.com^$stylesheet
+/icon-sponsored*
 
 ||cigsvc.nytimes.com^
 ||content.api.nytimes.com^
@@ -201,7 +204,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||paypal.com/xoplatform/logger/$xhr
 ||paypal.com/sdk/$script
 ||data.mail.yahoo.com^
-
+||s.yimg.com/bx/adb/$image
 ||profiles.gfycat.com^
 ||api.gfycat.com^
 ||weblogin.gfycat.com^
@@ -269,3 +272,4 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 
 /assets/categories/*
 /www.dslreports.com/profile/*
+/assets/img/logo-full*
