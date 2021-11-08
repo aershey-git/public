@@ -149,6 +149,7 @@
 ||slashdot.org^$script
 ||slashdot.org^$xhr
 slashdot.org/images/js.gif
+slashdot.org/purple.gif
 
 ||gql.reddit.com^
 ||reddit-image.s3.amazonaws.com^
@@ -221,11 +222,20 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||mybbc.files.bbci.co.uk^
 ||bbci.co.uk/modules/$script
 ||bbc.com^$xhr
+/idcta/config
+/js/footerpromo
+/istats/istats
+/modules/idcta
+/core/bundle-sign-in-prompt
 
 ||assets.video.yahoo.net^
 ||video-api.yql.yahoo.com^
 ||yep.video.yahoo.com^
 ||s.yimg.com/bx/adb/
+
+||cnevids.com/
+||slickdeals.net^$font
+||slickdealscdn.com^$font
 
 /ads/*
 /ads/google/*
@@ -273,3 +283,4 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /assets/categories/*
 /www.dslreports.com/profile/*
 /assets/img/logo-full*
+/blank.gif
