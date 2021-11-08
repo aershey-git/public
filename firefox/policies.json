@@ -7,7 +7,7 @@
       "DisablePasswordReveal": true,
       "PasswordManagerEnabled": true,
       "SanitizeOnShutdown": true,
-      "DisableDeveloperTools": true,
+      "DisableDeveloperTools": false,
       "OfferToSaveLogins": false,	
       "WindowsSSO": false,
       "CaptivePortal": false,
