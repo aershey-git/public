@@ -284,3 +284,9 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /www.dslreports.com/profile/*
 /assets/img/logo-full*
 /blank.gif
+/error_log
+/email-decode
+||phoronix.com^$font
+/wp_grey.jpg
+/video-player.js
+/showads
