@@ -4,7 +4,7 @@ sudo certbot --apache --agree-tos --redirect --uir --staple-ocsp --must-staple -
 openssl ecparam -list_curves
 
 openssl ecparam -outform PEM -genkey -name secp521r1 -out ca_ec.key
-openssl req -outform PEM -x509 -new -nodes -key ca_ec.key -config domain.cnf -sha512 -days 3651 -out ca_ec.pem -utf8
+openssl req -outform PEM -x509 -new -nodes -key ca_ec.key -config domain.cnf -sha512 -days 1034 -out ca_ec.pem -utf8
 
 openssl ecparam -outform PEM -genkey -name prime256v1 -out domain.key
 openssl req -outform PEM -new -nodes -sha512 -key domain.key -out domain.csr -config domain.cnf -extensions v3_req -utf8
@@ -23,6 +23,7 @@ certtool --generate-self-signed --load-privkey ca-key.pem --template ca.tmpl --o
 certtool --generate-privkey --ecc --curve=secp256r1 --sec-param=ultra --outfile domain.key
 certtool --generate-certificate --load-privkey domain.key --load-ca-certificate ca-cert.pem --load-ca-privkey ca-key.pem --template server.tmpl --outfile domain.pem
 
+
   ca.tmpl
 cn = ""
 serial = 1
@@ -30,12 +31,56 @@ expiration_days = -1
 ca
 signing_key
 cert_signing_key
-crl_signing_key
+
 
   server.tmpl
 cn = ""
 dns_name = ""
+dns_name = ""
+ip_address = ""
 ip_address = ""
 expiration_days = -1
 signing_key
 tls_www_server
+
+
+   domain.cnf
+[ usr_cert ]
+basicConstraints = CA:FALSE
+nsCertType = client, server
+subjectKeyIdentifier = hash
+authorityKeyIdentifier= keyid, issuer
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment
+extendedKeyUsage = serverAuth, clientAuth
+
+[ req ]
+distinguished_name = req_distinguished_name
+attributes = req_attributes
+x509_extensions	= v3_ca
+string_mask = utf8only
+req_extensions = v3_req
+
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier= keyid, issuer
+basicConstraints = CA:FALSE
+extendedKeyUsage = clientAuth, serverAuth
+
+[ v3_req ]
+basicConstraints = CA:FALSE
+nsCertType = client, server
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment
+extendedKeyUsage = serverAuth, clientAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.0 = 
+DNS.1 = 
+IP.0 = 
+IP.1 = 
+
+[ req_distinguished_name ]
+commonName = Common Name (e.g. server FQDN or YOUR name)
+commonName_max = 64
+
+[ req_attributes ]
