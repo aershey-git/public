@@ -103,6 +103,7 @@
 ||wearehearken.com^$important
 ||yandex.ru^$important
 ||ybp.yahoo.com^$important
+||scroll.com^$important
 #######################################################
 ||google.com^$important,third-party,domain=~youtube.com
 ||googleapis.com^$important,third-party,domain=~google.com|~googleblog.com|~blog.google
@@ -290,3 +291,5 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /wp_grey.jpg
 /video-player.js
 /showads
+washingtonpost.com/subscribe/logging/
+fredericknewspost.com/shared-content/art/tncms/user/user.js
