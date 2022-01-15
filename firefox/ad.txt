@@ -274,6 +274,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /oauth2/*
 /oauth/*
 /facebook*
+/favicon*
 
 ||ycombinator.com/s.gif
 ||imgur.com/min/px.js^$important
@@ -293,3 +294,4 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /showads
 washingtonpost.com/subscribe/logging/
 fredericknewspost.com/shared-content/art/tncms/user/user.js
+/classifieds/
