@@ -14,6 +14,12 @@
 ||yimg.com^$font
 ||twimg.com^$font
 
+||www.phoronix.net^$image
+nyt.com/fonts/
+/gold/awards/icon/
+preview.redd.it/award_images/
+/tncms/assets/v3/business/
+
 /graphics/icons/comment/*
 /michaellarabel.jpg
 arstechnica.com###article-footer
