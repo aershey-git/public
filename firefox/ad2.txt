@@ -13,14 +13,17 @@
 ||yahoodns.net^$font
 ||yimg.com^$font
 ||twimg.com^$font
+||phoronix.com^$font
 
 ||www.phoronix.net^$image
 nyt.com/fonts/
 /gold/awards/icon/
 preview.redd.it/award_images/
 /tncms/assets/v3/business/
-
+/user_avatar/forum.openwrt.org/
+redditstatic.com/icon-badge-xpost
 /graphics/icons/comment/*
+
 /michaellarabel.jpg
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
