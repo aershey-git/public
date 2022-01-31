@@ -23,6 +23,8 @@ preview.redd.it/award_images/
 /user_avatar/forum.openwrt.org/
 redditstatic.com/icon-badge-xpost
 /graphics/icons/comment/*
+/profthumb/
+/logo/
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
