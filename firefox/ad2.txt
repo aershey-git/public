@@ -24,7 +24,7 @@ preview.redd.it/award_images/
 redditstatic.com/icon-badge-xpost
 /graphics/icons/comment/*
 /profthumb/
-/logo/
+/logo/*
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
