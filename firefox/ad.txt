@@ -294,3 +294,10 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 washingtonpost.com/subscribe/logging/
 fredericknewspost.com/shared-content/art/tncms/user/user.js
 /classifieds/
+
+||kinja-static.com^$font
+/profile/accountwithtoken*
+/vendors~trackers*
+/runtime~trackers*
+/vendors~adManager*
+/adManager*
