@@ -306,3 +306,5 @@ fredericknewspost.com/shared-content/art/tncms/user/user.js
 int.nyt.com/apps/formacist/assets/embedded_form*
 www.washingtonpost.com/subscribe/paywall/get-paywall*
 bbci.co.uk//user-activity-helper/*
+/subscribe/user/auth-status*
+/tetro/evaluate*
