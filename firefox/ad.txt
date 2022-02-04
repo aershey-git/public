@@ -301,3 +301,8 @@ fredericknewspost.com/shared-content/art/tncms/user/user.js
 /runtime~trackers*
 /vendors~adManager*
 /adManager*
+
+/vi-assets/static-assets/icon-t-logo*
+int.nyt.com/apps/formacist/assets/embedded_form*
+www.washingtonpost.com/subscribe/paywall/get-paywall*
+bbci.co.uk//user-activity-helper/*
