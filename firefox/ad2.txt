@@ -25,6 +25,7 @@ redditstatic.com/icon-badge-xpost
 /graphics/icons/comment/*
 /profthumb/
 /logo/*
+/img/logo_nyt*
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
