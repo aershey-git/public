@@ -105,7 +105,7 @@
 ||ybp.yahoo.com^$important
 ||scroll.com^$important
 #######################################################
-||google.com^$important,third-party,domain=~youtube.com
+||google.com^$important,third-party,domain=~youtube.com|~accounts.google.com
 ||googleapis.com^$important,third-party,domain=~google.com|~googleblog.com|~blog.google
 ||gstatic.com^$important,third-party,domain=~google.com
 ||licdn.com^$important,third-party,domain=~linkedin.com
