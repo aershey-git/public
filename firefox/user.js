@@ -567,3 +567,4 @@ user_pref("widget.non-native-theme.enabled", true);
 user_pref("browser.download.alwaysOpenPanel", false);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
 user_pref("privacy.partition.serviceWorkers", true);
+user_pref("network.cookie.cookieBehavior.pbmode", 5);
