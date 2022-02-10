@@ -112,7 +112,7 @@ washingtonpost.com##.mb-lg.tight-b.spacing.mt-sm
 washingtonpost.com##.mb-lg.tight-b.spacing.mt-sm.dn-hp-md-to-xs.db
 washingtonpost.com##.pb-md.font--meta-text
 washingtonpost.com##.pb-xl.w-100.hide-for-print
-/arc-authors/*
+/arc-authors/washpost/*
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
 zdnet.com##.page-header
