@@ -119,6 +119,8 @@
 ||paypal.com^$important,third-party
 ||twitter.com^$important,third-party
 ||weather.com^$important,third-party
+||spotify.com^$important,third-party
+||concert.io^$important
 #######################################################
 ||tradingview.com^
 ||adpmbglobal.com^
