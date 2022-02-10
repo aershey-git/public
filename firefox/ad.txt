@@ -136,6 +136,7 @@
 ||a-reporting.nytimes.com^
 ||polyfill.io^
 #######################################################
+||duckduckgo.com^$font
 ||unagi.amazon.com^$xhr
 ||imdb.com^$xhr
 ||media-imdb.com^$xhr
@@ -230,6 +231,10 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /modules/idcta*
 /core/bundle-sign-in-prompt*
 
+# s.yimg.com
+/js/jsErrorBeacon*
+/logo-18-18*
+/Privacy_Rights*
 ||assets.video.yahoo.net^
 ||video-api.yql.yahoo.com^
 ||yep.video.yahoo.com^
