@@ -26,6 +26,10 @@ redditstatic.com/icon-badge-xpost
 /profthumb/
 /logo/*
 /img/logo_nyt*
+||external-content.duckduckgo.com^
+duckduckgo.com/assets/logo*
+/assets/icons/favicons/
+
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
