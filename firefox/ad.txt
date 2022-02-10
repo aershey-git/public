@@ -218,7 +218,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||gfycat.com/assets/app.*.js$script
 ||gfycat.com/assets/vendor.*js$script
 ||gfycat.com^$script
-||imgur.com/images/*$image
+#||imgur.com/images/*$image
 ||imgur.com/min*$image
 ||imgur.com^$font
 
