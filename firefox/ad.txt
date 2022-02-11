@@ -219,7 +219,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||gfycat.com/assets/vendor.*js$script
 ||gfycat.com^$script
 #||imgur.com/images/*$image
-||imgur.com/min*$image
+#||imgur.com/min*$image
 ||imgur.com^$font
 
 ||polling.bbc.co.uk^
@@ -285,7 +285,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 /favicon*
 
 ||ycombinator.com/s.gif
-||imgur.com/min/px.js^$important
+#||imgur.com/min/px.js^$important
 ||youtube.com/embed/$3p,frame,redirect=click2load.html
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
 ||player.vimeo.com/video/$3p,frame,redirect=click2load.html
@@ -324,3 +324,6 @@ reddit.com/i.gif
 reddit.com/api/*
 /user/auth-status*
 scroll.com/embed/*
+bing.com/mouse*
+bing.com/ipv6test/test
+||fonts.gstatic.com^$font,domain=www.google.com
