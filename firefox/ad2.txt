@@ -29,7 +29,12 @@ redditstatic.com/icon-badge-xpost
 ||external-content.duckduckgo.com^
 duckduckgo.com/assets/logo*
 /assets/icons/favicons/
-
+google.com/images/branding/googlelogo/*
+wikipedia.org/static/images/project-logos/*
+wikipedia.org/static/images/mobile/copyright/*
+wikipedia.org/static/images/footer/*
+duckduckgo.com/locale/en_US/duckduckgo*
+duckduckgo.com/assets/logo*
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
