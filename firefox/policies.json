@@ -104,7 +104,7 @@
         "geo.provider.ms-windows-location": false,
         "geo.provider.use_corelocation": false,
         "geo.provider.use_gpsd": false,
-        "intl.accept_languages": "en-US, en",
+        "intl.accept_languages": "en-US",
         "keyword.enabled": false,
         "media.autoplay.blocking_policy": 2,
         "media.autoplay.default": 5,
