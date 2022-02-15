@@ -259,7 +259,7 @@ user_pref("gfx.font_rendering.opentype_svg.enabled", true);
 user_pref("gfx.hidpi.enabled", 2);
 user_pref("identity.fxaccounts.enabled", false);
 user_pref("identity.fxaccounts.toolbar.enabled", false);
-user_pref("intl.accept_languages", "en-US, en");
+user_pref("intl.accept_languages", "en-US");
 user_pref("intl.charset.fallback.override", "windows-1252");
 user_pref("intl.locale.matchOS", false);
 user_pref("intl.locale.requested", "en-US");
