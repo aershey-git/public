@@ -18,22 +18,21 @@ net.ipv6.conf.all.forwarding = 1
 deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
 
+/etc/apt/preferences
+
+Package: linux-doc linux-headers-amd64 linux-image-amd64 linux-source 
+Pin: release o=Debian Backports
+Pin-Priority: -1
+
+Package: *
+Pin: release o=Debian Backports
+Pin-Priority: 600
+
 sudo apt update && sudo apt upgrade && sudo apt -t bullseye-backports upgrade
 
 sudo apt install wireguard ocserv dnsmasq netfilter-persistent
 sudo apt -t bullseye-backports upgrade
-apt-cache show ocserv
 
-sudo vi ocserv.conf
-sudo vi ocpasswd
-sudo vi fullchain.pem
-sudo vi privkey.pem
-
-sudo systemctl enable ocserv.service
-sudo systemctl start ocserv.service
-
-sudo systemctl enable dnsmasq.service
-sudo systemctl start dnsmasq.service
 
 sudo vi /etc/nftables.conf
 table ip nat {
@@ -43,19 +42,19 @@ table ip nat {
         }
 }
 
-
 sudo systemctl enable nftables.service
 sudo systemctl start nftables.service
 
+sudo vi ocserv.conf
+sudo vi ocpasswd
+sudo vi domain.pem
+sudo vi domain.key
+
+sudo systemctl enable ocserv.service
+sudo systemctl start ocserv.service
+
+sudo systemctl enable dnsmasq.service
+sudo systemctl start dnsmasq.service
+
 sudo systemctl start wg-quick@wg0.service
 sudo systemctl enable wg-quick@wg0.service
-
-/etc/preferences
-
-Package: linux-doc linux-headers-amd64 linux-image-amd64 linux-source 
-Pin: release o=Debian Backports
-Pin-Priority: -1
-
-Package: *
-Pin: release o=Debian Backports
-Pin-Priority: 600
