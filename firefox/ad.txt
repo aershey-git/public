@@ -327,3 +327,12 @@ scroll.com/embed/*
 bing.com/mouse*
 bing.com/ipv6test/test
 ||fonts.gstatic.com^$font,domain=www.google.com
+
+# office365.com
+/images/everything*
+/images/mobile-scenario*
+/images/masthead*
+/images/outlook-mobile*
+
+# mail.yahoo.com
+/norrin/images/background*
