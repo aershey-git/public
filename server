@@ -3,17 +3,22 @@ adduser user sudo
 
 exit
 
+mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
+sudo cat /root/.ssh/authorized_keys
+
 vi ~/.ssh/authorized_keys
 
-/etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
 
 Port 
 AddressFamily inet6
 PermitRootLogin no
 PasswordAuthentication no
 
+
 net.ipv4.ip_forward = 1
 net.ipv6.conf.all.forwarding = 1
+
 
 deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
@@ -28,13 +33,12 @@ Package: *
 Pin: release o=Debian Backports
 Pin-Priority: 600
 
-sudo apt update && sudo apt upgrade && sudo apt -t bullseye-backports upgrade
+sudo apt update && sudo apt upgrade
 
 sudo apt install wireguard ocserv dnsmasq netfilter-persistent
-sudo apt -t bullseye-backports upgrade
-
 
 sudo vi /etc/nftables.conf
+
 table ip nat {
         chain postrouting {
                 type nat hook postrouting priority srcnat; policy accept;
@@ -56,5 +60,5 @@ sudo systemctl start ocserv.service
 sudo systemctl enable dnsmasq.service
 sudo systemctl start dnsmasq.service
 
-sudo systemctl start wg-quick@wg0.service
 sudo systemctl enable wg-quick@wg0.service
+sudo systemctl start wg-quick@wg0.service
