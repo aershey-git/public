@@ -31,3 +31,5 @@ ffmpeg -h encoder=h264_qsv
 ffmpeg -h encoder=hevc_qsv
 
 -init_hw_device qsv=hw -filter_hw_device hw -i input.mp4 -vf hwupload=extra_hw_frames=64,format=qsv,setsar=1:1 -c:v h264_qsv -profile:v high -preset 3 -q 24 -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0-movie.mkv
+
+aria2c --check-certificate=false --user-agent="Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0" --max-tries=8 --split=8 --file-allocation=falloc --continue=true --max-concurrent-downloads=16 --max-connection-per-server=16 --optimize-concurrent-downloads=true --min-split-size=16M --human-readable=true 
