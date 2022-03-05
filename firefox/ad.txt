@@ -340,7 +340,7 @@ bing.com/ipv6test/test
 ||www.nytimes.com/vi-assets/static-assets/related*
 #/cookie-banner/cookie-banners*
 #/core/bundle-dotcom-ad*
-/core/bundle-footer-promos*
+#/core/bundle-footer-promos*
 #/core/bundle-global-footer*
 
 # office365.com
