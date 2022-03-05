@@ -341,7 +341,7 @@ bing.com/ipv6test/test
 /cookie-banner/cookie-banners*
 #/core/bundle-dotcom-ad*
 /core/bundle-footer-promos*
-/core/bundle-global-footer*
+#/core/bundle-global-footer*
 
 # office365.com
 /images/everything*
