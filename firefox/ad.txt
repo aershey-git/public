@@ -343,6 +343,8 @@ bing.com/ipv6test/test
 /gtm*
 /collect*
 /imdbads/
+||widgets.jotform.io^
+/getVisitorLocation/
 
 # office365.com
 /images/everything*
