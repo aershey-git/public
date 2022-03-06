@@ -338,10 +338,11 @@ bing.com/ipv6test/test
 ||www.nytimes.com/vi-assets/static-assets/activationBlock*
 ||www.nytimes.com/vi-assets/static-assets/getstarted*
 ||www.nytimes.com/vi-assets/static-assets/related*
-#/cookie-banner/cookie-banners*
-#/core/bundle-dotcom-ad*
-#/core/bundle-footer-promos*
-#/core/bundle-global-footer*
+/cookie-banner/cookie-banners*
+/gtag*
+/gtm*
+/collect*
+/imdbads/
 
 # office365.com
 /images/everything*
