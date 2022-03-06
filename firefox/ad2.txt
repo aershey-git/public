@@ -35,6 +35,7 @@ wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/footer/*
 duckduckgo.com/locale/en_US/duckduckgo*
 duckduckgo.com/assets/logo*
+/jwplayer*
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
