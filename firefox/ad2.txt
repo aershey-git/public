@@ -37,7 +37,8 @@ duckduckgo.com/locale/en_US/duckduckgo*
 duckduckgo.com/assets/logo*
 /jwplayer*
 /styles/profileIcon*
-||redditstatic.com/sprite-author-tooltip*
+redditstatic.com/sprite-author-tooltip*
+redditstatic.com/awards2/
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
