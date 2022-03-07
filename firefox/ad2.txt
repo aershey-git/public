@@ -36,6 +36,8 @@ wikipedia.org/static/images/footer/*
 duckduckgo.com/locale/en_US/duckduckgo*
 duckduckgo.com/assets/logo*
 /jwplayer*
+/styles/profileIcon*
+||redditstatic.com/sprite-author-tooltip*
 
 /michaellarabel.jpg
 arstechnica.com###article-footer
