@@ -504,7 +504,8 @@ user_pref("security.ssl3.ecdhe_ecdsa_chacha20_poly1305_sha256", true);
 user_pref("security.ssl3.ecdhe_ecdsa_des_ede3_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_null_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha", false);
-user_pref("security.ssl3.ecdhe_rsa_aes_128_gcm_sha256", false);
+user_pref("security.ssl3.ecdhe_rsa_aes_128_gcm_sha256", true
+         );
 user_pref("security.ssl3.ecdhe_rsa_aes_128_sha", false);
 user_pref("security.ssl3.ecdhe_rsa_aes_256_sha", false);
 user_pref("security.ssl3.ecdhe_rsa_chacha20_poly1305_sha256", true);
@@ -575,3 +576,4 @@ user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.enable-webgl2", false);
 user_pref("webgl.min_capability_mode", true);
 user_pref("widget.non-native-theme.enabled", true);
+user_pref("browser.places.speculativeConnect.enabled", false);
