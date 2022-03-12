@@ -27,7 +27,7 @@
       "DisplayMenuBar": "default-off",
       "DontCheckDefaultBrowser": true,
       "ExtensionUpdate": true,
-      "HardwareAcceleration": false,
+      "HardwareAcceleration": true,
       "NetworkPrediction": false,
       "NewTabPage": true, 
       "NoDefaultBookmarks": true,
