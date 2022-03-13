@@ -504,8 +504,7 @@ user_pref("security.ssl3.ecdhe_ecdsa_chacha20_poly1305_sha256", true);
 user_pref("security.ssl3.ecdhe_ecdsa_des_ede3_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_null_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha", false);
-user_pref("security.ssl3.ecdhe_rsa_aes_128_gcm_sha256", true
-         );
+user_pref("security.ssl3.ecdhe_rsa_aes_128_gcm_sha256", true);
 user_pref("security.ssl3.ecdhe_rsa_aes_128_sha", false);
 user_pref("security.ssl3.ecdhe_rsa_aes_256_sha", false);
 user_pref("security.ssl3.ecdhe_rsa_chacha20_poly1305_sha256", true);
