@@ -579,3 +579,6 @@ user_pref("widget.non-native-theme.enabled", true);
 user_pref("browser.places.speculativeConnect.enabled", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("toolkit.telemetry.newProfilePing.enabled", false)
+user_pref("browser.preferences.moreFromMozilla", false);
+user_pref("network.cookie.sameSite.laxByDefault", true);
+user_pref("network.cookie.sameSite.noneRequiresSecure", true);
