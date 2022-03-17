@@ -1,5 +1,7 @@
-reddit.com##.commentsignupbar.infobar
-slashdot.org##.scroll-fixable.rail-right
+gfycat.com##.navigation-container
 reddit.com###header-img
+reddit.com##.commentsignupbar.infobar
+reddit.com##.read-next-container
+slashdot.org##.scroll-fixable.rail-right
 slickdeals.net##.topContent
 washingtonpost.com##.mb-lg.hide-for-print
