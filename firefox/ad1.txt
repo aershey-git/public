@@ -5,3 +5,14 @@ reddit.com##.read-next-container
 slashdot.org##.scroll-fixable.rail-right
 slickdeals.net##.topContent
 washingtonpost.com##.mb-lg.hide-for-print
+wikipedia.org/static/images/project-logos/*
+wikipedia.org/static/images/mobile/copyright/*
+wikipedia.org/static/images/footer/*
+bbc.com###orb-banner
+bbc.com##.orb-footer
+duckduckgo.com/locale/en_US/duckduckgo*
+duckduckgo.com/assets/logo*
+/styles/profileIcon*
+redditstatic.com/sprite-author-tooltip*
+redditstatic.com/awards2/
+redditstatic.com/icon-badge-xpost
