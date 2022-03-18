@@ -16,3 +16,8 @@ duckduckgo.com/assets/logo*
 redditstatic.com/sprite-author-tooltip*
 redditstatic.com/awards2/
 redditstatic.com/icon-badge-xpost
+slickdeals.net##.pageHeader
+forecast.weather.gov##.row.navbar-default.navbar
+forecast.weather.gov###fcst-search
+forecast.weather.gov###news-items
+forecast.weather.gov##.clearfix.row
