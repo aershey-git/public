@@ -581,3 +581,7 @@ user_pref("toolkit.telemetry.newProfilePing.enabled", false)
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("network.cookie.sameSite.laxByDefault", true);
 user_pref("network.cookie.sameSite.noneRequiresSecure", true);
+user_pref("accessibility.blockautorefresh", true);
+user_pref("devtools.onboarding.telemetry.logged", false);
+user_pref("browser.cache.memory.enable", false);
+user_pref("browser.tabs.loadBookmarksInTabs", true);
