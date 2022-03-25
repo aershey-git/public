@@ -1,4 +1,5 @@
 ||slickdeals.net^$font
+||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
 /arc-authors/washpost/*
 wikipedia.org/static/images/project-logos/*
 wikipedia.org/static/images/mobile/copyright/*
