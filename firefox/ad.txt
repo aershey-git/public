@@ -122,6 +122,9 @@
 ||weather.com^$important,third-party
 ||spotify.com^$important,third-party
 ||concert.io^$important
+||washpostpodcasts.com^$important
+||media.aws.wapo.pub^$important
+||washpost.io^$important
 #######################################################
 ||tradingview.com^
 ||adpmbglobal.com^
