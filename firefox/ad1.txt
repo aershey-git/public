@@ -4,6 +4,11 @@
 wikipedia.org/static/images/project-logos/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/footer/*
+/Wiktionary-logo*$important
+/wiktionary-wordmark*$image
+/enwiktionary*$image
+/images/footer/wikimedia-button*.png$image
+/images/footer/poweredby_mediawiki_*.png$image
 duckduckgo.com/locale/en_US/duckduckgo*
 duckduckgo.com/assets/logo*
 /styles/profileIcon*
@@ -25,3 +30,5 @@ forecast.weather.gov##.row.navbar-default.navbar
 forecast.weather.gov###fcst-search
 forecast.weather.gov###news-items
 forecast.weather.gov##.clearfix.row
+imdb.com/oscars/
+imdb.com/list/
