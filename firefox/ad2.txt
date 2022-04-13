@@ -14,8 +14,8 @@
 ||yimg.com^$font
 ||twimg.com^$font
 ||phoronix.com^$font
-
 ||www.phoronix.net^$image
+ggpht.com/ytc/*$image
 nyt.com/fonts/
 /gold/awards/icon/
 preview.redd.it/award_images/
@@ -54,6 +54,8 @@ bbc.com##.e9p57e3.ssrcss-wmb5oz-Masthead
 bbc.com##.gel-layout.ws-core-social-slice__wrapper
 bbc.com##.nw-o-news-branding
 bbc.com##.orb-footer
+www.bbc.com##.e9p57e2.ssrcss-yy5aio-Masthead
+www.bbc.com##.e4np8gz0.ssrcss-1hf0j38-GlobalNavigation
 camelcamelcamel.com###content > nav
 camelcamelcamel.com###pagetitle
 camelcamelcamel.com##.ad.collapse.expanded.column.row
@@ -129,3 +131,7 @@ washingtonpost.com##.pb-xl.w-100.hide-for-print
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
 zdnet.com##.page-header
+www.dslreports.com##.areae
+www.dslreports.com##.navtt
+||www.dslreports.com/?identicon*$image
+dslr.net/nav/w50/
