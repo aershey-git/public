@@ -135,3 +135,6 @@ www.dslreports.com##.areae
 www.dslreports.com##.navtt
 ||www.dslreports.com/?identicon*$image
 dslr.net/nav/w50/
+www.imdb.com##.ipc-shoveler--page0.ipc-shoveler--baseAlt.ipc-shoveler
+www.imdb.com##.ipc-shoveler--pageNaN.ipc-shoveler--baseAlt.ipc-shoveler
+www.imdb.com##.mediastrip_big
