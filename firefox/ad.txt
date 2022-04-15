@@ -359,3 +359,5 @@ bing.com/ipv6test/test
 # mail.yahoo.com
 /norrin/images/background*
 /user_avatar/forum.openwrt.org/
+
+/IMDb/imdbwatchlist*
