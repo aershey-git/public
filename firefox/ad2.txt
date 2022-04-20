@@ -18,6 +18,8 @@
 ||yahoodns.net^$font
 ||yimg.com^$font
 ||icons.duckduckgo.com^$image
+google.com/s2/favicons*
+gstatic.com/favicon*
 /arc-authors/washpost/*
 /assets/icons/favicons/
 /gold/awards/icon/
