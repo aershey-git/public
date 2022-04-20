@@ -17,6 +17,7 @@
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
+||icons.duckduckgo.com^$image
 /arc-authors/washpost/*
 /assets/icons/favicons/
 /gold/awards/icon/
