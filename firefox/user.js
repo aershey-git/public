@@ -26,7 +26,7 @@ user_pref("browser.chrome.favicons", false);
 user_pref("browser.chrome.site_icons", false);
 user_pref("browser.compactmode.show", true);
 user_pref("browser.contentblocking.category", "custom");
-user_pref("browser.contentblocking.features.strict", "tp,tpPrivate,cookieBehavior5,cookieBehaviorPBM5,cm,fp,stp,lvl2,rp,ocsp");
+user_pref("browser.contentblocking.features.strict", "tp,tpPrivate,cookieBehavior5,cookieBehaviorPBM5,cm,fp,stp,lvl2,rp,rpTop,ocsp");
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
 user_pref("browser.discovery.enabled", false);
