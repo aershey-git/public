@@ -112,6 +112,7 @@
 ||licdn.com^$important,third-party,domain=~linkedin.com
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
+||redditstatic.com^$important,third-party
 ||adobedtm.com^$important,third-party
 ||bing.com^$important,third-party
 ||buzzfeed.com^$important,third-party
@@ -321,6 +322,7 @@ bbci.co.uk//user-activity-helper/*
 /subscribe/user/auth-status*
 /tetro/evaluate*
 nytimes.com/track*
+/web-vitals/*
 /adslot*
 redditmedia.com/gtm*
 redditstatic.com/gtm*
