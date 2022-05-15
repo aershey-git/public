@@ -126,6 +126,10 @@
 ||washpostpodcasts.com^$important
 ||media.aws.wapo.pub^$important
 ||washpost.io^$important
+||play.google.com^$important,third-party
+||news.google.com^$important,third-party
+||edge.microsoft.com^$important,third-party
+||apis.google.com^$important,third-party
 #######################################################
 ||tradingview.com^
 ||adpmbglobal.com^
@@ -363,3 +367,5 @@ bing.com/ipv6test/test
 /user_avatar/forum.openwrt.org/
 
 /IMDb/imdbwatchlist*
+
+/infinityid/beacon/*$image
