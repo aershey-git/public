@@ -113,7 +113,7 @@
 ||licdn.com^$important,third-party,domain=~linkedin.com
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
-||redditstatic.com^$important,third-party
+||redditstatic.com^$important,third-party,domain=~reddit.com
 ||adobedtm.com^$important,third-party
 ||bing.com^$important,third-party
 ||buzzfeed.com^$important,third-party
