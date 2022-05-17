@@ -370,3 +370,29 @@ bing.com/ipv6test/test
 /IMDb/imdbwatchlist*
 
 /infinityid/beacon/*$image
+
+# Remove tracking tokens
+*$removeparam=fbclid
+*$removeparam=gclid
+*$removeparam=ICID
+*$removeparam=igshid
+*$removeparam=mc_cid
+*$removeparam=mc_eid
+*$removeparam=mkt_tok
+*$removeparam=oly_anon_id
+*$removeparam=oly_enc_id
+*$removeparam=otc
+*$removeparam=rb_clickid
+*$removeparam=soc_src
+*$removeparam=soc_trk
+*$removeparam=utm_campaign
+*$removeparam=utm_cid
+*$removeparam=utm_content
+*$removeparam=utm_medium
+*$removeparam=utm_name
+*$removeparam=utm_reader
+*$removeparam=utm_referrer
+*$removeparam=utm_social
+*$removeparam=utm_source
+*$removeparam=utm_term
+*$removeparam=yclid
