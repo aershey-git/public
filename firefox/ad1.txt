@@ -34,3 +34,9 @@ wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
 www.imdb.com##.watch-widget
 www.imdb.com##div.article > .ab_widget
+
+! block pinterest rubbish on google
+google.*##.g:has(a[href*=".pinterest.*"])
+google.*##a[href*=".pinterest."]:upward(1)
+! Block pinterest rubbish on ddg
+duckduckgo.*##.results > div:has(a[href*=".pinterest.com"])
