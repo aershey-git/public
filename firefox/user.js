@@ -585,3 +585,4 @@ user_pref("accessibility.blockautorefresh", true);
 user_pref("devtools.onboarding.telemetry.logged", false);
 user_pref("browser.cache.memory.enable", false);
 user_pref("browser.tabs.loadBookmarksInTabs", true);
+user_pref("browser.download.always_ask_before_handling_new_types", true);
