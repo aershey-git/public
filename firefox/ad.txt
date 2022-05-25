@@ -372,17 +372,24 @@ bing.com/ipv6test/test
 /infinityid/beacon/*$image
 
 # Remove tracking tokens
+*$removeparam=_openstat
+*$removeparam=dclid
 *$removeparam=fbclid
 *$removeparam=gclid
+*$removeparam=hsCtaTracking
 *$removeparam=ICID
 *$removeparam=igshid
 *$removeparam=mc_cid
 *$removeparam=mc_eid
 *$removeparam=mkt_tok
+*$removeparam=ml_subscriber
+*$removeparam=ml_subscriber_hash
+*$removeparam=msclkid
 *$removeparam=oly_anon_id
 *$removeparam=oly_enc_id
 *$removeparam=otc
 *$removeparam=rb_clickid
+*$removeparam=s_cid
 *$removeparam=soc_src
 *$removeparam=soc_trk
 *$removeparam=utm_campaign
@@ -395,4 +402,7 @@ bing.com/ipv6test/test
 *$removeparam=utm_social
 *$removeparam=utm_source
 *$removeparam=utm_term
+*$removeparam=vero_conv
+*$removeparam=vero_id
+*$removeparam=wickedid
 *$removeparam=yclid
