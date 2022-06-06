@@ -370,6 +370,8 @@ bing.com/ipv6test/test
 /IMDb/imdbwatchlist*
 
 /infinityid/beacon/*$image
+/images/icon-google*$image,domain=yahoo.com
+/images/icon-app*$image,domain=yahoo.com
 
 # Remove tracking tokens
 *$removeparam=_openstat
