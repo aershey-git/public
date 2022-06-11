@@ -1,3 +1,5 @@
+! Title: Must filter list
+! Expires: 1 day
 ||2mdn.net^$important
 ||3gl.net^$important
 ||aaxads.com^$important
