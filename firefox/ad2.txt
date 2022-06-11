@@ -1,3 +1,5 @@
+! Title: Cosmatic - Low bandwidth filter list
+! Expires: 1 day
 ||bbci.co.uk^$font
 ||bestbuy.com^$font
 ||cbsistatic.com^$font
