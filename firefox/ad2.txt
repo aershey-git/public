@@ -21,6 +21,9 @@
 ||yimg.com^$font
 ||livestrong.com^$font
 ||wbmdstatic.com^$font
+||healthline.com^$font
+||mayoclinic.org^$font
+||hearstapps.com^$font
 ||icons.duckduckgo.com^$image
 google.com/s2/favicons*
 gstatic.com/favicon*
