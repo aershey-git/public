@@ -1,4 +1,4 @@
-! Title: 03 - Cosmatic - Low bandwidth filter list
+! Title: 02 - Cosmatic - Low bandwidth filter list
 ! Expires: 1 day
 ||bbci.co.uk^$font
 ||bestbuy.com^$font
@@ -19,6 +19,8 @@
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
+||livestrong.com^$font
+||wbmdstatic.com^$font
 ||icons.duckduckgo.com^$image
 google.com/s2/favicons*
 gstatic.com/favicon*
