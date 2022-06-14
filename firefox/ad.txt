@@ -33,6 +33,10 @@
 ||csi.gstatic.com^$important
 ||disqus.com^$important
 ||doubleclick.net^$important
+||pinterest.com^$important
+||pinimg.com^$important
+||sail-horizon.com^$important
+||rvapps.io^$important
 ||doubleverify.com^$important
 ||edge-mcdn.secure.yahoo.com^$important
 ||exoclick.com^$important
@@ -372,7 +376,7 @@ bing.com/ipv6test/test
 /user_avatar/forum.openwrt.org/
 
 /IMDb/imdbwatchlist*
-
+/commerce/release/affiliate-bundle.master.js
 /infinityid/beacon/*$image
 /images/icon-google*$image,domain=yahoo.com
 /images/icon-app*$image,domain=yahoo.com
