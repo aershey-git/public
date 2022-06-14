@@ -1,4 +1,4 @@
-! Title: 01 - Must filter list
+! Title: 00 - Must filter list
 ! Expires: 1 day
 ||2mdn.net^$important
 ||3gl.net^$important
@@ -108,6 +108,8 @@
 ||ybp.yahoo.com^$important
 ||scroll.com^$important
 ||snapkit.com^$important
+||redditstatic.s3.amazonaws.com^$important
+||trustarc.com^$important
 #######################################################
 ||google.com^$important,third-party,domain=~youtube.com|~accounts.google.com
 ||googleapis.com^$important,third-party,domain=~google.com|~googleblog.com|~blog.google
