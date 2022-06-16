@@ -364,6 +364,9 @@ bing.com/ipv6test/test
 /imdbads/
 ||widgets.jotform.io^
 /getVisitorLocation/
+/profile/photo*$image
+/img/favicon/*
+/premium/premium*
 
 # office365.com
 /images/everything*
