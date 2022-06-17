@@ -49,3 +49,7 @@ duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
 /webmd_logo.svg
 /amd_modules/webmd.oauth/
 /bi_common/bi_consumer.js
+/sd-branding/sd-logo*
+loyalty/dollarStack.svg
+/siteFooter/android*
+/siteFooter/ios*
