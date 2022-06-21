@@ -25,6 +25,9 @@
 ||mayoclinic.org^$font
 ||hearstapps.com^$font
 ||icons.duckduckgo.com^$image
+||emoji.redditmedia.com^$important
+||appleid.apple.com^$important
+fsdn.com/sd/topics/*$image
 google.com/s2/favicons*
 gstatic.com/favicon*
 /arc-authors/washpost/*
