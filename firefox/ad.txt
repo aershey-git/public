@@ -384,6 +384,10 @@ bing.com/ipv6test/test
 /images/icon-google*$image,domain=yahoo.com
 /images/icon-app*$image,domain=yahoo.com
 
+||accounts.google.com^$domain=www.youtube.com
+||www.google.com^$domain=www.youtube.com
+google.com/pagead/*
+
 # Remove tracking tokens
 *$removeparam=_openstat
 *$removeparam=dclid
