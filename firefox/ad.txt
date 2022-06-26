@@ -387,6 +387,7 @@ bing.com/ipv6test/test
 ||accounts.google.com^$domain=www.youtube.com
 ||www.google.com^$domain=www.youtube.com
 google.com/pagead/*
+/bcg/everywhere/images/
 
 # Remove tracking tokens
 *$removeparam=_openstat
