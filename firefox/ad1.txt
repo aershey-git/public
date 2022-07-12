@@ -55,3 +55,4 @@ loyalty/dollarStack.svg
 /siteFooter/android*
 /siteFooter/ios*
 fsdn.com/sd/ccpa-optout.png
+/videos/profiles/banners/
