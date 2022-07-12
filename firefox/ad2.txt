@@ -142,3 +142,6 @@ www.imdb.com##.ipc-shoveler--pageNaN.ipc-shoveler--baseAlt.ipc-shoveler
 www.imdb.com##.mediastrip_big
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
+www.nytimes.com##.e1m0pzr40.css-1r6wvpq.NYTAppHideMasthead
+www.nytimes.com##.e1ppw5w20.css-stz0qb
+www.phoronix.com##.full
