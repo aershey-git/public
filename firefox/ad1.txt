@@ -56,3 +56,4 @@ loyalty/dollarStack.svg
 /siteFooter/ios*
 fsdn.com/sd/ccpa-optout.png
 /videos/profiles/banners/
+timespeople.nytimes.com/avatars/
