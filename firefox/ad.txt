@@ -116,6 +116,8 @@
 ||wearehearken.com^$important
 ||yandex.ru^$important
 ||ybp.yahoo.com^$important
+||gannett-cdn.com^$important
+||edge.microsoft.com^$important
 #######################################################
 ||google.com^$important,third-party,domain=~youtube.com|~accounts.google.com
 ||googleapis.com^$important,third-party,domain=~google.com|~googleblog.com|~blog.google
@@ -139,7 +141,6 @@
 ||washpost.io^$important
 ||play.google.com^$important,third-party
 ||news.google.com^$important,third-party
-||edge.microsoft.com^$important,third-party
 ||apis.google.com^$important,third-party
 #######################################################
 ||tradingview.com^
