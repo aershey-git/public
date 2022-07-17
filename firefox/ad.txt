@@ -396,6 +396,7 @@ google.com/pagead/*
 *$removeparam=_openstat
 *$removeparam=dclid
 *$removeparam=fbclid
+*$removeparam=pfbid
 *$removeparam=gclid
 *$removeparam=hsCtaTracking
 *$removeparam=ICID
