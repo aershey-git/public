@@ -42,6 +42,7 @@ gstatic.com/favicon*
 /styles/profileIcon*
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
+/multimedia/author*
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
 arstechnica.com##.scrolled-up.site-header
