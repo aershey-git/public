@@ -221,6 +221,7 @@ www.washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 ||wpidpub.s3.amazonaws.com^
 ||www.washingtonpost.com/pb/api/v2/render/feature^$xhr
 ||www.washingtonpost.com/wp-stat/apps/national/weather/*
+washingtonpost.com/red-static/services/dat/*
 
 ||arstechnica.com/hotzones/src/ads.js
 ||condenastdigital.com/1.0/conde/events
@@ -360,6 +361,7 @@ bing.com/ipv6test/test
 ||www.nytimes.com/vi-assets/static-assets/activationBlock*
 ||www.nytimes.com/vi-assets/static-assets/getstarted*
 ||www.nytimes.com/vi-assets/static-assets/related*
+/static-assets/emailsignup*
 /cookie-banner/cookie-banners*
 /gtag*
 /gtm*
@@ -391,6 +393,7 @@ bing.com/ipv6test/test
 ||www.google.com^$domain=www.youtube.com
 google.com/pagead/*
 /bcg/everywhere/images/
+runnersworld.com/auth/checkaccess*
 
 # Remove tracking tokens
 *$removeparam=_openstat
