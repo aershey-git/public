@@ -43,6 +43,8 @@ gstatic.com/favicon*
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
 /multimedia/author*
+/reader-center/author*
+/business/author*
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
 arstechnica.com##.scrolled-up.site-header
@@ -146,3 +148,9 @@ zdnet.com##.breaking-news-container
 zdnet.com##.page-header
 www.nytimes.com##.e1m0pzr40.css-1r6wvpq.NYTAppHideMasthead
 www.nytimes.com##.e1ppw5w20.css-stz0qb
+imdb.com/video/embed/*
+/images/emoji/*
+/logo*
+/footer/creator*
+/profile_default*
+/emojione_sprites/emojione*
