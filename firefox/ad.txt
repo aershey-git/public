@@ -394,6 +394,7 @@ bing.com/ipv6test/test
 google.com/pagead/*
 /bcg/everywhere/images/
 runnersworld.com/auth/checkaccess*
+/csm/showads*
 
 # Remove tracking tokens
 *$removeparam=_openstat
