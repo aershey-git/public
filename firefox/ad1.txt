@@ -2,6 +2,7 @@
 ! Expires: 1 day
 ||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
 ||slickdeals.net^$font
+
 /arc-authors/washpost/*
 /enwiktionary*$image
 /images/footer/poweredby_mediawiki_*.png$image
@@ -9,15 +10,14 @@
 /styles/profileIcon*
 /Wiktionary-logo*$important
 /wiktionary-wordmark*$image
+
 bbc.com###orb-banner
 bbc.com##.orb-footer
 duckduckgo.com/assets/logo*
 duckduckgo.com/locale/en_US/duckduckgo*
-forecast.weather.gov###fcst-search
-forecast.weather.gov###news-items
-forecast.weather.gov##.clearfix.row
-forecast.weather.gov##.row.navbar-default.navbar
 gfycat.com##.navigation-container
+imdb.com##.watch-widget
+imdb.com##div.article > .ab_widget
 imdb.com/list/
 imdb.com/oscars/
 reddit.com###header-img
@@ -34,17 +34,6 @@ washingtonpost.com##.mb-lg.hide-for-print
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
-www.imdb.com##.watch-widget
-www.imdb.com##div.article > .ab_widget
-
-! block pinterest rubbish on google
-google.*##.g:has(a[href*=".pinterest.*"])
-google.*##a[href*=".pinterest."]:upward(1)
-! Block pinterest rubbish on ddg
-duckduckgo.*##.results > div:has(a[href*=".pinterest.com"])
-google.*##.g:has(a[href*="thetopsites.com"])
-duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
-*##body > div > div:has(*:has-text(/To make Medium work.*Privacy Policy.*Cookie Policy/i))
 
 /img/mail_landing_page_image*
 /webmd_logo.svg
@@ -56,4 +45,15 @@ loyalty/dollarStack.svg
 /siteFooter/ios*
 fsdn.com/sd/ccpa-optout.png
 /videos/profiles/banners/
-timespeople.nytimes.com/avatars/
+imdb.com/video/embed/*
+lwn.net###menu
+lwn.net##.topnav-container
+
+! block pinterest rubbish on google
+google.*##.g:has(a[href*=".pinterest.*"])
+google.*##a[href*=".pinterest."]:upward(1)
+! Block pinterest rubbish on ddg
+duckduckgo.*##.results > div:has(a[href*=".pinterest.com"])
+google.*##.g:has(a[href*="thetopsites.com"])
+duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
+*##body > div > div:has(*:has-text(/To make Medium work.*Privacy Policy.*Cookie Policy/i))
