@@ -397,6 +397,7 @@ google.com/pagead/*
 /bcg/everywhere/images/
 runnersworld.com/auth/checkaccess*
 /csm/showads*
+||ycombinator.com/hn.js$script
 
 # Remove tracking tokens
 *$removeparam=_openstat
