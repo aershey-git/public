@@ -50,6 +50,7 @@
 /user_avatar/forum.openwrt.org/
 ||ycombinator.com/y18.gif$image
 ||ycombinator.com/grayarrow.gif$image
+||ycombinator.com/grayarrow2x.gif$image
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
@@ -107,8 +108,8 @@ imdb.com##.mediastrip_big
 lobste.rs##.comment_form_container.comment
 login.yahoo.com##.mbr-desktop-hd
 mail.yahoo.com##._yb_1h0mk._yb_1apb7 > ._yb_1c8sw
-news.ycombinator.com##.fatitem
-news.ycombinator.com##.fatitem form
+# news.ycombinator.com##.fatitem
+ycombinator.com##.fatitem form
 nyt.com/fonts/
 nytimes.com###in-story-masthead
 nytimes.com##.css-1y7qxpi
