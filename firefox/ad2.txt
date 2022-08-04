@@ -48,9 +48,6 @@
 /styles/profileIcon*
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
-||ycombinator.com/y18.gif$image
-||ycombinator.com/grayarrow.gif$image
-||ycombinator.com/grayarrow2x.gif$image
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
