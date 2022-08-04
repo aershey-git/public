@@ -36,6 +36,7 @@ wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
 
+||ycombinator.com/y18.gif$image
 ||ycombinator.com/grayarrow.gif$image
 ||ycombinator.com/grayarrow2x.gif$image
 
