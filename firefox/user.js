@@ -122,7 +122,7 @@ user_pref("browser.startup.page", 0);
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.tabs.extraDragSpace", true);
 user_pref("browser.tabs.loadBookmarksInBackground", true);
-user_pref("browser.tabs.loadBookmarksInTabs", true);
+user_pref("browser.tabs.loadBookmarksInTabs", false);
 user_pref("browser.tabs.loadDivertedInBackground", true);
 user_pref("browser.tabs.remote.allowLinkedWebInFileUriProcess", false);
 user_pref("browser.taskbar.lists.enabled", false);
