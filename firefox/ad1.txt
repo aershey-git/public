@@ -36,6 +36,9 @@ wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
 
+||ycombinator.com/grayarrow.gif$image
+||ycombinator.com/grayarrow2x.gif$image
+
 /img/mail_landing_page_image*
 /webmd_logo.svg
 /amd_modules/webmd.oauth/
