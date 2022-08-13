@@ -48,7 +48,7 @@
 /styles/profileIcon*
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
-||he.net/helogo.gif
+#||he.net/helogo.gif
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
