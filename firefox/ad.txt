@@ -332,7 +332,7 @@ slashdot.org/purple.gif
 /video-player.js
 /showads*
 
-fredericknewspost.com/shared-content/art/tncms/user/user.js
+# fredericknewspost.com/shared-content/art/tncms/user/user.js
 /classifieds/
 
 ||kinja-static.com^$font
@@ -356,8 +356,8 @@ scroll.com/embed/*
 bing.com/mouse*
 bing.com/ipv6test/test
 ||fonts.gstatic.com^$font,domain=www.google.com
-/tncms/api/access.js
-/tncms/subscription.js
+# /tncms/api/access.js
+# /tncms/subscription.js
 /tinygif*
 /blocks/subscriptions.chart-blocks*
 /arcio/fact-checker/item/
