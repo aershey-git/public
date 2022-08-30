@@ -591,3 +591,4 @@ user_pref("webgl.min_capability_mode", true);
 user_pref("widget.non-native-theme.enabled", true);
 user_pref("browser.cache.disk.capacity", 0);
 user_pref("browser.download.open_pdf_attachments_inline", true);
+user_pref("geo.provider.use_geoclue", false);
