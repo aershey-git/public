@@ -161,7 +161,7 @@
 ||wearehearken.com^
 #######################################################
 ||duckduckgo.com^$font
-||imdb.com^$xhr
+# ||imdb.com^$xhr
 ||media-imdb.com^$xhr
 ||unagi.amazon.com^$xhr
 ||bbc.com^$xhr
