@@ -28,6 +28,8 @@
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
+||verywellhealth.com^$font
+||health.harvard.edu^$font
 
 /assets/icons/favicons/
 /business/author*
