@@ -39,7 +39,7 @@
 /graphics/icons/comment/*
 /images/emoji/*
 /img/logo_nyt*
-/jwplayer*
+#/jwplayer*
 /logo*
 /logo/*
 /michaellarabel.jpg
