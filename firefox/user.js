@@ -593,3 +593,4 @@ user_pref("browser.cache.disk.capacity", 0);
 user_pref("browser.download.open_pdf_attachments_inline", true);
 user_pref("geo.provider.use_geoclue", false);
 user_pref("privacy.partition.always_partition_third_party_non_cookie_storage", true);
+user_pref("privacy.partition.always_partition_third_party_non_cookie_storage.exempt_sessionstorage", false);
