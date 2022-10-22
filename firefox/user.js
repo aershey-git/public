@@ -595,3 +595,5 @@ user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.enable-webgl2", false);
 user_pref("webgl.min_capability_mode", true);
 user_pref("widget.non-native-theme.enabled", true);
+user_pref("browser.privateWindowSeparation.enabled", false);
+user_pref("browser.privatebrowsing.enable-new-indicator", false);
