@@ -50,6 +50,8 @@
 /styles/profileIcon*
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
+redditstatic.com/listing-comments*
+redditstatic.com/author-tooltip*
 #||he.net/helogo.gif
 
 arstechnica.com###article-footer
