@@ -27,6 +27,8 @@ reddit.com##.read-next-container
 redditstatic.com/awards2/
 redditstatic.com/icon-badge-xpost
 redditstatic.com/sprite-author-tooltip*
+redditstatic.com/popup-notification*
+redditstatic.com/desktoponboarding*
 slashdot.org##.scroll-fixable.rail-right
 slashdot.org##body > .container
 slickdeals.net##.pageHeader
