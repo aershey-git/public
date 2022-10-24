@@ -54,6 +54,9 @@
 /i.gif
 redditstatic.com/listing-comments*
 redditstatic.com/author-tooltip*
+redditstatic.com/awards2/
+redditstatic.com/icon-badge-xpost
+redditstatic.com/sprite-author-tooltip*
 #||he.net/helogo.gif
 
 arstechnica.com###article-footer
@@ -130,9 +133,6 @@ preview.redd.it/award_images/
 reddit.com##.footer-parent
 reddit.com##.linkinfo
 reddit.com##.login-form-side.login-form
-redditstatic.com/awards2/
-redditstatic.com/icon-badge-xpost
-redditstatic.com/sprite-author-tooltip*
 slashdot.org###firehose-message-tray
 slashdot.org##.scroll-fixable.rail-right
 slashdot.org##body > .container
@@ -151,14 +151,6 @@ slickdeals.net##.ui-helper-clearfix
 techrepublic.com##.page-header
 theregister.com###masthead
 timespeople.nytimes.com/avatars/
-washingtonpost.com###fusion-app > div > div.w-100
-washingtonpost.com##.fixed.w-100.justify-center.items-center.hide-for-print.flex.bg-black.header-nav.z-7
-washingtonpost.com##.mb-lg.hide-for-print
-washingtonpost.com##.mb-lg.tight-b.spacing.mt-sm
-washingtonpost.com##.mb-lg.tight-b.spacing.mt-sm.dn-hp-md-to-xs.db
-washingtonpost.com##.pb-md.font--meta-text
-washingtonpost.com##.pb-xl.w-100.hide-for-print
-washingtonpost.com##.pt-0.justify-center.items-center.flex.dn-hp-xs
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/project-logos/*
 zdnet.com##.breaking-news-container
