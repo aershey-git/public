@@ -298,7 +298,6 @@ slashdot.org/purple.gif
 /dms/exp.json
 /facebook*
 /favicon*
-/favicon*
 /geoip*
 /gpt_and_prebid/*
 /oauth/*
