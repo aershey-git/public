@@ -161,3 +161,4 @@ zdnet.com##.page-header
 login.wikimedia.org
 wikipedia.org/w/api.php
 yahoomedia.net/creatives/
+/images/icon*
