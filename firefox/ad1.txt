@@ -3,6 +3,8 @@
 
 ||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
 ||slickdeals.net^$font
+||stackcommerce.com 
+||tradepub.com 
 
 /arc-authors/washpost/*
 /enwiktionary*$image
