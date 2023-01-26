@@ -33,6 +33,7 @@
 
 /favicon.ico
 /svgs/brands/
+/kpui/social/
 /img/ym7_landing_page*
 /assets/icons/favicons/
 /business/author*
