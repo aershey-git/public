@@ -8,6 +8,8 @@
 ||login.wikimedia.org
 
 /arc-authors/washpost/*
+/tetro/metering/
+/tetro-client/fusion/
 /enwiktionary*$image
 /images/footer/poweredby_mediawiki_*.png$image
 /images/footer/wikimedia-button*.png$image
