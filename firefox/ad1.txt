@@ -2,64 +2,65 @@
 ! Expires: 1 day
 
 ||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
+||login.wikimedia.org
 ||slickdeals.net^$font
 ||stackcommerce.com 
 ||tradepub.com
-||login.wikimedia.org
-
-/arc-authors/washpost/*
-/tetro/metering/
-/tetro-client/fusion/
-/enwiktionary*$image
-/images/footer/poweredby_mediawiki_*.png$image
-/images/footer/wikimedia-button*.png$image
-/styles/profileIcon*
-/Wiktionary-logo*$important
-/wiktionary-wordmark*$image
+||ycombinator.com/grayarrow.gif$image
+||ycombinator.com/grayarrow2x.gif$image
+||ycombinator.com/y18.gif$image
 
 bbc.com###orb-banner
 bbc.com##.orb-footer
-duckduckgo.com/assets/logo*
-duckduckgo.com/locale/en_US/duckduckgo*
 gfycat.com##.navigation-container
 imdb.com##.watch-widget
 imdb.com##div.article > .ab_widget
-imdb.com/list/
-imdb.com/oscars/
+lwn.net###menu
+lwn.net##.topnav-container
 reddit.com###header-img
 reddit.com##.commentsignupbar.infobar
 reddit.com##.read-next-container
-redditstatic.com/awards2/
-redditstatic.com/icon-badge-xpost
-redditstatic.com/sprite-author-tooltip*
-redditstatic.com/popup-notification*
-redditstatic.com/desktoponboarding*
 slashdot.org##.scroll-fixable.rail-right
 slashdot.org##body > .container
 slickdeals.net##.pageHeader
 slickdeals.net##.topContent
 washingtonpost.com##.mb-lg.hide-for-print
+
+duckduckgo.com/assets/logo*
+duckduckgo.com/locale/en_US/duckduckgo*
+fsdn.com/sd/ccpa-optout.png
+imdb.com/list/
+imdb.com/oscars/
+imdb.com/video/embed/*
+redditstatic.com/awards2/
+redditstatic.com/desktoponboarding*
+redditstatic.com/gold/premium/premium*
+redditstatic.com/icon-badge-xpost
+redditstatic.com/listingsignupbar*
+redditstatic.com/popup-notification*
+redditstatic.com/sprite-author-tooltip*
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
 
-||ycombinator.com/y18.gif$image
-||ycombinator.com/grayarrow.gif$image
-||ycombinator.com/grayarrow2x.gif$image
-
-/img/mail_landing_page_image*
-/webmd_logo.svg
 /amd_modules/webmd.oauth/
+/arc-authors/washpost/*
 /bi_common/bi_consumer.js
+/enwiktionary*$image
+/images/footer/poweredby_mediawiki_*.png$image
+/images/footer/wikimedia-button*.png$image
+/img/mail_landing_page_image*
 /sd-branding/sd-logo*
-loyalty/dollarStack.svg
 /siteFooter/android*
 /siteFooter/ios*
-fsdn.com/sd/ccpa-optout.png
+/styles/profileIcon*
+/tetro-client/fusion/
+/tetro/metering/
 /videos/profiles/banners/
-imdb.com/video/embed/*
-lwn.net###menu
-lwn.net##.topnav-container
+/webmd_logo.svg
+/Wiktionary-logo*$important
+/wiktionary-wordmark*$image
+loyalty/dollarStack.svg
 
 ! block pinterest rubbish on google
 google.*##.g:has(a[href*=".pinterest.*"])
