@@ -9,6 +9,7 @@
 ||emoji.redditmedia.com^$important
 ||external-content.duckduckgo.com^
 ||gstatic.com^$font
+||health.harvard.edu^$font
 ||healthline.com^$font
 ||hearstapps.com^$font
 ||icons.duckduckgo.com^$image
@@ -23,27 +24,26 @@
 ||phoronix.net^$image
 ||slickdeals.net^$font
 ||twimg.com^$font
+||verywellhealth.com^$font
 ||washingtonpost.com^$font
 ||wbmdstatic.com^$font
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
-||verywellhealth.com^$font
-||health.harvard.edu^$font
 
-/favicon.ico
-/svgs/brands/
-/kpui/social/
-/img/ym7_landing_page*
+/ad.js
 /assets/icons/favicons/
 /business/author*
 /emojione_sprites/emojione*
+/favicon.ico
 /footer/creator*
 /gold/awards/icon/
 /graphics/icons/comment/*
+/i.gif
 /images/emoji/*
 /img/logo_nyt*
-#/jwplayer*
+/img/ym7_landing_page*
+/kpui/social/
 /logo*
 /logo/*
 /michaellarabel.jpg
@@ -51,17 +51,30 @@
 /profile_default*
 /profthumb/
 /reader-center/author*
+/static-assets/favicon*
 /styles/profileIcon*
+/svgs/brands/
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
-/ad.js
-/i.gif
-redditstatic.com/listing-comments*
+/images/icon*
+
+dslr.net/nav/w50/
+duckduckgo.com/assets/logo*
+duckduckgo.com/locale/en_US/duckduckgo*
+fsdn.com/sd/topics/*$image
+ggpht.com/ytc/*$image
+google.com/images/branding/googlelogo/*
+google.com/s2/favicons*
+gstatic.com/favicon*
+login.wikimedia.org
+nyt.com/fonts/
 redditstatic.com/author-tooltip*
-redditstatic.com/awards2/
-redditstatic.com/icon-badge-xpost
-redditstatic.com/sprite-author-tooltip*
-#||he.net/helogo.gif
+redditstatic.com/listing-comments*
+timespeople.nytimes.com/avatars/
+wikipedia.org/static/images/footer/*
+wikipedia.org/static/images/project-logos/*
+wikipedia.org/w/api.php
+yahoomedia.net/creatives/
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
@@ -84,11 +97,8 @@ camelcamelcamel.com##.subtitle
 camelcamelcamel.com##div.column.row > form
 cnet.com##.-hasCurated.is-collapsed.c-siteHeader
 cnet.com##.-noscroll.c-trendingBar
-dslr.net/nav/w50/
 dslreports.com##.areae
 dslreports.com##.navtt
-duckduckgo.com/assets/logo*
-duckduckgo.com/locale/en_US/duckduckgo*
 finance.yahoo.com###Col1-2-QuoteVideo-Proxy
 finance.yahoo.com###Col2-1-QuoteModule-Proxy
 finance.yahoo.com###Lead-2-FeatureBar-Proxy
@@ -108,20 +118,12 @@ forecast.weather.gov##.row.navbar-default.navbar
 fredericknewspost.com###site-header-container
 fredericknewspost.com###site-top-nav > .row
 fredericknewspost.com##.affix-top.hidden-print
-fsdn.com/sd/topics/*$image
-ggpht.com/ytc/*$image
-google.com/images/branding/googlelogo/*
-google.com/s2/favicons*
-gstatic.com/favicon*
 imdb.com##.ipc-shoveler--page0.ipc-shoveler--baseAlt.ipc-shoveler
 imdb.com##.ipc-shoveler--pageNaN.ipc-shoveler--baseAlt.ipc-shoveler
 imdb.com##.mediastrip_big
 lobste.rs##.comment_form_container.comment
 login.yahoo.com##.mbr-desktop-hd
 mail.yahoo.com##._yb_1h0mk._yb_1apb7 > ._yb_1c8sw
-# news.ycombinator.com##.fatitem
-ycombinator.com##.fatitem form
-nyt.com/fonts/
 nytimes.com###in-story-masthead
 nytimes.com##.css-1y7qxpi
 nytimes.com##.css-x00beb
@@ -154,12 +156,6 @@ slickdeals.net##.topContent
 slickdeals.net##.ui-helper-clearfix
 techrepublic.com##.page-header
 theregister.com###masthead
-timespeople.nytimes.com/avatars/
-wikipedia.org/static/images/footer/*
-wikipedia.org/static/images/project-logos/*
+ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
-login.wikimedia.org
-wikipedia.org/w/api.php
-yahoomedia.net/creatives/
-/images/icon*
