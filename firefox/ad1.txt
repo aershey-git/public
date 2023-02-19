@@ -4,6 +4,9 @@
 ||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
 ||login.wikimedia.org
 ||slickdeals.net^$font
+||phoronix.com^$font
+||m.media-amazon.com^$font
+||trinitymedia.ai^$important
 ||stackcommerce.com 
 ||tradepub.com
 ||ycombinator.com/grayarrow.gif$image
@@ -26,6 +29,8 @@ slickdeals.net##.pageHeader
 slickdeals.net##.topContent
 washingtonpost.com##.mb-lg.hide-for-print
 
+/wp-admin/admin-ajax.php
+css/phoronix.png
 duckduckgo.com/assets/logo*
 duckduckgo.com/locale/en_US/duckduckgo*
 fsdn.com/sd/ccpa-optout.png
