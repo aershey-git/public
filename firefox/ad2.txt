@@ -30,7 +30,12 @@
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
+||phoronix.com^$font
+||m.media-amazon.com^$font
+||trinitymedia.ai^$important
 
+css/phoronix.png
+/wp-admin/admin-ajax.php
 /ad.js
 /assets/icons/favicons/
 /business/author*
