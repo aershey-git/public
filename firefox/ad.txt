@@ -119,6 +119,8 @@
 ||wearehearken.com^$important
 ||yandex.ru^$important
 ||ybp.yahoo.com^$important
+||unagi.amazon.com^$important
+||fls-na.amazon.com^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
@@ -163,7 +165,6 @@
 ||duckduckgo.com^$font
 ||imdb.com^$xhr
 ||media-imdb.com^$xhr
-||unagi.amazon.com^$xhr
 ||bbc.com^$xhr
 ||slashdot.org^$xhr
 #######################################################
