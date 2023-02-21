@@ -130,16 +130,13 @@ nytimes.com##.css-x00beb
 nytimes.com##.e1m0pzr40.css-1r6wvpq.NYTAppHideMasthead
 nytimes.com##.e1ppw5w20.css-stz0qb
 nytimes.com##.e1suatyy0.css-1r6wvpq.NYTAppHideMasthead
-phoronix.com###headerwrap
 phoronix.com###main > .article-box
-phoronix.com###menuwrap
 phoronix.com###sidebar
 phoronix.com##.after-article
 preview.redd.it/award_images/
 reddit.com##.footer-parent
 reddit.com##.linkinfo
 reddit.com##.login-form-side.login-form
-slashdot.org###firehose-message-tray
 slashdot.org##.scroll-fixable.rail-right
 slashdot.org##body > .container
 slickdeals.net###hottopic_rightcol
