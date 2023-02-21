@@ -121,6 +121,10 @@
 ||ybp.yahoo.com^$important
 ||unagi.amazon.com^$important
 ||fls-na.amazon.com^$important
+||opta.net^$important
+||petametrics.com^$important^$important
+||tinypass.com^$important
+||grapeshot.co.uk^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
@@ -435,3 +439,7 @@ runnersworld.com/auth/checkaccess*
 *$removeparam=vero_id
 *$removeparam=wickedid
 *$removeparam=yclid
+
+*$removeparam=sdsrc
+*$removeparam=smid
+*$removeparam=psc
