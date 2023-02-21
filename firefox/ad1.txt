@@ -28,6 +28,9 @@ slashdot.org##body > .container
 slickdeals.net##.pageHeader
 slickdeals.net##.topContent
 washingtonpost.com##.mb-lg.hide-for-print
+slashdot.org###firehose-message-tray
+www.phoronix.com###headerwrap
+www.phoronix.com###menuwrap
 
 /wp-admin/admin-ajax.php
 css/phoronix.png
