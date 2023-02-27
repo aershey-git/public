@@ -57,6 +57,9 @@
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
 /images/icon*
+/signin*
+/suggest-translation*
+/premium/premium*
 
 dslr.net/nav/w50/
 duckduckgo.com/assets/logo*
