@@ -12,6 +12,8 @@
 ||ycombinator.com/grayarrow.gif$image
 ||ycombinator.com/grayarrow2x.gif$image
 ||ycombinator.com/y18.gif$image
+||btloader.com
+||jobbio.com
 
 bbc.com###orb-banner
 bbc.com##.orb-footer
