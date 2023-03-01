@@ -78,6 +78,8 @@ wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/project-logos/*
 wikipedia.org/w/api.php
 yahoomedia.net/creatives/
+google.com/recaptcha/
+gstatic.com/recaptcha/
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
