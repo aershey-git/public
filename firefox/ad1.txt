@@ -64,7 +64,7 @@ wikipedia.org/static/images/project-logos/*
 /siteFooter/android*
 /siteFooter/ios*
 /styles/profileIcon*
-/tetro-client/fusion/
+#/tetro-client/fusion/
 /tetro/metering/
 /videos/profiles/banners/
 /webmd_logo.svg
