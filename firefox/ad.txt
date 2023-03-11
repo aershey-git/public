@@ -236,6 +236,7 @@ slashdot.org/purple.gif
 ||washingtonpost.com/subscribe/paywall/get-paywall*
 ||washingtonpost.com/wp-stat/apps/national/weather/*
 ||washingtonpost.com/wp-stat/pwapi/prod/*
+||washingtonpost.com/touch-icon*
 ||wp-stat.s3.amazonaws.com^
 ||wpdigital.net^
 ||wpidpub.s3.amazonaws.com^
@@ -443,3 +444,4 @@ runnersworld.com/auth/checkaccess*
 *$removeparam=sdsrc
 *$removeparam=smid
 *$removeparam=psc
+*$removeparam=originalSubdomain
