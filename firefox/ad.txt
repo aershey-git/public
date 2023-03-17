@@ -143,6 +143,7 @@
 ||news.google.com^$important,third-party
 ||paypal.com^$important,third-party
 ||play.google.com^$important,third-party
+||itunes.apple.com^$important,third-party
 ||redditstatic.com^$important,third-party,domain=~reddit.com
 ||spotify.com^$important,third-party
 ||twitter.com^$important,third-party
