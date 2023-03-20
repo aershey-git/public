@@ -9,7 +9,6 @@
       "WindowsSSO": false,
       "CaptivePortal": false,
       "DisableBuiltinPDFViewer": false,
-      "DisableDefaultBrowserAgent": true,
       "DisableFeedbackCommands": true,
       "DisableFirefoxAccounts": true,
       "DisableFirefoxScreenshots": false,
