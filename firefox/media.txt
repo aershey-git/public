@@ -1,6 +1,6 @@
 youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
+youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass 
 
 ###############################################################################
 
@@ -8,28 +8,68 @@ youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass
 
 -hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
 
+-fflags +genpts 
+
+-hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mkv
+
 -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
 
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -b:a 128k -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 0.mp4
 
--hwaccel qsv -c:v hevc_qsv  -i input-file -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -look_ahead 1 -preset slow -profile:v high -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
+-hide_banner -f mp4 -movflags +faststart -g 16 -map_metadata -1 -sn -dn -c:v h264_amf -profile:v 100 -level 50 -quality 0 -c:a aac -ac 2 0.mp4
 
--map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
-https://trac.ffmpeg.org/attachment/wiki/Map/map.png
-
--b:a 160k
-bitrate: 96, 112, 128, 160, 192, 224, 256, or 320
+-map_metadata -1 -sn -dn -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 
 https://trac.ffmpeg.org/wiki/Map
 https://trac.ffmpeg.org/wiki/Hardware/QuickSync
+https://trac.ffmpeg.org/wiki/HWAccelIntro
 https://trac.ffmpeg.org/wiki/Encode/HighQualityAudio
+
+-map 0:0 -map 0:2 -c:v copy -c:a copy  0-movie.mp4
+-map 0 -c:v copy -map -0:a:0 -map -0:a:1 -c:a copy 0-movie.mp4
+
+-ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy output1.mp4
+
+ffprobe -show_streams 
+
+ffmpeg -hwaccel dxva2 
+ffmpeg -hwaccel auto 
 
 ffmpeg -encoders
 ffmpeg -h encoder=aac
 ffmpeg -h encoder=h264
-ffmpeg -h encoder=h264_qsv
-ffmpeg -h encoder=hevc_qsv
+ffmpeg -h encoder=h264_amf
+ffmpeg -h encoder=hevc_amf
 
--init_hw_device qsv=hw -filter_hw_device hw -i input.mp4 -vf hwupload=extra_hw_frames=64,format=qsv,setsar=1:1 -c:v h264_qsv -profile:v high -preset 3 -q 24 -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0-movie.mkv
+ -quality           <int>        E..V....... Quality Preference (from 0 to 2) (default speed)
+     speed           1            E..V....... Prefer Speed
+     balanced        0            E..V....... Balanced
+     quality         2            E..V....... Prefer Quality
 
-aria2c --check-certificate=false --user-agent="Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0" --max-tries=8 --split=8 --file-allocation=falloc --continue=true --max-concurrent-downloads=16 --max-connection-per-server=16 --optimize-concurrent-downloads=true --min-split-size=16M --human-readable=true 
+-c:v h264_amf -profile:v 100 -level 50 -quality 0
+-c:v hevc_amf -quality 5 -rc cqp -qp_p 0 -qp_i 0 
+
+-hwaccel qsv -c:v hevc_amf  -i input-file -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_amf -look_ahead 1 -preset slow -profile:v high -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
+
+
+-i input --encoder h264_amf --aencoder copy  -o output.mkv
+
+ffmpeg.exe -i 1-1.mkv -codec copy -pix_fmt yuv420p -c:v h264_amf -movflags +faststart 0.mkv
+
+ffprobe -show_streams -i "file.mp4"
+
+auto      6x
+dxva2     6x
+d3d11va   9x
+opencl    15x
+vulkan    15x
+none      15x
+
+HandBrakeCLI.exe
+-e vce_h264 -E copy -o 0.mp4
+-e vce_h265 -E copy -o 0.mkv
+--format av_mp4 --encoder vce_h264 --first-audio --aencoder av_aac --mixdown stereo --crop-mode none -o 0.mp4
+
+-f 
+av_mp4
+av_mkv
