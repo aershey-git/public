@@ -125,6 +125,9 @@
 ||petametrics.com^$important^$important
 ||tinypass.com^$important
 ||grapeshot.co.uk^$important
+||auth0.com^$important
+||narrativ.com^$important
+||links.duckduckgo.com^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
