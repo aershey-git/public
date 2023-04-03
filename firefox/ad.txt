@@ -323,6 +323,8 @@ slashdot.org/purple.gif
 /widget/*
 /ybar/cerebro*
 /ybar/exp.json
+/social-tracking*^$script
+/social-counts*^$script
 
 ||youtube.com/embed/$3p,frame,redirect=click2load.html
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
