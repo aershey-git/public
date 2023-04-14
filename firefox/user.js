@@ -430,7 +430,7 @@ user_pref("plugin.state.libgnome-shell-browser-plugin", 0);
 user_pref("plugins.click_to_play", true);
 user_pref("plugins.update.notifyUser", true);
 user_pref("print.tab_modal.enabled", true);
-user_pref("privacy.antitracking.enableWebcompat", false);
+user_pref("privacy.antitracking.enableWebcompat", true);
 user_pref("privacy.clearOnShutdown.cache", true);
 user_pref("privacy.clearOnShutdown.cookies", true);
 user_pref("privacy.clearOnShutdown.downloads", true);
