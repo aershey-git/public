@@ -1,5 +1,6 @@
 ! Title: 02 - Cosmatic - Low bandwidth filter list
 ! Expires: 1 day
+! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
 ||appleid.apple.com^$important
 ||bbci.co.uk^$font
