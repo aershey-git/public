@@ -1,5 +1,6 @@
 ! Title: 00 - Must filter list
 ! Expires: 1 day
+! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
 ||2mdn.net^$important
 ||3gl.net^$important
