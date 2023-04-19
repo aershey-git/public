@@ -1,8 +1,10 @@
 ! Title: 01 - Optional filter list
 ! Expires: 1 day
+! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
 ||images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/*$image
 ||login.wikimedia.org
+||ebaystatic.com^$font
 ||slickdeals.net^$font
 ||phoronix.com^$font
 ||m.media-amazon.com^$font
