@@ -129,6 +129,7 @@
 ||auth0.com^$important
 ||narrativ.com^$important
 ||links.duckduckgo.com^$important
+||zeustechnology.com^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
@@ -185,6 +186,7 @@
 ||fsdn.com^$font
 ||fsdn.com^$script
 ||slashdot.org/favicon.ico^$important
+||slashdot.org/adbanner.gif$image
 ||slashdot.org^$script
 slashdot.org/images/js.gif
 slashdot.org/purple.gif
