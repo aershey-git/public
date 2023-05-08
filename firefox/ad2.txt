@@ -8,7 +8,7 @@
 ||cbsistatic.com^$font
 ||dslreports.com/?identicon*$image
 ||emoji.redditmedia.com^$important
-||external-content.duckduckgo.com^
+# ||external-content.duckduckgo.com^
 ||gstatic.com^$font
 ||health.harvard.edu^$font
 ||healthline.com^$font
