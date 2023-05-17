@@ -32,6 +32,10 @@
 ||yahoodns.net^$font
 ||yimg.com^$font
 
+||ycombinator.com/y18.svg
+||ycombinator.com/triangle.svg
+||redditstatic.com/droparrowgray.gif
+
 /ad.js
 /assets/icons/favicons/
 /business/author*
