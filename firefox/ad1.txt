@@ -6,6 +6,7 @@
 ||login.wikimedia.org
 ||ebaystatic.com^$font
 ||slickdeals.net^$font
+||ebaystatic.com^$font
 ||phoronix.com^$font
 ||m.media-amazon.com^$font
 ||trinitymedia.ai^$important
