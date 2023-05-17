@@ -130,6 +130,7 @@
 ||narrativ.com^$important
 ||links.duckduckgo.com^$important
 ||zeustechnology.com^$important
+||rollbar.com^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
