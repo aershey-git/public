@@ -82,7 +82,6 @@
 ||outbrain.com^$important
 ||pardot.com^$important
 ||pinimg.com^$important
-||pinterest.com^$important
 ||platform.twitter.com^$important
 ||pro-market.net^$important
 ||pubmatic.com^$important
