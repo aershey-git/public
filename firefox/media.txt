@@ -25,9 +25,9 @@ ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
 # mp4 AAC
 -hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 0.mp4
 
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_amf -profile:v 100 -level 50 -quality 0 -c:a aac -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -profile:v 100 -preset 3 -c:a aac -ac 2 0.mp4
 
--hide_banner -f matroska -reserve_index_space 256k -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_amf -profile:v 100 -level 50 -quality 0 -c:a adpcm_ima_wav -ac 2  0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -profile:v 100 -preset 3 -c:a adpcm_ima_wav -ac 2  0.mkv
 
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 -map 0:0 -map 0:2 -c:v copy -c:a copy 0.mp4
@@ -47,40 +47,27 @@ ffmpeg -hwaccel auto
 ffmpeg -encoders
 ffmpeg -h encoder=aac
 ffmpeg -h encoder=h264
-ffmpeg -h encoder=h264_amf
-ffmpeg -h encoder=hevc_amf
+ffmpeg -h encoder=h264_qsv
+ffmpeg -h encoder=hevc_qsv
 ffmpeg -h muxer=matroska
 ffmpeg -h muxer=mp4
 
 
- -quality           <int>        E..V....... Quality Preference (from 0 to 2) (default speed)
-     speed           1            E..V....... Prefer Speed
-     balanced        0            E..V....... Balanced
-     quality         2            E..V....... Prefer Quality
 
--c:v h264_amf -profile:v 100 -level 50 -quality 0
--c:v hevc_amf -quality 5 -rc cqp -qp_p 0 -qp_i 0 
-
--hwaccel qsv -c:v hevc_amf  -i input-file -hide_banner -f matroska -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_amf -look_ahead 1 -preset slow -profile:v high -c:a adpcm_ima_wav -ac 2 -reserve_index_space 256k 0.mkv
-
-
--i input --encoder h264_amf --aencoder copy  -o output.mkv
+ffmpeg -hwaccel qsv -c:v h264_qsv -i input.mp4 -c:v h264_qsv 
 
 ffmpeg.exe -i 1-1.mkv -codec copy -pix_fmt yuv420p -c:v h264_amf -movflags +faststart 0.mkv
 
 ffprobe -show_streams -i "file.mp4"
 
-auto      6x
-dxva2     6x
-d3d11va   9x
-opencl    15x
-vulkan    15x
-none      15x
 
 HandBrakeCLI.exe
--e vce_h264 -E copy -o 0.mp4
--e vce_h265 -E copy -o 0.mkv
---format av_mp4 --encoder vce_h264 --first-audio --aencoder av_aac --mixdown stereo --crop-mode none -o 0.mp4
+--enable-qsv-decoding
+
+-e qsv_h264 -E copy -o 0.mp4
+-e qsv_h265 -E copy -o 0.mkv
+
+--format av_mp4 --encoder qsv_h264 --first-audio --aencoder av_aac --mixdown stereo --crop-mode none -o 0.mp4
 
 -f 
 av_mp4
