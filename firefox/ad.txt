@@ -148,7 +148,7 @@
 ||paypal.com^$important,third-party
 ||play.google.com^$important,third-party
 ||itunes.apple.com^$important,third-party
-||redditstatic.com^$important,third-party,domain=~reddit.com
+||redditstatic.com^$3p,important,from=~reddit.com|~redd.it
 ||spotify.com^$important,third-party
 ||twitter.com^$important,third-party
 ||washpost.io^$important
