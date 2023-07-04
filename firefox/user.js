@@ -382,3 +382,5 @@ user_pref("browser.urlbar.eventTelemetry.enabled", false);
 user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("geo.wifi.logging.enabled", false);
 user_pref("toolkit.telemetry.shutdownPingSender.enabledFirstSession", false);
+user_pref("extensions.quarantinedDomains.enabled", false);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
