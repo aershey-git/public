@@ -340,7 +340,7 @@ slashdot.org/purple.gif
 /assets/img/logo-full*
 /blank.gif
 /error_log*
-/email-decode*
+# /email-decode*
 /wp_grey.jpg
 /video-player.js
 /showads*
