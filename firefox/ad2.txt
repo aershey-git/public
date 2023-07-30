@@ -64,7 +64,7 @@
 /tncms/assets/v3/business/
 /user_avatar/forum.openwrt.org/
 /images/icon*
-/signin*
+/signin*,from=~accounts.google.com
 /suggest-translation*
 /premium/premium*
 
