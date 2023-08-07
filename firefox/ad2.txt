@@ -33,6 +33,10 @@
 ||yahoo.com^$font
 ||yahoodns.net^$font
 ||yimg.com^$font
+||arstechnica.net^$font
+||cnet.com^$font
+||zdnet.com^$font
+||techrepublic.com^$font
 
 ||ycombinator.com/y18.svg
 ||ycombinator.com/triangle.svg
