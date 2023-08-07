@@ -129,6 +129,10 @@
 ||links.duckduckgo.com^$important
 ||zeustechnology.com^$important
 ||rollbar.com^$important
+||tiktok.com^$important
+||tiktokv.com^$important
+||tiktokcdn-us.com^$important
+||tiktokcdn.com^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
