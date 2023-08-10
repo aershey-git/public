@@ -71,6 +71,7 @@
 /signin*,from=~accounts.google.com
 /suggest-translation*
 /premium/premium*
+cloudfront.net/_next/static/chunks/
 
 dslr.net/nav/w50/
 duckduckgo.com/assets/logo*
