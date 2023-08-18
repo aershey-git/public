@@ -276,7 +276,7 @@ slashdot.org/purple.gif
 ||polling.bbc.co.uk^
 ||push.api.bbci.co.uk^
 ||mybbc.files.bbci.co.uk^
-||bbci.co.uk/modules/$script
+#||bbci.co.uk/modules/$script
 
 /idcta/config*
 /js/footerpromo*
