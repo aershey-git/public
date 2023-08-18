@@ -42,6 +42,7 @@
 ||ycombinator.com/triangle.svg
 ||redditstatic.com/droparrowgray.gif
 
+/breakingNewsBanner*
 /ad.js
 /assets/icons/favicons/
 /business/author*
