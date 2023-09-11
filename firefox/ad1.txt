@@ -79,6 +79,7 @@ loyalty/dollarStack.svg
 apple-touch*
 apple-icon*
 android-icon*
+android-mobile*
 
 ! block pinterest rubbish on google
 google.*##.g:has(a[href*=".pinterest.*"])
