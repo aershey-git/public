@@ -176,6 +176,8 @@ theregister.com###masthead
 ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 ##.banner-slider.embed-responsive
+##.premium-results-line
+##.videos-tube-friends
 zdnet.com##.page-header
 
 slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
