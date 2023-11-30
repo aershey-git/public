@@ -385,3 +385,13 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabledFirstSession", false);
 user_pref("extensions.quarantinedDomains.enabled", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
 user_pref("security.external_protocol_requires_permission", false);
+
+user_pref("browser.urlbar.addons.featureGate", false);
+user_pref("browser.urlbar.mdn.featureGate", false);
+user_pref("browser.urlbar.pocket.featureGate", false);
+user_pref("browser.urlbar.suggest.searches", false);
+user_pref("browser.urlbar.trending.featureGate", false);
+user_pref("browser.urlbar.trending.featureGate", false);
+user_pref("browser.urlbar.weather.featureGate", false);
+user_pref("cookiebanners.service.enableGlobalRules", true);
+user_pref("signon.privateBrowsingCapture.enabled", false);
