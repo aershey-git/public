@@ -93,3 +93,4 @@ duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
 /ad.js
 /signin*,from=~accounts.google.com
 login.wikimedia.org
+# www.nytimes.com/vi-assets/static-assets/main*^$script
