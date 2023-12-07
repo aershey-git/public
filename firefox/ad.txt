@@ -335,6 +335,8 @@ slashdot.org/purple.gif
 /ybar/exp.json
 /social-tracking*^$script
 /social-counts*^$script
+/csm/showads*
+/shreddit/assets/ad/
 
 ||youtube.com/embed/$3p,frame,redirect=click2load.html
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
