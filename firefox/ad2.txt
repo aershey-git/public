@@ -96,6 +96,8 @@ gstatic.com/recaptcha/
 /about.json
 /avatars/*$image,domain=redd.it|reddit.com
 *age-verification.js
+/assets/fonts/poppins*$font
+/static/media/image_icon*$image
 
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
