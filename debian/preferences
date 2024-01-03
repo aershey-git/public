@@ -1,0 +1,8 @@
+Package: linux-doc linux-headers-amd64 linux-image-amd64 linux-source linux-libc-dev qemu-guest-agent qemu-utils
+Pin: release o=Debian Backports
+Pin-Priority: -1
+
+Package: *
+Pin: release o=Debian Backports
+Pin-Priority: 600
+
