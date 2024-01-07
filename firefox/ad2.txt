@@ -141,9 +141,6 @@ forecast.weather.gov##.row.navbar-default.navbar
 fredericknewspost.com###site-header-container
 fredericknewspost.com###site-top-nav > .row
 fredericknewspost.com##.affix-top.hidden-print
-imdb.com##.ipc-shoveler--page0.ipc-shoveler--baseAlt.ipc-shoveler
-imdb.com##.ipc-shoveler--pageNaN.ipc-shoveler--baseAlt.ipc-shoveler
-imdb.com##.mediastrip_big
 lobste.rs##.comment_form_container.comment
 login.yahoo.com##.mbr-desktop-hd
 mail.yahoo.com##._yb_1h0mk._yb_1apb7 > ._yb_1c8sw
