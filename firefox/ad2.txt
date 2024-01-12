@@ -24,7 +24,7 @@
 ||mucdn.net^$font
 ||nyt.com^$font
 ||phoronix.com^$font
-||phoronix.net^$image
+# ||phoronix.net^$image
 ||slickdeals.net^$font
 ||twimg.com^$font
 ||verywellhealth.com^$font
@@ -72,7 +72,7 @@
 /signin*,from=~accounts.google.com
 /suggest-translation*
 /premium/premium*
-cloudfront.net/_next/static/chunks/
+# cloudfront.net/_next/static/chunks/
 
 dslr.net/nav/w50/
 duckduckgo.com/assets/logo*
@@ -180,4 +180,4 @@ zdnet.com##.breaking-news-container
 ##.videos-tube-friends
 zdnet.com##.page-header
 
-slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
+# slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
