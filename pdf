@@ -13,3 +13,7 @@ gs -sDEVICE=pdfwrite -r150 -sPAPERSIZE=letter -dPDFFitPage -dCompatibilityLevel=
     /printer selects output similar to the Acrobat Distiller "Print Optimized" (up to version X) setting.
     /prepress selects output similar to Acrobat Distiller "Prepress Optimized" (up to version X) setting.
     /default selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file. 
+
+convert in.png -resize 200x100 out.png
+convert in.jpg -rotate 90 out.jpg
+convert -resize 50% source.png dest.jpg
