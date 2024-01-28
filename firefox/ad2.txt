@@ -86,6 +86,8 @@ login.wikimedia.org
 nyt.com/fonts/
 redditstatic.com/author-tooltip*
 redditstatic.com/listing-comments*
+redditstatic.com/logo.svg
+redditstatic.com/icon-sponsored-rank.png
 timespeople.nytimes.com/avatars/
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/project-logos/*
