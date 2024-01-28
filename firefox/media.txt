@@ -14,20 +14,22 @@ ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
 -fflags +genpts+igndts -i
 
 # mp4 - XviD, H.264 - MP3, ADPCM, AAC
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
 
 # mkv - H.264 - MP3, AC3, LPCM, ADPCM
--hide_banner -f matroska -reserve_index_space 256k -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mkv
 
 # mkv ADPCM
--hide_banner -f matroska -reserve_index_space 256k -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 0.mkv
 
 # mp4 AAC
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 0.mp4
 
--hide_banner -f mp4 -movflags +faststart -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -profile:v 100 -preset 3 -c:a aac -ac 2 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a copy 0.mp4
 
--hide_banner -f matroska -reserve_index_space 256k -bf 2 -g 16 -map_metadata -1 -sn -dn -c:v h264_qsv -profile:v 100 -preset 3 -c:a adpcm_ima_wav -ac 2  0.mkv
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a aac -ac 2 0.mp4
+
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a adpcm_ima_wav -ac 2 0.mkv
 
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 -map 0:0 -map 0:2 -c:v copy -c:a copy 0.mp4
@@ -53,10 +55,11 @@ ffmpeg -h muxer=matroska
 ffmpeg -h muxer=mp4
 
 
+-vf setsar=1:1
 
-ffmpeg -hwaccel qsv -c:v h264_qsv -i input.mp4 -c:v h264_qsv 
+-level 4.0
 
-ffmpeg.exe -i 1-1.mkv -codec copy -pix_fmt yuv420p -c:v h264_amf -movflags +faststart 0.mkv
+-pix_fmt yuv420p 
 
 ffprobe -show_streams -i "file.mp4"
 
@@ -64,11 +67,20 @@ ffprobe -show_streams -i "file.mp4"
 HandBrakeCLI.exe
 --enable-qsv-decoding
 
--e qsv_h264 -E copy -o 0.mp4
--e qsv_h265 -E copy -o 0.mkv
 
---format av_mp4 --encoder qsv_h264 --first-audio --aencoder av_aac --mixdown stereo --crop-mode none -o 0.mp4
+
+-hwaccel d3d11va -hwaccel_output_format d3d11 -i
+-c:v h264_amf -profile:v 100 -level 41 -quality balanced 0.mp4
+
+-hwaccel d3d11va -i
+-c:v h264 -profile:v high -level 41 -tune film 0.mp4
+
+--format av_mp4 --encoder h264_amf --first-audio --aencoder av_aac --mixdown stereo --crop-mode none -o 0.mp4
 
 -f 
 av_mp4
 av_mkv
+-e
+h264_amf
+hevc_amf
+
