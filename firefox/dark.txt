@@ -12,3 +12,31 @@ reddit.com##table:style(background-color: #D3D3D3 !important; )
 reddit.com##input:style(background-color: #D3D3D3 !important; )
 reddit.com##b:style(color: inherit !important; )
 reddit.com##.title:style(color: #000000 !important; )
+
+
+  ! Title: Dracula HN theme
+  news.ycombinator.com##body, .c00:style(color: #CCCCCC !important; background-color: #282835 !important; )
+  news.ycombinator.com##tr,td:style(background-color: #282835 !important; )
+  news.ycombinator.com##tr#pagespace:style(display: none !important; )
+  news.ycombinator.com###hnmain > tbody > tr:nth-child(1) table:style(background-color: #444757 !important; border-bottom: 10px solid #282835 !important; )
+  news.ycombinator.com###hnmain > tbody > tr:nth-child(1) td:style(background-color: #444757 !important; )
+  news.ycombinator.com##b.hnname > a:style(color: #a4fa90 !important; )
+  news.ycombinator.com##a:style(color: #ad96e4 !important; )
+  news.ycombinator.com##.subline:style(color: #ccc !important; )
+  news.ycombinator.com##.subline a:style(color: #999 !important; )
+  news.ycombinator.com##.score,#hnmain > tbody > tr:nth-child(1) td:last-child > span.pagetop:style(color: #e1772c !important; )
+  news.ycombinator.com##.sitestr:style(color: #a7d3e6 !important; )
+
+
+reddit.com##body, .c00:style(color: #CCCCCC !important; background-color: #282835 !important; )
+reddit.com##tr,td:style(background-color: #282835 !important; )
+reddit.com##tr#pagespace:style(display: none !important; )
+reddit.com###hnmain > tbody > tr:nth-child(1) table:style(background-color: #444757 !important; border-bottom: 10px solid #282835 !important; )
+reddit.com###hnmain > tbody > tr:nth-child(1) td:style(background-color: #444757 !important; )
+reddit.com##b.hnname > a:style(color: #a4fa90 !important; )
+reddit.com##a:style(color: #ad96e4 !important; )
+reddit.com##.subline:style(color: #ccc !important; )
+reddit.com##.subline a:style(color: #999 !important; )
+reddit.com##.score,#hnmain > tbody > tr:nth-child(1) td:last-child > span.pagetop:style(color: #e1772c !important; )
+reddit.com##.sitestr:style(color: #a7d3e6 !important; )
+
