@@ -1,14 +1,12 @@
+! Title: Dark
+! Expires: 1 day
+! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
-news.ycombinator.com##body:style(background: black)
-news.ycombinator.com##td:style(color: #dadada !important)
-news.ycombinator.com##table:style(background-color: #120F0D)
-news.ycombinator.com##div.toptext:style(color: #dadada)
-news.ycombinator.com##span.c00:style(color: #dadada !important)
-news.ycombinator.com##a:style(color: #ffa000 !important)
-news.ycombinator.com##span#karma:style(color: #faa000 !important)
-news.ycombinator.com##span.pagetop:style(color: #dadada !important)
-news.ycombinator.com##textarea:style(color: #404040 !important; background-color:black !important; )
-news.ycombinator.com###hnmain:style(background: #120F0D !important)
+news.ycombinator.com##body:style(background: #D3D3D3)
+news.ycombinator.com##table:style(background-color: #D3D3D3)
+news.ycombinator.com##a:style(color: #000000 !important)
+news.ycombinator.com##span#karma:style(color: #000000 !important)
+news.ycombinator.com###hnmain:style(background: #D3D3D3  !important)
 
 reddit.com##body, .side:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
 reddit.com##body, .media-gallery:style(color: #000000 !important; background-color: #D3D3D3 !important; )
