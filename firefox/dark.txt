@@ -1,19 +1,24 @@
-! Title: Dark
+! Title: 99 - Dark
 ! Expires: 1 day
 ! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
-news.ycombinator.com##body:style(background: #D3D3D3)
-news.ycombinator.com##table:style(background-color: #D3D3D3)
+news.ycombinator.com##body:style(background: #DCDCDC)
+news.ycombinator.com##table:style(background-color: #DCDCDC)
 news.ycombinator.com##a:style(color: #000000 !important)
 news.ycombinator.com##span#karma:style(color: #000000 !important)
-news.ycombinator.com###hnmain:style(background: #D3D3D3  !important)
+news.ycombinator.com###hnmain:style(background: #DCDCDC  !important)
 
-reddit.com##body, .side:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
-reddit.com##body, .media-gallery:style(color: #000000 !important; background-color: #D3D3D3 !important; )
+reddit.com##body, .side:style(color: #CCCCCC !important; background-color: #DCDCDC !important; )
+reddit.com##body, .media-gallery:style(color: #000000 !important; background-color: #DCDCDC !important; )
 
-phoronix.com###content-bg:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
-phoronix.com###content:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
+phoronix.com###content-bg:style(color: #CCCCCC !important; background-color: #DCDCDC !important; )
+phoronix.com###content:style(color: #CCCCCC !important; background-color: #DCDCDC !important; )
 
-slashdot.org##body, .side:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
-slashdot.org##body > section:style(color: #CCCCCC !important; background-color: #D3D3D3 !important; )
+slashdot.org##body, .side:style(color: #CCCCCC !important; background-color: #DCDCDC !important; )
+slashdot.org##body > section:style(color: #CCCCCC !important; background-color: #DCDCDC !important; )
 slashdot.org###comments .container:style(color: #000000 !important; )
+
+duckduckgo.com###web_content_wrapper:style(background: #DCDCDC)
+duckduckgo.com##.cw.header:style(background: #DCDCDC)
+
+lwn.net##body, .flexcol.maincolumn:style(background: #DCDCDC)
