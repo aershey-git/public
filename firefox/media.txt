@@ -2,7 +2,7 @@ https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730
 
 youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-youtube-dl -v -c --no-cache-dir --all-subs --add-metadata --geo-bypass 
+youtube-dl -v -6 --progress --continue --no-check-certificates --no-cache-dir --all-subs --add-metadata --add-chapters --geo-bypass 
 
 ###############################################################################
 
@@ -54,7 +54,6 @@ ffmpeg -h encoder=hevc_qsv
 ffmpeg -h muxer=matroska
 ffmpeg -h muxer=mp4
 
-
 -vf setsar=1:1
 
 -level 4.0
@@ -63,10 +62,8 @@ ffmpeg -h muxer=mp4
 
 ffprobe -show_streams -i "file.mp4"
 
-
 HandBrakeCLI.exe
 --enable-qsv-decoding
-
 
 
 -hwaccel d3d11va -hwaccel_output_format d3d11 -i
