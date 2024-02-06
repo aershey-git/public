@@ -62,3 +62,19 @@ sudo systemctl start dnsmasq.service
 
 sudo systemctl enable wg-quick@wg0.service
 sudo systemctl start wg-quick@wg0.service
+
+#################################################
+nslookup www.ibm.com 127.0.0.1:5099
+nslookup www.ibm.com 127.0.0.1:5453
+
+dig -t TXT +short o-o.myaddr.l.google.com
+
+nslookup -port=5453 www.dell.com  127.0.0.1
+nslookup -port=5099 www.ibm.com  127.0.0.1
+
+dig +norec +edns=0 soa zone 127.0.0.1 -p 5099
+dig +norec +edns=0 soa zone 127.0.0.1 -p 5453
+
+
+#################################################
+
