@@ -1,0 +1,12 @@
+diskpart
+list disk
+select disk 1
+list partition
+select partition 1
+assign 
+exit
+
+delete partition override
+create partition primary
+format fs=exFAT quick
+
