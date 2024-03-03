@@ -37,6 +37,7 @@
 ||cnet.com^$font
 ||zdnet.com^$font
 ||techrepublic.com^$font
+||runnersworld.com^$font
 
 ||ycombinator.com/y18.svg
 ||ycombinator.com/triangle.svg
@@ -101,7 +102,6 @@ gstatic.com/recaptcha/
 /assets/fonts/poppins*$font
 /static/media/image_icon*$image
 
-
 ##.banner-slider.embed-responsive
 ##.premium-results-line
 ##.videos-tube-friends
@@ -111,11 +111,13 @@ arstechnica.com##.scrolled-up.site-header
 arstechnica.com##.site-footer
 arstechnica.com##.site-header
 bbc.com###orb-banner
+bbc.com##.e140xmwz0.ssrcss-1oe5f4g-ChameleonGlobalNavigation
 bbc.com##.e4np8gz0.css-wlr68w-GlobalNavigation
 bbc.com##.e4np8gz0.ssrcss-1hf0j38-GlobalNavigation
 bbc.com##.e4np8gz0.ssrcss-1wqums9-GlobalNavigation
 bbc.com##.e9p57e2.ssrcss-yy5aio-Masthead
 bbc.com##.e9p57e3.ssrcss-wmb5oz-Masthead
+bbc.com##.eturukr0.ssrcss-1gt3c8g-LeaderboardDiv.dotcom-ad
 bbc.com##.gel-layout.ws-core-social-slice__wrapper
 bbc.com##.nw-o-news-branding
 bbc.com##.orb-footer
@@ -128,11 +130,17 @@ cnet.com##.-hasCurated.is-collapsed.c-siteHeader
 cnet.com##.-noscroll.c-trendingBar
 dslreports.com##.areae
 dslreports.com##.navtt
+ebay.com##.s-answer-region-above-river.s-answer-region
+ebay.com##.str-header-wrap
 finance.yahoo.com###Col1-2-QuoteVideo-Proxy
 finance.yahoo.com###Col2-1-QuoteModule-Proxy
 finance.yahoo.com###Lead-2-FeatureBar-Proxy
+finance.yahoo.com###Lead-2-FinanceHeader-Proxy
+finance.yahoo.com###Lead-3-FeatureBar-Proxy
 finance.yahoo.com###Lead-4-ScreenerCriteria-Proxy
 finance.yahoo.com###mrt-node-Lead-1-FinanceHeader
+finance.yahoo.com###mrt-node-Lead-2-FinanceHeader
+finance.yahoo.com###mrt-node-Lead-3-FeatureBar
 finance.yahoo.com###Navigation
 finance.yahoo.com###YDC-UH-Stack-Composite
 forecast.weather.gov###fcst-search
@@ -143,38 +151,70 @@ forecast.weather.gov##.row.navbar-default.navbar
 fredericknewspost.com###site-header-container
 fredericknewspost.com###site-top-nav > .row
 fredericknewspost.com##.affix-top.hidden-print
+fredericknewspost.com##.main-sidebar-wrap
+gfycat.com##.navigation-container
+imdb.com##[class*="Hero__ProLinkBelowLarge"]
+imdb.com##[class^="TitleMainRightRailGroup__SidebarContainer"]
+imdb.com##[data-testid="contribution"]
+imdb.com##[data-testid="title-cast-proupsell"]
+imdb.com##[data-testid="title-details-companycredits"]
+imdb.com##[data-testid="title-hero-proupsell"]
+imdb.com##[data-testid="videos-section"]
+imdb.com##[data-testid='banner-container']
+imdb.com##a[href^='https://pro.imdb.com/']
+imgur.com##.BottomRecirc
 lobste.rs##.comment_form_container.comment
 login.yahoo.com##.mbr-desktop-hd
 mail.yahoo.com##._yb_1h0mk._yb_1apb7 > ._yb_1c8sw
+mail.yahoo.com##._yb_1m4og._yb_1cwsz
+minecraft.gamepedia.com###siderail_minecraft_gamepedia
+netflix.com##.billboard-row
 nytimes.com###in-story-masthead
 nytimes.com##.css-1y7qxpi
 nytimes.com##.css-x00beb
 nytimes.com##.e1m0pzr40.css-1r6wvpq.NYTAppHideMasthead
 nytimes.com##.e1ppw5w20.css-stz0qb
 nytimes.com##.e1suatyy0.css-1r6wvpq.NYTAppHideMasthead
+nytimes.com##.e1xxpj0j1.css-1odt4j
+nytimes.com##.e1xxpj0j1.css-ovdo6x
+osnews.com###simple-banner
+osnews.com##.regular_header.main-header
 phoronix.com###main > .article-box
 phoronix.com###sidebar
 phoronix.com##.after-article
 preview.redd.it/award_images/
+psprices.com##.ad-placeholder
+psprices.com##.promo__ads_off
 reddit.com##.footer-parent
 reddit.com##.linkinfo
 reddit.com##.login-form-side.login-form
+reddit.com##.read-next-container
 slashdot.org##.scroll-fixable.rail-right
 slashdot.org##body > .container
 slickdeals.net###hottopic_rightcol
 slickdeals.net###sideColumn
 slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-slickdealsHeader
+slickdeals.net##.breadcrumbs
 slickdeals.net##.extension.announcementBar
 slickdeals.net##.global_wrap > .tborder
+slickdeals.net##.leftColumn
 slickdeals.net##.pageHeader
 slickdeals.net##.stickyHeader.categoryBar
 slickdeals.net##.stickyHeader.headerContainer
 slickdeals.net##.stickyHeader.headerPlaceholder
 slickdeals.net##.topContent
 slickdeals.net##.ui-helper-clearfix
+stackexchange.com##.js-consent-banner
+stackoverflow.com##.community-bulletin.module
 techrepublic.com##.page-header
 theregister.com###masthead
+theverge.com##.m-privacy-consent
+twitter.com##[aria-label="Timeline: Trending now"]
+twitter.com##[aria-label="Who to follow"]
+unsplash.com##[rel="sponsored"]
+wikia.com##.featured-video__wrapper
+wikipedia.org##.banner
 ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
