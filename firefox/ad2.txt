@@ -101,6 +101,10 @@ gstatic.com/recaptcha/
 /assets/fonts/poppins*$font
 /static/media/image_icon*$image
 
+
+##.banner-slider.embed-responsive
+##.premium-results-line
+##.videos-tube-friends
 arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
 arstechnica.com##.scrolled-up.site-header
@@ -132,13 +136,9 @@ finance.yahoo.com###mrt-node-Lead-1-FinanceHeader
 finance.yahoo.com###Navigation
 finance.yahoo.com###YDC-UH-Stack-Composite
 forecast.weather.gov###fcst-search
-forecast.weather.gov###fcst-search
-forecast.weather.gov###news-items
 forecast.weather.gov###news-items
 forecast.weather.gov###quickLinkscom
 forecast.weather.gov##.clearfix.row
-forecast.weather.gov##.clearfix.row
-forecast.weather.gov##.row.navbar-default.navbar
 forecast.weather.gov##.row.navbar-default.navbar
 fredericknewspost.com###site-header-container
 fredericknewspost.com###site-top-nav > .row
@@ -177,9 +177,8 @@ techrepublic.com##.page-header
 theregister.com###masthead
 ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
-##.banner-slider.embed-responsive
-##.premium-results-line
-##.videos-tube-friends
 zdnet.com##.page-header
 
+bbc.com##*:style(font-family: serif !important;)
 # slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
+# lwn.net##*:style(font-family: unset !important;)
