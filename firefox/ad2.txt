@@ -219,6 +219,7 @@ ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
 
+www.imdb.com##*:style(font-family: Helvetica !important;)
 bbc.com##*:style(font-family: serif !important;)
 # slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
 # lwn.net##*:style(font-family: unset !important;)
