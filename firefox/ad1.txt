@@ -90,6 +90,8 @@ google.*##.g:has(a[href*="thetopsites.com"])
 duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
 *##body > div > div:has(*:has-text(/To make Medium work.*Privacy Policy.*Cookie Policy/i))
 
+/latest/dotcom-bootstrap.js
+
 /ad.js
 /signin*,from=~accounts.google.com
 login.wikimedia.org
