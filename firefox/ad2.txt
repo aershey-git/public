@@ -89,6 +89,7 @@ redditstatic.com/author-tooltip*
 redditstatic.com/listing-comments*
 redditstatic.com/logo.svg
 redditstatic.com/icon-sponsored-rank.png
+redditstatic.com/about-this-ad*
 timespeople.nytimes.com/avatars/
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/project-logos/*
