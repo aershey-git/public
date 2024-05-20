@@ -106,10 +106,10 @@ gstatic.com/recaptcha/
 ##.banner-slider.embed-responsive
 ##.premium-results-line
 ##.videos-tube-friends
-arstechnica.com###article-footer
+# arstechnica.com###article-footer
 arstechnica.com##.inline-playlist
 arstechnica.com##.scrolled-up.site-header
-arstechnica.com##.site-footer
+# arstechnica.com##.site-footer
 arstechnica.com##.site-header
 bbc.com###orb-banner
 bbc.com##.e140xmwz0.ssrcss-1oe5f4g-ChameleonGlobalNavigation
