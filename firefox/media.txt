@@ -4,6 +4,9 @@ youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --au
 
 youtube-dl -v -6 --progress --continue --no-check-certificates --no-cache-dir --all-subs --add-metadata --add-chapters --geo-bypass 
 
+-f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
+-f 137+140
+
 ###############################################################################
 
 Unpack DivX-style packed B-frames. 
