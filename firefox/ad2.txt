@@ -117,6 +117,11 @@ bbc.com##.eturukr0.ssrcss-1gt3c8g-LeaderboardDiv.dotcom-ad
 bbc.com##.gel-layout.ws-core-social-slice__wrapper
 bbc.com##.nw-o-news-branding
 bbc.com##.orb-footer
+arstechnica.com###article-footer
+arstechnica.com##.inline-playlist
+arstechnica.com##.scrolled-up.site-header
+arstechnica.com##.site-footer
+arstechnica.com##.site-header
 camelcamelcamel.com###content > nav
 camelcamelcamel.com###pagetitle
 camelcamelcamel.com##.ad.collapse.expanded.column.row
@@ -214,6 +219,15 @@ wikipedia.org##.banner
 ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
+www.ebay.com##.x-vi-evo-main-container__top-panel
+/shreddit/assets/right-rail/
+/styles/communityIcon
+/shreddit/en-US/feed-ad*
+/shreddit/en-US/auth-*
+/shreddit/en-US/left-nav*
+/shreddit/en-US/ad-event*
+/shreddit/en-US/notifications*
+redditstatic.com/about-this-ad*
 
 www.imdb.com##*:style(font-family: Helvetica !important;)
 bbc.com##*:style(font-family: serif !important;)
