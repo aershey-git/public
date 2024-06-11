@@ -2,7 +2,7 @@ https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730
 
 youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-youtube-dl -v -6 --progress --continue --no-check-certificates --no-cache-dir --all-subs --add-metadata --add-chapters --geo-bypass 
+youtube-dl -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-langs "en.*,en-*" --convert-subs srt --add-metadata --add-chapters --geo-bypass 
 
 -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
 -f 137+140
