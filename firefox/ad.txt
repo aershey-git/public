@@ -483,3 +483,5 @@ runnersworld.com/auth/checkaccess*
 *$removeparam=ysclid
 *$removeparam=itmmeta
 *$removeparam=hash
+*$removeparam=epid
+*$removeparam=ref
