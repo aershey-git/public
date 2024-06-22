@@ -21,3 +21,10 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 
 
 https://1.1.1.1/cdn-cgi/trace.
+
+
+cnn.com##*:style(font-family: unset !important)
+wikipedia.org##body:style(font-family: Verdana, sans-serif !important)
+lwn.net##body:style(font-family: Verdana, sans-serif !important)
+slashdot.org##body:style(font-family: Verdana, sans-serif !important)
+phoronix.com##*:style(font-family: Verdana !important)
