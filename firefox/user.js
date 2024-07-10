@@ -305,3 +305,7 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("ui.use_standins_for_native_colors", true);
 user_pref("webchannel.allowObject.urlWhitelist", "");
+user_pref("browser.urlbar.suggest.trending", false);
+user_pref("browser.urlbar.suggest.pocket", false);
+user_pref("browser.urlbar.suggest.recentsearches", false);
+user_pref("browser.urlbar.suggest.remotetab", false);
