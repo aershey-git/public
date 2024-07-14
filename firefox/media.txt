@@ -1,13 +1,17 @@
 https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730
 
-youtube-dl -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
+yt-dlp -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-youtube-dl -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-langs "en.*,en-*" --convert-subs srt --add-metadata --add-chapters --geo-bypass 
+yt-dlp -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-langs "en.*,en-*" --convert-subs srt --add-metadata --add-chapters --geo-bypass 
 
 -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
 -f 137+140
+-f 140 --extract-audio --audio-format m4a
 
 ###############################################################################
+
+-f ipod -vn -sn -dn -codec:a libfdk_aac
+-segment_time 00:20:00 -f segment -reset_timestamps 1
 
 Unpack DivX-style packed B-frames. 
 ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
