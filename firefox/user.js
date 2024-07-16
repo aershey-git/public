@@ -309,3 +309,4 @@ user_pref("browser.urlbar.suggest.trending", false);
 user_pref("browser.urlbar.suggest.pocket", false);
 user_pref("browser.urlbar.suggest.recentsearches", false);
 user_pref("browser.urlbar.suggest.remotetab", false);
+user_pref("dom.private-attribution.submission.enabled", false);
