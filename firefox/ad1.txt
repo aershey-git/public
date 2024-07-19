@@ -36,6 +36,9 @@ washingtonpost.com##.mb-lg.hide-for-print
 slashdot.org###firehose-message-tray
 www.phoronix.com###headerwrap
 www.phoronix.com###menuwrap
+www.nytimes.com###gateway-content
+www.bestbuy.com##.shop-pushdown-ad
+www.ebay.com##.str-header-wrap
 
 /wp-admin/admin-ajax.php
 css/phoronix.png
@@ -55,7 +58,11 @@ redditstatic.com/sprite-author-tooltip*
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/mobile/copyright/*
 wikipedia.org/static/images/project-logos/*
+fsdn.com/con/css/sftheme/sandiego/cmp.css
+fsdn.com/sd/NewsletterSubscription.png
+redditstatic.com/about-this-ad-modal*
 
+/img/new_mail_signout*
 /sdk/v1/ad.js
 /static/images/tourist.svg
 /amd_modules/webmd.oauth/
