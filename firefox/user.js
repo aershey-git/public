@@ -266,7 +266,7 @@ user_pref("security.enterprise_roots.enabled", false);
 user_pref("security.family_safety.mode", 0);
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("security.OCSP.enabled", 0);
-user_pref("security.OCSP.require", true);
+user_pref("security.OCSP.require", false);
 user_pref("security.osclientcerts.autoload", false);
 user_pref("security.pki.crlite_mode", 2);
 user_pref("security.remote_settings.crlite_filters.enabled", true);
