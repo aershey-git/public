@@ -22,6 +22,8 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 
 https://1.1.1.1/cdn-cgi/trace.
 
+https://tls-ech.dev/
+https://defo.ie/ech-check.php
 
 cnn.com##*:style(font-family: unset !important)
 wikipedia.org##body:style(font-family: Verdana, sans-serif !important)
