@@ -8,10 +8,11 @@ yt-dlp -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-
 -f 137+140
 -f 140 --extract-audio --audio-format m4a
 
+for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
 ###############################################################################
 
 -f ipod -vn -sn -dn -codec:a libfdk_aac
--segment_time 00:20:00 -f segment -reset_timestamps 1
+-i input.mp4 -c copy -map 0 -segment_time 00:20:00 -f segment -reset_timestamps 1 output%03d.mp4
 
 Unpack DivX-style packed B-frames. 
 ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
