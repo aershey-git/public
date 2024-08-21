@@ -10,3 +10,7 @@ delete partition override
 create partition primary
 format fs=exFAT quick
 
+dig blog.cloudflare.com -t TYPE65
+dig o-o.myaddr.google.com txt
+dig -p 5453 o-o.myaddr.google.com txt @0::1
+dig -p 5099 o-o.myaddr.google.com txt @127.0.0.1
