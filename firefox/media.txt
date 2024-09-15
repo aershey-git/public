@@ -8,9 +8,12 @@ yt-dlp -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-
 -f 137+140
 -f 140 --extract-audio --audio-format m4a
 
-for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
+for i in *.mp4; do ffmpeg -i "$i" <additional options> "encoded/${i%.*}.mp4"; done
+ffmpeg -i input -f null -
+
 ###############################################################################
 
+-c:a aac_at -aac_at_mode 3
 -f ipod -vn -sn -dn -codec:a libfdk_aac
 -i input.mp4 -c copy -map 0 -segment_time 00:20:00 -f segment -reset_timestamps 1 output%03d.mp4
 
