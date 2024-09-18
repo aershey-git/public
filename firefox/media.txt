@@ -13,7 +13,11 @@ ffmpeg -i input -f null -
 
 ###############################################################################
 
--c:a aac_at -aac_at_mode 3
+Unpack DivX-style packed B-frames. 
+ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
+
+-c:a aac_at -aac_at_mode 3 # MacOS only
+
 -f ipod -vn -sn -dn -codec:a libfdk_aac
 -i input.mp4 -c copy -map 0 -segment_time 00:20:00 -f segment -reset_timestamps 1 output%03d.mp4
 
