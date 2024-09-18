@@ -1,29 +1,61 @@
 {
     "policies": {
       "DisablePocket": true,
+	  "PrivateBrowsingModeAvailability": 2,
+	  "AutofillAddressEnabled": false,
+	  "AutofillCreditCardEnabled": false,
+	  "DisableFeedbackCommands": true,
+	  "DisableEncryptedClientHello": false,
+	  "DisableFirefoxAccounts": true,
+	  "DisableFirefoxStudies": true,
+	  "DisableTelemetry": true,
+	  "DontCheckDefaultBrowser": true,
+	  "HardwareAcceleration": true,
+	  "HttpsOnlyMode": "force_enabled",
+	  "NetworkPrediction": false,
+	  "OfferToSaveLogins": false,
+	  "PasswordManagerEnabled": false,
+	  "PostQuantumKeyAgreementEnabled": true,
+	  "RequestedLocales": "en-US",
+	  "SanitizeOnShutdown": true,
+	  "SearchSuggestEnabled": false,
+	  "SSLVersionMin": "tls1.2",
+	  "TranslateEnabled": false,
+	  "WindowsSSO": false,
       "Preferences": {
         "intl.accept_languages": "en-US"
 	}, 
+
+   "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": true,
+      "FormData": true,
+      "History": true,
+      "Sessions": true,
+      "SiteSettings": true,
+      "OfflineApps": true,
+      "Locked": true
+    },
  
+	  "FirefoxSuggest": {
+      "WebSuggestions": false,
+      "SponsoredSuggestions": false,
+      "ImproveSuggest": false,
+      "Locked": true
+    },
+	
       "UserMessaging": {
 	  "WhatsNew": false,
 	  "ExtensionRecommendations": false,
 	  "FeatureRecommendations": false,
 	  "UrlbarInterventions": false,
+	  "FirefoxLabs": false,
 	  "SkipOnboarding": true,
-	  "MoreFromMozilla": false
+	  "MoreFromMozilla": false,
+	  "Locked": true
       },
-  
-    "SearchEngines": {
-     "Default": "DuckDuckGo",
-     "Remove": [
-        "Google",
-        "Bing",
-        "Amazon.com",
-        "eBay"
-      ]
-    },
-        
+         
       "Authentication": {
         "AllowNonFQDN": {
           "SPNEGO": false,
@@ -68,13 +100,10 @@
         "Value": true,
         "Cryptomining": true,
         "Fingerprinting": true,
+		"EmailTracking": true,
         "Locked": true
       },
    
-      "FlashPlugin": {
-        "Default": false,
-        "Locked": true
-      },
   
       "FirefoxHome": {
         "Search": false,
