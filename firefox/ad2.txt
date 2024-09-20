@@ -236,4 +236,6 @@ bbc.com##*:style(font-family: serif !important;)
 
 reddit.com##body:style(background-color: #F4ECD8 !important;)
 reddit.com##.side:style(background-color: #F4ECD8 !important;)
+reddit.com##.md:style(background-color: #F4ECD8 !important;)
 slashdot.org##section:style(background-color: #F4ECD8 !important;)
+lwn.net##section:style(background-color: #F4ECD8 !important;)
