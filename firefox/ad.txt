@@ -138,6 +138,9 @@
 ||launchdarkly.com^$important
 ||targeting.washingtonpost.com^$important
 ||podcast.posttv.com^$important
+||media.net^$important
+||openwebmp.com^$important
+||assertcom.de^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
