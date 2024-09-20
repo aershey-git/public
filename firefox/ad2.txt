@@ -233,3 +233,7 @@ www.imdb.com##*:style(font-family: Helvetica !important;)
 bbc.com##*:style(font-family: serif !important;)
 # slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
 # lwn.net##*:style(font-family: unset !important;)
+
+reddit.com##body:style(background-color: #F4ECD8 !important;)
+reddit.com##.side:style(background-color: #F4ECD8 !important;)
+slashdot.org##section:style(background-color: #F4ECD8 !important;)
