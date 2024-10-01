@@ -318,3 +318,4 @@ user_pref("ui.use_standins_for_native_colors", true);
 user_pref("webchannel.allowObject.urlWhitelist", "");
 user_pref("browser.contentanalysis.enabled", false);
 user_pref("browser.contentanalysis.default_result", 0);
+user_pref("network.dns.force_waiting_https_rr", true);
