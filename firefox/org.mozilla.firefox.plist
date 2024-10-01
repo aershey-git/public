@@ -385,7 +385,7 @@
 		<key>network.dns.echconfig.fallback_to_origin_when_all_failed</key>
 		<dict>
 			<key>Value</key>
-			<true/>
+			<false/>
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
