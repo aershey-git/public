@@ -61,18 +61,25 @@ ffprobe -show_streams
 ffmpeg -hwaccel dxva2 
 ffmpeg -hwaccel auto 
 
-ffmpeg -encoders
+ffmpeg -h encoder=aac_at
+ffmpeg -h encoder=libfdk_aac
 ffmpeg -h encoder=aac
+
 ffmpeg -h encoder=h264
+ffmpeg -h encoder=hevc
 ffmpeg -h encoder=h264_qsv
 ffmpeg -h encoder=hevc_qsv
+ffmpeg -h encoder=h264_videotoolbox
+ffmpeg -h encoder=hevc_videotoolbox
+
 ffmpeg -h muxer=matroska
 ffmpeg -h muxer=mp4
+ffmpeg -h muxer=ipod
 
 -vf setsar=1:1
 
--level 4.0
-
+-profile high
+-level 42
 -pix_fmt yuv420p 
 
 ffprobe -show_streams -i "file.mp4"
