@@ -366,6 +366,38 @@
 			<string>locked</string>
 		</dict>
 
+		<key>network.dns.echconfig.enabled</key>
+		<dict>
+			<key>Value</key>
+			<true/>
+			<key>Status</key>
+			<string>locked</string>
+		</dict>
+
+		<key>network.dns.http3_echconfig.enabled</key>
+		<dict>
+			<key>Value</key>
+			<true/>
+			<key>Status</key>
+			<string>locked</string>
+		</dict>
+
+		<key>network.dns.echconfig.fallback_to_origin_when_all_failed</key>
+		<dict>
+			<key>Value</key>
+			<true/>
+			<key>Status</key>
+			<string>locked</string>
+		</dict>
+
+		<key>network.dns.force_waiting_https_rr</key>
+		<dict>
+			<key>Value</key>
+			<true/>
+			<key>Status</key>
+			<string>locked</string>
+		</dict>
+
 		<key>network.dns.disablePrefetchFromHTTPS</key>
 		<dict>
 			<key>Value</key>
