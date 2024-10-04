@@ -319,3 +319,5 @@ user_pref("webchannel.allowObject.urlWhitelist", "");
 user_pref("browser.contentanalysis.enabled", false);
 user_pref("browser.contentanalysis.default_result", 0);
 user_pref("network.dns.force_waiting_https_rr", true);
+user_pref("browser.tabs.hoverPreview.enabled", false);
+user_pref("browser.tabs.hoverPreview.showThumbnails", false);
