@@ -141,6 +141,7 @@
 ||media.net^$important
 ||openwebmp.com^$important
 ||assertcom.de^$important
+||6sc.co^$important
 #######################################################
 ||adobe.com^$important,third-party
 ||adobe.io^$important,third-party
