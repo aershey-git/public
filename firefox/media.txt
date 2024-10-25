@@ -6,7 +6,7 @@ yt-dlp -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-
 
 -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
 -f 137+140
--f 140 --extract-audio --audio-format m4a
+-f 140 --extract-audio --add-metadata --audio-format m4a
 
 for i in *.mp4; do ffmpeg -i "$i" <additional options> "encoded/${i%.*}.mp4"; done
 ffmpeg -i input -f null -
@@ -17,15 +17,15 @@ afconvert intermediate.caf -d aac -f m4af -ue pgcm 2 --soundcheck-read -b 256000
 ###############################################################################
 
 Unpack DivX-style packed B-frames. 
-ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
+ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes 0.avi
 
--c:a aac_at -aac_at_mode 3 # MacOS only
+-c:a aac_at -aac_at_mode 3 0.m4a # MacOS only
 
 -f ipod -vn -sn -dn -codec:a libfdk_aac
 -i input.mp4 -c copy -map 0 -segment_time 00:20:00 -f segment -reset_timestamps 1 output%03d.mp4
 
 Unpack DivX-style packed B-frames. 
-ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
+ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes 0.avi
 
 -hide_banner -f srt -map 0:s:0 0.srt
 
@@ -57,7 +57,7 @@ https://trac.ffmpeg.org/wiki/Hardware/QuickSync
 https://trac.ffmpeg.org/wiki/HWAccelIntro
 https://trac.ffmpeg.org/wiki/Encode/HighQualityAudio
 
--ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy output1.mp4
+-ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy 0.mp4
 
 ffprobe -show_streams 
 
