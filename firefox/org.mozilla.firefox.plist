@@ -476,18 +476,32 @@
 	<dict>
 		<key>Block</key>
 		<array>
+			<string>*://*.2mdn.net/*</string>			
+			<string>*://*.2o7.net/*</string>
+			<string>*://*.3lift.com/*</string>
+			<string>*://*.a-msedge.net/*</string>
 			<string>*://*.aaxads.com/*</string>
+			<string>*://*.ad-delivery.net/*</string>
 			<string>*://*.addthis.com/*</string>
 			<string>*://*.adnxs.com/*</string>
 			<string>*://*.adobedtm.com/*</string>
 			<string>*://*.ads.yahoo.com/*</string>
+			<string>*://*.adsafeprotected.com/*</string>
+			<string>*://*.adsrvr.org/*</string>
 			<string>*://*.advertising.com/*</string>
 			<string>*://*.amazon-adsystem.com/*</string>
+			<string>*://*.amplitude.com/*</string>
 			<string>*://*.app-measurement.com/*</string>
 			<string>*://*.app.link/*</string>
+			<string>*://*.applovin.com/*</string>
 			<string>*://*.atdmt.com/*</string>
+			<string>*://*.bidgear.com/*</string>
+			<string>*://*.bidswitch.net/*</string>
 			<string>*://*.brightcove.com/*</string>
+			<string>*://*.btloader.com/*</string>
 			<string>*://*.btrll.com/*</string>
+			<string>*://*.casalemedia.com/*</string>
+			<string>*://*.cedexis.com/*</string>
 			<string>*://*.comscoreresearch.com/*</string>
 			<string>*://*.contextual.media.net/*</string>
 			<string>*://*.control.kochava.com/*</string>
@@ -495,17 +509,25 @@
 			<string>*://*.crashlytics.com/*</string>
 			<string>*://*.criteo.net/*</string>
 			<string>*://*.crwdcntrl.net/*</string>
+			<string>*://*.demdex.net/*</string>
 			<string>*://*.disqus.com/*</string>
 			<string>*://*.doubleclick.net/*</string>
 			<string>*://*.doubleverify.com/*</string>
 			<string>*://*.facebook.com/*</string>
 			<string>*://*.facebook.net/*</string>
+			<string>*://*.fb.com/*</string>
+			<string>*://*.fb.watch/*</string>
 			<string>*://*.fbcdn.net/*</string>
+			<string>*://*.fbsbx.com/*</string>
 			<string>*://*.fc.yahoo.com/*</string>
+			<string>*://*.footprintdns.com/*</string>
+			<string>*://*.g00.*/*</string>
 			<string>*://*.ga.gfycat.com/*</string>
 			<string>*://*.gemini.yahoo.com/*</string>
 			<string>*://*.geo-um.btrll.com/*</string>
 			<string>*://*.getpocket.com/*</string>
+			<string>*://*.globalsign.com/*</string>
+			<string>*://*.go-mpulse.net/*</string>
 			<string>*://*.google-analytics.com/*</string>
 			<string>*://*.googleadapis.l.google.com/*</string>
 			<string>*://*.googleadservices.com/*</string>
@@ -514,12 +536,17 @@
 			<string>*://*.googletagservices.com/*</string>
 			<string>*://*.gravatar.com/*</string>
 			<string>*://*.heapanalytics.com/*</string>
+			<string>*://*.iadsdk.apple.com/*</string>
 			<string>*://*.imrworldwide.com/*</string>
 			<string>*://*.indexww.com/*</string>
+			<string>*://*.inmobi.com/*</string>
+			<string>*://*.inscname.net/*</string>
+			<string>*://*.insnw.net/*</string>
 			<string>*://*.instagram.com/*</string>
 			<string>*://*.janrain.com/*</string>
 			<string>*://*.jwpltx.com/*</string>
 			<string>*://*.krxd.net/*</string>
+			<string>*://*.lencr.org/*</string>
 			<string>*://*.lijit.com/*</string>
 			<string>*://*.litix.io/*</string>
 			<string>*://*.measuread.com/*</string>
@@ -528,7 +555,13 @@
 			<string>*://*.mixpanel.com/*</string>
 			<string>*://*.moatads.com/*</string>
 			<string>*://*.newrelic.com/*</string>
+			<string>*://*.nr-data.net/*</string>
 			<string>*://*.omtrdc.net/*</string>
+			<string>*://*.omtrdc.net/*</string>			
+			<string>*://*.onetag-sys.com/*</string>
+			<string>*://*.onetrust.com/*</string>
+			<string>*://*.online-metrix.net/*</string>
+			<string>*://*.openx.net/*</string>
 			<string>*://*.optimizely.com/*</string>
 			<string>*://*.outbrain.com/*</string>
 			<string>*://*.pinimg.com/*</string>
@@ -537,15 +570,22 @@
 			<string>*://*.pubmatic.com/*</string>
 			<string>*://*.quantserve.com/*</string>
 			<string>*://*.reddit.com/api/*</string>
+			<string>*://*.rlcdn.com/*</string>
 			<string>*://*.rubiconproject.com/*</string>
 			<string>*://*.rvapps.io/*</string>
 			<string>*://*.sail-horizon.com/*</string>
 			<string>*://*.scorecardresearch.com/*</string>
+			<string>*://*.sentry.io/*</string>
 			<string>*://*.serving-sys.com/*</string>
+			<string>*://*.smartadserver.com/*</string>
+			<string>*://*.stack-sonar.com/*</string>
 			<string>*://*.stacksocial.com/*</string>
 			<string>*://*.stannum-sub.azurewebsites.net/*</string>
 			<string>*://*.supersonicads.com/*</string>
 			<string>*://*.taboola.com/*</string>
+			<string>*://*.telemetry.mozilla.org/*</string>
+			<string>*://*.tfbnw.net/*</string>
+			<string>*://*.thefacebook.com/*</string>
 			<string>*://*.tiktok.com/*</string>
 			<string>*://*.tiktokcdn-us.com/*</string>
 			<string>*://*.tiktokcdn.com/*</string>
@@ -553,6 +593,7 @@
 			<string>*://*.trafficstars.com/*</string>
 			<string>*://*.use.typekit.net/*</string>
 			<string>*://*.ybp.yahoo.com/*</string>
+			<string>*://*.zog.link/*</string>
 			<string>*://*/*/ads*</string>
 			<string>*://*/*/ads/google/*</string>
 			<string>*://*/*/adsby*</string>
@@ -596,13 +637,20 @@
 			<string>*://ads-api.twitter.com/*</string>
 			<string>*://adservice.google.com/*</string>
 			<string>*://alb.reddit.com/*</string>
+			<string>*://analytics.google.com/*</string>
 			<string>*://analytics.twitter.com/*</string>
 			<string>*://api.gfycat.com/*</string>
+			<string>*://api.radar.io/*</string>
+			<string>*://app-measurement.com/*</string>
 			<string>*://assets.gfycat.com/*</string>
-			<string>*://bbci.co.uk//user-activity-helper/*</string> 
+			<string>*://atlas.cdn.yimg.com/*</string>
+			<string>*://beacon.rum.dynapis.info/*</string>
 			<string>*://beap-bc.yahoo.com/*</string>
+			<string>*://c.bing.com/*</string>
+			<string>*://c.brightcove.com/*</string>
 			<string>*://c.msn.com/*</string>
 			<string>*://csi.gstatic.com/*</string>
+			<string>*://dtm.*.*/*</string>
 			<string>*://fc.yahoo.com/*</string>
 			<string>*://fls-na.amazon.com/*</string>
 			<string>*://ga.gfycat.com/*</string>
@@ -612,8 +660,10 @@
 			<string>*://imdb.com/list/*</string>
 			<string>*://imdb.com/oscars/*</string>
 			<string>*://imdb.com/video/embed/*</string>
+			<string>*://improving.duckduckgo.com/*</string>
 			<string>*://js-agent.newrelic.com/*</string>
 			<string>*://mail-ads.google.com/*</string>
+			<string>*://metric.gstatic.com/*</string>
 			<string>*://metrics.gfycat.com/*</string>
 			<string>*://mybbc.files.bbci.co.uk/*</string>
 			<string>*://platform.twitter.com/*</string>
