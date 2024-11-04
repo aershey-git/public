@@ -671,16 +671,20 @@
 			<string>*://profiles.gfycat.com/*</string>
 			<string>*://push.api.bbci.co.uk/*</string>
 			<string>*://reddit-image.s3.amazonaws.com/*</string>
-			<string>*://redditstatic.com/awards2/*</string>
-			<string>*://redditstatic.com/desktoponboarding*</string>
-			<string>*://redditstatic.com/gold/premium/premium*</string>
-			<string>*://redditstatic.com/icon-badge-xpost*</string>
-			<string>*://redditstatic.com/listingsignupbar*</string>
-			<string>*://redditstatic.com/popup-notification*</string>
+			<string>*://*.reddit.com/api/*</string>
+			<string>*://*/gtm*</string>
+			<string>*://*/*/gtm*</string>
+			<string>*://*/icon-spons*</string>
+			<string>*://*/listingsignupbar*</string>
+			<string>*://*.redditstatic.com/awards2/*</string>
+			<string>*://*.redditstatic.com/desktoponboarding*</string>
+			<string>*://*/gold/premium/*</string>
+			<string>*://*.redditstatic.com/icon-badge-xpost*</string>
+			<string>*://*.redditstatic.com/popup-notification*</string>
 			<string>*://s.youtube.com/*</string>
 			<string>*://weblogin.gfycat.com/*</string>
 			<string>ftp://*/*</string>
-			<string>ws://*/**</string>
+			<string>ws://*/*</string>
 		</array>
 
 	</dict>
