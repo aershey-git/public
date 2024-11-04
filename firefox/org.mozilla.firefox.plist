@@ -163,11 +163,6 @@
 		<false/>
 		<key>Snippets</key>
 		<false/>
-		<key>Locked</key>
-		<true/>
-	</dict>
-	<key>FirefoxHome</key>
-	<dict>
 		<key>WebSuggestions</key>
 		<false/>
 		<key>SponsoredSuggestions</key>
@@ -274,8 +269,6 @@
 	</dict>
 	<key>PostQuantumKeyAgreementEnabled</key>
 	<true/>
-	
-
 	<key>Preferences</key>
 	<dict>
 		<key>accessibility.force_disabled</key>
@@ -284,8 +277,7 @@
 			<integer>1</integer>
 			<key>Status</key>
 			<string>default</string>
-		</dict>
-		
+			</dict>
 		<key>privacy.globalprivacycontrol.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -298,6 +290,14 @@
 		<dict>
 			<key>Value</key>
 			<true/>
+			<key>Status</key>
+			<string>locked</string>
+		</dict>
+
+		<key>geo.enabled</key>
+		<dict>
+			<key>Value</key>
+			<false/>
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
@@ -334,14 +334,6 @@
 			<string>locked</string>
 		</dict>
 
-		<key>geo.enabled</key>
-		<dict>
-			<key>Value</key>
-			<false/>
-			<key>Status</key>
-			<string>locked</string>
-		</dict>
-
 		<key>geo.provider.use_corelocation</key>
 		<dict>
 			<key>Value</key>
@@ -359,38 +351,6 @@
 		</dict>
 
 		<key>network.dns.disablePrefetch</key>
-		<dict>
-			<key>Value</key>
-			<true/>
-			<key>Status</key>
-			<string>locked</string>
-		</dict>
-
-		<key>network.dns.echconfig.enabled</key>
-		<dict>
-			<key>Value</key>
-			<true/>
-			<key>Status</key>
-			<string>locked</string>
-		</dict>
-
-		<key>network.dns.http3_echconfig.enabled</key>
-		<dict>
-			<key>Value</key>
-			<true/>
-			<key>Status</key>
-			<string>locked</string>
-		</dict>
-
-		<key>network.dns.echconfig.fallback_to_origin_when_all_failed</key>
-		<dict>
-			<key>Value</key>
-			<false/>
-			<key>Status</key>
-			<string>locked</string>
-		</dict>
-
-		<key>network.dns.force_waiting_https_rr</key>
 		<dict>
 			<key>Value</key>
 			<true/>
@@ -465,7 +425,20 @@
 		<string>en-US</string>
 	</array>
 	<key>SanitizeOnShutdown</key>
-	<true/>
+	<dict>
+		<key>Cache</key>
+		<true/>
+		<key>Cookies</key>
+		<true/>
+		<key>History</key>
+		<true/>
+		<key>Sessions</key>
+		<true/>
+		<key>SiteSettings</key>
+		<true/>
+		<key>Locked</key>
+		<true/>
+	</dict>
 	<key>SearchSuggestEnabled</key>
 	<false/>
 	<key>WindowsSSO</key>
@@ -635,7 +608,6 @@
 			<string>*://ga.gfycat.com/*</string>
 			<string>*://geo.yahoo.com/*</string>
 			<string>*://gql.reddit.com/*</string>
-			<string>*://www.reddit.com/*</string>
 			<string>*://imasdk.googleapis.com/*</string>
 			<string>*://imdb.com/list/*</string>
 			<string>*://imdb.com/oscars/*</string>
