@@ -476,7 +476,7 @@
 	<dict>
 		<key>Block</key>
 		<array>
-			<string>*://*.2mdn.net/*</string>			
+			<string>*://*.2mdn.net/*</string>
 			<string>*://*.2o7.net/*</string>
 			<string>*://*.3lift.com/*</string>
 			<string>*://*.a-msedge.net/*</string>
@@ -497,9 +497,11 @@
 			<string>*://*.atdmt.com/*</string>
 			<string>*://*.bidgear.com/*</string>
 			<string>*://*.bidswitch.net/*</string>
+			<string>*://*.braze.com/*</string>
 			<string>*://*.brightcove.com/*</string>
 			<string>*://*.btloader.com/*</string>
 			<string>*://*.btrll.com/*</string>
+			<string>*://*.bugsnag.com/*</string>
 			<string>*://*.casalemedia.com/*</string>
 			<string>*://*.cedexis.com/*</string>
 			<string>*://*.comscoreresearch.com/*</string>
@@ -556,7 +558,6 @@
 			<string>*://*.moatads.com/*</string>
 			<string>*://*.newrelic.com/*</string>
 			<string>*://*.nr-data.net/*</string>
-			<string>*://*.omtrdc.net/*</string>
 			<string>*://*.omtrdc.net/*</string>			
 			<string>*://*.onetag-sys.com/*</string>
 			<string>*://*.onetrust.com/*</string>
@@ -570,11 +571,16 @@
 			<string>*://*.pubmatic.com/*</string>
 			<string>*://*.quantserve.com/*</string>
 			<string>*://*.reddit.com/api/*</string>
+			<string>*://*.redditstatic.com/awards2/*</string>
+			<string>*://*.redditstatic.com/desktoponboarding*</string>
+			<string>*://*.redditstatic.com/icon-badge-xpost*</string>
+			<string>*://*.redditstatic.com/popup-notification*</string>
 			<string>*://*.rlcdn.com/*</string>
 			<string>*://*.rubiconproject.com/*</string>
 			<string>*://*.rvapps.io/*</string>
 			<string>*://*.sail-horizon.com/*</string>
 			<string>*://*.scorecardresearch.com/*</string>
+			<string>*://*.segment.io/*</string>
 			<string>*://*.sentry.io/*</string>
 			<string>*://*.serving-sys.com/*</string>
 			<string>*://*.smartadserver.com/*</string>
@@ -612,6 +618,7 @@
 			<string>*://*/*/geoip*</string>
 			<string>*://*/*/getVisitorLocation/*</string>
 			<string>*://*/*/gpt_and_prebid/*</string>
+			<string>*://*/*/gtm*</string>
 			<string>*://*/*/icon-sponsored*</string>
 			<string>*://*/*/imdbads/*</string>
 			<string>*://*/*/istats/*</string>
@@ -633,7 +640,11 @@
 			<string>*://*/appleauth*</string>
 			<string>*://*/favicon*</string>
 			<string>*://*/gold/awards/icon/*</string>
+			<string>*://*/gold/premium/*</string>
+			<string>*://*/gtm*</string>
+			<string>*://*/icon-spons*</string>
 			<string>*://*/icon-sponsored*</string>
+			<string>*://*/listingsignupbar*</string>
 			<string>*://ads-api.twitter.com/*</string>
 			<string>*://adservice.google.com/*</string>
 			<string>*://alb.reddit.com/*</string>
@@ -662,6 +673,7 @@
 			<string>*://imdb.com/video/embed/*</string>
 			<string>*://improving.duckduckgo.com/*</string>
 			<string>*://js-agent.newrelic.com/*</string>
+			<string>*://mads.amazon.com/*</string>
 			<string>*://mail-ads.google.com/*</string>
 			<string>*://metric.gstatic.com/*</string>
 			<string>*://metrics.gfycat.com/*</string>
@@ -671,16 +683,6 @@
 			<string>*://profiles.gfycat.com/*</string>
 			<string>*://push.api.bbci.co.uk/*</string>
 			<string>*://reddit-image.s3.amazonaws.com/*</string>
-			<string>*://*.reddit.com/api/*</string>
-			<string>*://*/gtm*</string>
-			<string>*://*/*/gtm*</string>
-			<string>*://*/icon-spons*</string>
-			<string>*://*/listingsignupbar*</string>
-			<string>*://*.redditstatic.com/awards2/*</string>
-			<string>*://*.redditstatic.com/desktoponboarding*</string>
-			<string>*://*/gold/premium/*</string>
-			<string>*://*.redditstatic.com/icon-badge-xpost*</string>
-			<string>*://*.redditstatic.com/popup-notification*</string>
 			<string>*://s.youtube.com/*</string>
 			<string>*://weblogin.gfycat.com/*</string>
 			<string>ftp://*/*</string>
