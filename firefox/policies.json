@@ -257,6 +257,7 @@
           "*://*.trafficstars.com/*",
           "*://*.use.typekit.net/*",
           "*://*.ybp.yahoo.com/*",
+	  "*://*.marketo.*/*",
           "*://*/*/ads*",
           "*://*/*/ads/google/*",
           "*://*/*/adsby*",
