@@ -330,7 +330,6 @@ slashdot.org/purple.gif
 /oauth/*
 /oauth2/*
 /pixel*
-## /plugins/*
 /prebid*
 /rapidworker*
 /stats/*
@@ -357,12 +356,10 @@ slashdot.org/purple.gif
 /assets/img/logo-full*
 /blank.gif
 /error_log*
-# /email-decode*
 /wp_grey.jpg
 /video-player.js
 /showads*
 
-# fredericknewspost.com/shared-content/art/tncms/user/user.js
 /classifieds/
 
 ||kinja-static.com^$font
@@ -386,8 +383,6 @@ scroll.com/embed/*
 bing.com/mouse*
 bing.com/ipv6test/test
 ||fonts.gstatic.com^$font,domain=www.google.com
-# /tncms/api/access.js
-# /tncms/subscription.js
 /tinygif*
 /blocks/subscriptions.chart-blocks*
 /arcio/fact-checker/item/
