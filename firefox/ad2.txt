@@ -10,7 +10,6 @@
 ||cbsistatic.com^$font
 ||dslreports.com/?identicon*$image
 ||emoji.redditmedia.com^$important
-# ||external-content.duckduckgo.com^
 ||gstatic.com^$font
 ||health.harvard.edu^$font
 ||healthline.com^$font
@@ -24,7 +23,6 @@
 ||mucdn.net^$font
 ||nyt.com^$font
 ||phoronix.com^$font
-# ||phoronix.net^$image
 ||slickdeals.net^$font
 ||twimg.com^$font
 ||verywellhealth.com^$font
@@ -73,7 +71,7 @@
 /signin*,from=~accounts.google.com
 /suggest-translation*
 /premium/premium*
-# cloudfront.net/_next/static/chunks/
+
 
 dslr.net/nav/w50/
 duckduckgo.com/assets/logo*
@@ -232,11 +230,11 @@ redditstatic.com/about-this-ad*
 www.imdb.com##*:style(font-family: Helvetica !important;)
 bbc.com##*:style(font-family: serif !important;)
 # slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
-slashdot.org##*:style(font-family: Verdana !important)
-lwn.net##pre:style(font-family: monospace !important;)
-lwn.net##*:style(font-family: Verdana !important)
+slashdot.org##body:style(font-family: Verdana !important)
 # lwn.net##*:style(font-family: unset !important;)
-phoronix.com##*:style(font-family: Verdana !important)
+# lwn.net##pre:style(font-family: monospace !important;)
+lwn.net##.flexcol.maincolumn:style(font-family: Verdana !important)
+phoronix.com###content-bg:style(font-family: Verdana !important)
 
 lwn.net##.flexcol.maincolumn:style(background-color: #F4ECD8 !important;)
 reddit.com##.md:style(background-color: #F4ECD8 !important;)
