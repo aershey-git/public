@@ -556,6 +556,7 @@
 			<string>*://*.metrics.gfycat.com/*</string>
 			<string>*://*.mixpanel.com/*</string>
 			<string>*://*.moatads.com/*</string>
+			<string>*://*.marketo.*/*</string>
 			<string>*://*.newrelic.com/*</string>
 			<string>*://*.nr-data.net/*</string>
 			<string>*://*.omtrdc.net/*</string>			
