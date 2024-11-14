@@ -476,128 +476,126 @@
 	<dict>
 		<key>Block</key>
 		<array>
-			<string>*://*.2mdn.net/*</string>
-			<string>*://*.2o7.net/*</string>
-			<string>*://*.3lift.com/*</string>
+			<string>*://*.2mdn.*/*</string>
+			<string>*://*.2o7.*/*</string>
+			<string>*://*.3lift.*/*</string>
 			<string>*://*.a-msedge.net/*</string>
-			<string>*://*.aaxads.com/*</string>
-			<string>*://*.ad-delivery.net/*</string>
-			<string>*://*.addthis.com/*</string>
-			<string>*://*.adnxs.com/*</string>
-			<string>*://*.adobedtm.com/*</string>
-			<string>*://*.ads.yahoo.com/*</string>
-			<string>*://*.adsafeprotected.com/*</string>
-			<string>*://*.adsrvr.org/*</string>
-			<string>*://*.advertising.com/*</string>
-			<string>*://*.amazon-adsystem.com/*</string>
-			<string>*://*.amplitude.com/*</string>
-			<string>*://*.app-measurement.com/*</string>
+			<string>*://*.aaxads.*/*</string>
+			<string>*://*.ad-delivery.*/*</string>
+			<string>*://*.addthis.*/*</string>
+			<string>*://*.adnxs.*/*</string>
+			<string>*://*.adobedtm.*/*</string>
+			<string>*://*.ads.yahoo.*/*</string>
+			<string>*://*.adsafeprotected.*/*</string>
+			<string>*://*.adsrvr.*/*</string>
+			<string>*://*.advertising.*/*</string>
+			<string>*://*.amazon-adsystem.*/*</string>
+			<string>*://*.amplitude.*/*</string>
+			<string>*://*.app-analytics-services.*/*</string>			
+			<string>*://*.app-measurement.*/*</string>
 			<string>*://*.app.link/*</string>
-			<string>*://*.applovin.com/*</string>
-			<string>*://*.atdmt.com/*</string>
-			<string>*://*.bidgear.com/*</string>
-			<string>*://*.bidswitch.net/*</string>
-			<string>*://*.braze.com/*</string>
-			<string>*://*.brightcove.com/*</string>
-			<string>*://*.btloader.com/*</string>
-			<string>*://*.btrll.com/*</string>
-			<string>*://*.bugsnag.com/*</string>
-			<string>*://*.casalemedia.com/*</string>
-			<string>*://*.cedexis.com/*</string>
-			<string>*://*.comscoreresearch.com/*</string>
-			<string>*://*.contextual.media.net/*</string>
-			<string>*://*.control.kochava.com/*</string>
+			<string>*://*.applovin.*/*</string>
+			<string>*://*.atdmt.*/*</string>
+			<string>*://*.bidgear.*/*</string>
+			<string>*://*.bidswitch.*/*</string>
+			<string>*://*.braze.*/*</string>
+			<string>*://*.brightcove.*/*</string>
+			<string>*://*.btloader.*/*</string>
+			<string>*://*.btrll.*/*</string>
+			<string>*://*.bugsnag.*/*</string>
+			<string>*://*.casalemedia.*/*</string>
+			<string>*://*.cedexis.*/*</string>
+			<string>*://*.comscoreresearch.*/*</string>
 			<string>*://*.cookielaw.org/*</string>
-			<string>*://*.crashlytics.com/*</string>
-			<string>*://*.criteo.net/*</string>
-			<string>*://*.crwdcntrl.net/*</string>
-			<string>*://*.demdex.net/*</string>
-			<string>*://*.disqus.com/*</string>
-			<string>*://*.doubleclick.net/*</string>
-			<string>*://*.doubleverify.com/*</string>
-			<string>*://*.facebook.com/*</string>
-			<string>*://*.facebook.net/*</string>
-			<string>*://*.fb.com/*</string>
-			<string>*://*.fb.watch/*</string>
-			<string>*://*.fbcdn.net/*</string>
-			<string>*://*.fbsbx.com/*</string>
+			<string>*://*.crashlytics.*/*</string>
+			<string>*://*.criteo.*/*</string>
+			<string>*://*.crwdcntrl.*/*</string>
+			<string>*://*.demdex.*/*</string>
+			<string>*://*.disqus.*/*</string>
+			<string>*://*.doubleclick.*/*</string>
+			<string>*://*.doubleverify.*/*</string>
+			<string>*://*.facebook.*/*</string>
+			<string>*://*.fb.*/*</string>
+			<string>*://*.fbcdn.*/*</string>
+			<string>*://*.fbsbx.*/*</string>
 			<string>*://*.fc.yahoo.com/*</string>
-			<string>*://*.footprintdns.com/*</string>
+			<string>*://*.footprintdns.*/*</string>
 			<string>*://*.g00.*/*</string>
 			<string>*://*.ga.gfycat.com/*</string>
 			<string>*://*.gemini.yahoo.com/*</string>
-			<string>*://*.geo-um.btrll.com/*</string>
-			<string>*://*.getpocket.com/*</string>
+			<string>*://*.getpocket.*/*</string>
 			<string>*://*.globalsign.com/*</string>
-			<string>*://*.go-mpulse.net/*</string>
-			<string>*://*.google-analytics.com/*</string>
+			<string>*://*.go-mpulse.*/*</string>
+			<string>*://*.google-analytics.*/*</string>
 			<string>*://*.googleadapis.l.google.com/*</string>
-			<string>*://*.googleadservices.com/*</string>
-			<string>*://*.googlesyndication.com/*</string>
-			<string>*://*.googletagmanager.com/*</string>
-			<string>*://*.googletagservices.com/*</string>
-			<string>*://*.gravatar.com/*</string>
+			<string>*://*.googleadservices.*/*</string>
+			<string>*://*.googlesyndication.*/*</string>
+			<string>*://*.googletagmanager.*/*</string>
+			<string>*://*.googletagservices.*/*</string>
+			<string>*://*.gravatar.*/*</string>
 			<string>*://*.heapanalytics.com/*</string>
 			<string>*://*.iadsdk.apple.com/*</string>
-			<string>*://*.imrworldwide.com/*</string>
-			<string>*://*.indexww.com/*</string>
-			<string>*://*.inmobi.com/*</string>
+			<string>*://*.imrworldwide.*/*</string>
+			<string>*://*.indexww.*/*</string>
+			<string>*://*.inmobi.*/*</string>
 			<string>*://*.inscname.net/*</string>
 			<string>*://*.insnw.net/*</string>
-			<string>*://*.instagram.com/*</string>
+			<string>*://*.instagram.*/*</string>
 			<string>*://*.janrain.com/*</string>
 			<string>*://*.jwpltx.com/*</string>
-			<string>*://*.krxd.net/*</string>
+			<string>*://*.kochava.com/*</string>
+			<string>*://*.krxd.*/*</string>
 			<string>*://*.lencr.org/*</string>
-			<string>*://*.lijit.com/*</string>
-			<string>*://*.litix.io/*</string>
-			<string>*://*.measuread.com/*</string>
-			<string>*://*.meter-svc.nytimes.com/*</string>
-			<string>*://*.metrics.gfycat.com/*</string>
-			<string>*://*.mixpanel.com/*</string>
-			<string>*://*.moatads.com/*</string>
+			<string>*://*.lijit.*/*</string>
+			<string>*://*.litix.*/*</string>
 			<string>*://*.marketo.*/*</string>
-			<string>*://*.newrelic.com/*</string>
-			<string>*://*.nr-data.net/*</string>
-			<string>*://*.omtrdc.net/*</string>			
-			<string>*://*.onetag-sys.com/*</string>
-			<string>*://*.onetrust.com/*</string>
-			<string>*://*.online-metrix.net/*</string>
-			<string>*://*.openx.net/*</string>
-			<string>*://*.optimizely.com/*</string>
-			<string>*://*.outbrain.com/*</string>
-			<string>*://*.pinimg.com/*</string>
-			<string>*://*.pinterest.com/*</string>
-			<string>*://*.pro-market.net/*</string>
-			<string>*://*.pubmatic.com/*</string>
-			<string>*://*.quantserve.com/*</string>
+			<string>*://*.measuread.*/*</string>
+			<string>*://*.media.*/*</string>
+			<string>*://*.meter-svc.nytimes.*/*</string>
+			<string>*://*.metrics.gfycat.com/*</string>
+			<string>*://*.mixpanel.*/*</string>
+			<string>*://*.moatads.*/*</string>
+			<string>*://*.newrelic.*/*</string>
+			<string>*://*.nr-data.*/*</string>
+			<string>*://*.omtrdc.*/*</string>			
+			<string>*://*.onetag-sys.*/*</string>
+			<string>*://*.onetrust.*/*</string>
+			<string>*://*.online-metrix.*/*</string>
+			<string>*://*.openx.*/*</string>
+			<string>*://*.optimizely.*/*</string>
+			<string>*://*.outbrain.*/*</string>
+			<string>*://*.pinimg.*/*</string>
+			<string>*://*.pinterest.*/*</string>
+			<string>*://*.pro-market.*/*</string>
+			<string>*://*.pubmatic.*/*</string>
+			<string>*://*.quantserve.*/*</string>
 			<string>*://*.reddit.com/api/*</string>
 			<string>*://*.redditstatic.com/awards2/*</string>
 			<string>*://*.redditstatic.com/desktoponboarding*</string>
 			<string>*://*.redditstatic.com/icon-badge-xpost*</string>
 			<string>*://*.redditstatic.com/popup-notification*</string>
-			<string>*://*.rlcdn.com/*</string>
-			<string>*://*.rubiconproject.com/*</string>
+			<string>*://*.rlcdn.*/*</string>
+			<string>*://*.rubiconproject.*/*</string>
 			<string>*://*.rvapps.io/*</string>
 			<string>*://*.sail-horizon.com/*</string>
-			<string>*://*.scorecardresearch.com/*</string>
+			<string>*://*.scorecardresearch.*/*</string>
 			<string>*://*.segment.io/*</string>
 			<string>*://*.sentry.io/*</string>
-			<string>*://*.serving-sys.com/*</string>
-			<string>*://*.smartadserver.com/*</string>
-			<string>*://*.stack-sonar.com/*</string>
-			<string>*://*.stacksocial.com/*</string>
+			<string>*://*.serving-sys.*/*</string>
+			<string>*://*.smartadserver.*/*</string>
+			<string>*://*.stack-sonar.*/*</string>
+			<string>*://*.stacksocial.*/*</string>
 			<string>*://*.stannum-sub.azurewebsites.net/*</string>
-			<string>*://*.supersonicads.com/*</string>
-			<string>*://*.taboola.com/*</string>
+			<string>*://*.supersonicads.*/*</string>
+			<string>*://*.taboola.*/*</string>
 			<string>*://*.telemetry.mozilla.org/*</string>
-			<string>*://*.tfbnw.net/*</string>
-			<string>*://*.thefacebook.com/*</string>
-			<string>*://*.tiktok.com/*</string>
-			<string>*://*.tiktokcdn-us.com/*</string>
-			<string>*://*.tiktokcdn.com/*</string>
-			<string>*://*.tiktokv.com/*</string>
-			<string>*://*.trafficstars.com/*</string>
+			<string>*://*.tfbnw.*/*</string>
+			<string>*://*.thefacebook.*/*</string>
+			<string>*://*.tiktok.*/*</string>
+			<string>*://*.tiktokcdn-us.*/*</string>
+			<string>*://*.tiktokcdn.*/*</string>
+			<string>*://*.tiktokv.*/*</string>
+			<string>*://*.trafficstars.*/*</string>
 			<string>*://*.use.typekit.net/*</string>
 			<string>*://*.ybp.yahoo.com/*</string>
 			<string>*://*.zog.link/*</string>
