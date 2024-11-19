@@ -486,3 +486,9 @@ runnersworld.com/auth/checkaccess*
 *$removeparam=hash
 *$removeparam=epid
 *$removeparam=ref
+*$removeparam=epid
+*$removeparam=ref
+*$removeparam=_trksid
+*$removeparam=udm
+*$removeparam=pws
+*$removeparam=adtest
