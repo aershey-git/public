@@ -1,53 +1,55 @@
-https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730
-
 yt-dlp -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-format mp3
 
-yt-dlp -v -6 --progress --continue --no-check-certificates --no-cache-dir --sub-langs "en.*,en-*" --convert-subs srt --add-metadata --add-chapters --geo-bypass 
+yt-dlp -v --progress --continue --no-check-certificates --no-cache-dir --all-subs --add-metadata --add-chapters --geo-bypass 
 
 -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
 -f 137+140
--f 140 --extract-audio --add-metadata --audio-format m4a
+
+ffmpeg.exe -i in.mp4 -c copy -map 0 -segment_time 01:00:00 -f segment -reset_timestamps 1 in%03d.mp4
 
 for i in *.mp4; do ffmpeg -i "$i" <additional options> "encoded/${i%.*}.mp4"; done
 ffmpeg -i input -f null -
+
+yt-dlp -v --progress --continue --no-check-certificates --no-cache-dir -f 140 --extract-audio --add-metadata --audio-format m4a 
+
+-f ipod -vn -sn -c:a copy 0.m4a
+
+-c copy -map 0 -segment_time 00:56:00 -f segment -reset_timestamps 1 out%03d.mp4
 
 afconvert source.wav intermediate.caf -d 0 -f caff --soundcheck-generate
 afconvert intermediate.caf -d aac -f m4af -ue pgcm 2 --soundcheck-read -b 256000 -q 127 -s 2 final.m4a
 
 ###############################################################################
+ffprobe -show_streams -i "file.mp4"
 
 Unpack DivX-style packed B-frames. 
-ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes 0.avi
+ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
+
+-hide_banner -f srt -map 0:s:0 0.srt
+-fflags +genpts+igndts -i
+-c:s copy
 
 -c:a aac_at -aac_at_mode 3 0.m4a # MacOS only
 
--f ipod -vn -sn -dn -codec:a libfdk_aac
--i input.mp4 -c copy -map 0 -segment_time 00:20:00 -f segment -reset_timestamps 1 output%03d.mp4
-
-Unpack DivX-style packed B-frames. 
-ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes 0.avi
-
--hide_banner -f srt -map 0:s:0 0.srt
-
--fflags +genpts+igndts -i
-
 # mp4 - XviD, H.264 - MP3, ADPCM, AAC
--hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -dn -c:v copy -c:a copy -sn 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -dn -c:v copy -c:a aac -ac 2 -b:a 256k -sn 0.mp4
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a copy -sn 0.mkv
 
 # mkv - H.264 - MP3, AC3, LPCM, ADPCM
--hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v copy -c:a copy 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a copy -sn 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a flac -ac 2 -sn 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -sn 0.mkv
 
-# mkv ADPCM
--hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v copy -c:a adpcm_ima_wav -ac 2 0.mkv
 
 # mp4 AAC
--hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 0.mp4
-
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v copy -c:a aac -ac 2 -b:a 256k 0.mp4
 -hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a copy 0.mp4
+-hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a aac -ac 2 -b:a 256k 0.mp4
 
--hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a aac -ac 2 0.mp4
-
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a flac -ac 2 0.mkv
 -hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a adpcm_ima_wav -ac 2 0.mkv
+
 
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
 -map 0:0 -map 0:2 -c:v copy -c:a copy 0.mp4
@@ -56,24 +58,26 @@ https://trac.ffmpeg.org/wiki/Map
 https://trac.ffmpeg.org/wiki/Hardware/QuickSync
 https://trac.ffmpeg.org/wiki/HWAccelIntro
 https://trac.ffmpeg.org/wiki/Encode/HighQualityAudio
+https://trac.ffmpeg.org/wiki/AudioVolume
 
--ss 00:05:20 -t 00:10:00 -c:v copy -c:a copy 0.mp4
+-ss 00:00:20 -t 00:05:00 -c:v copy -c:a copy output1.mp4
 
 ffprobe -show_streams 
 
 ffmpeg -hwaccel dxva2 
-ffmpeg -hwaccel auto 
+ffmpeg -hwaccel auto
+
+ffmpeg -encoders
 
 ffmpeg -h encoder=aac_at
 ffmpeg -h encoder=libfdk_aac
 ffmpeg -h encoder=aac
+ffmpeg -h encoder=flac
+ffmpeg -h encoder=adpcm_ima_wav
 
 ffmpeg -h encoder=h264
-ffmpeg -h encoder=hevc
-ffmpeg -h encoder=h264_qsv
-ffmpeg -h encoder=hevc_qsv
-ffmpeg -h encoder=h264_videotoolbox
-ffmpeg -h encoder=hevc_videotoolbox
+ffmpeg -h encoder=h264_amf
+ffmpeg -h encoder=hevc_amf
 
 ffmpeg -h muxer=matroska
 ffmpeg -h muxer=mp4
@@ -81,15 +85,37 @@ ffmpeg -h muxer=ipod
 
 -vf setsar=1:1
 
+-level 4.0
+
 -profile high
 -level 42
 -pix_fmt yuv420p 
 
 ffprobe -show_streams -i "file.mp4"
 
-HandBrakeCLI.exe
+
+HandBrakeCLI.exe --markers -i source -o destination
+
 --enable-qsv-decoding
 
+--crop-mode none
+--crop 0:0:0:0
+--non-anamorphic
+--format
+av_mp4
+av_mkv
+
+--encoder
+vce_h264
+vce_h265
+
+--first-audio
+--aencoder
+av_aac
+copy:aac
+--mixdown stereo
+
+--preset-list
 
 -hwaccel d3d11va -hwaccel_output_format d3d11 -i
 -c:v h264_amf -profile:v 100 -level 41 -quality balanced 0.mp4
@@ -105,4 +131,3 @@ av_mkv
 -e
 h264_amf
 hevc_amf
-
