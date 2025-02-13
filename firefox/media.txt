@@ -39,7 +39,7 @@ ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
 # mkv - H.264 - MP3, AC3, LPCM, ADPCM
 -hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a copy -sn 0.mkv
 -hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a flac -ac 2 -sn 0.mkv
--hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a adpcm_ima_wav -ac 2 -sn 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -dn -c:v copy -c:a aac -ac 2 -sn 0.mkv
 
 
 # mp4 AAC
@@ -48,7 +48,7 @@ ffmpeg -i INPUT.avi -codec copy -bsf:v mpeg4_unpack_bframes OUTPUT.avi
 -hide_banner -f mp4 -movflags +faststart -map_metadata -1 -sn -dn -c:v h264 -c:a aac -ac 2 -b:a 256k 0.mp4
 
 -hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a flac -ac 2 0.mkv
--hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a adpcm_ima_wav -ac 2 0.mkv
+-hide_banner -f matroska -reserve_index_space 256k -cues_to_front 1 -map_metadata -1 -sn -dn -c:v h264 -c:a aac -ac 2 0.mkv
 
 
 -map 0:x -map 0:y -c:v copy -c:a copy 0.mp4
@@ -73,7 +73,6 @@ ffmpeg -h encoder=aac_at
 ffmpeg -h encoder=libfdk_aac
 ffmpeg -h encoder=aac
 ffmpeg -h encoder=flac
-ffmpeg -h encoder=adpcm_ima_wav
 
 ffmpeg -h encoder=h264
 ffmpeg -h encoder=h264_amf
