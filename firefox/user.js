@@ -327,3 +327,8 @@ user_pref("network.notify.checkForProxies", false);
 user_pref("gfx.webrender.compositor", true);
 user_pref("gfx.webrender.enabled", true);
 user_pref("media.hardware-video-decoding.force-enabled", true);
+user_pref("layers.acceleration.force-enabled", true);
+user_pref("media.hardware-video-decoding.enabled", true);
+user_pref("media.navigator.mediadatadecoder_vpx_enabled", true);
+user_pref("media.ffvpx.enabled", false);
+user_pref("media.rdd-vpx.enabled", false);
