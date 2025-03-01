@@ -345,6 +345,7 @@
 			"*://*/gold/awards/icon/*",
 			"*://*/gold/premium/*",
 			"*://*/gtm*",
+			"*://*/pagead/*",		
 			"*://*/icon-spons*",
 			"*://*/icon-sponsored*",
 			"*://*/listingsignupbar*",
