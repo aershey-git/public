@@ -227,24 +227,30 @@ www.ebay.com##.x-vi-evo-main-container__top-panel
 /shreddit/en-US/notifications*
 redditstatic.com/about-this-ad*
 
-www.imdb.com##*:style(font-family: Helvetica !important;)
-bbc.com##*:style(font-family: serif !important;)
-# slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
-slashdot.org##body:style(font-family: Verdana !important)
 # lwn.net##*:style(font-family: unset !important;)
 # lwn.net##pre:style(font-family: monospace !important;)
+# reddit.com##*:style(font-family: "Verdana" !important; src: local(Verdana) !important;)
+# slashdot.org##*:style(font-family: "Verdana Pro" !important; src: local(Verdana Pro) !important;)
+bbc.com##*:style(font-family: serif !important;)
 lwn.net##.flexcol.maincolumn:style(font-family: Verdana !important)
+osnews.com##*:style(font-family: "Verdana" !important; src: local(Verdana) !important;)
 phoronix.com###content-bg:style(font-family: Verdana !important)
+phoronix.com##*:style(font-family: "Verdana" !important; src: local(Verdana) !important;)
+slashdot.org##*:style(font-family: "Verdana" !important; src: local(Verdana) !important;)
+slashdot.org##body:style(font-family: Verdana !important)
+wikipedia.org##*:style(font-family: "Verdana" !important; src: local(Verdana) !important;)
+www.imdb.com##*:style(font-family: Helvetica !important;)
 
 lwn.net##.flexcol.maincolumn:style(background-color: #F4ECD8 !important;)
+lwn.net##section:style(background-color: #F4ECD8 !important;)
 reddit.com##.md:style(background-color: #F4ECD8 !important;)
 reddit.com##.side:style(background-color: #F4ECD8 !important;)
 reddit.com##body:style(background-color: #F4ECD8 !important;)
 slashdot.org##section:style(background-color: #F4ECD8 !important;)
 www.phoronix.com###content-bg:style(background-color: #F4ECD8 !important;)
 www.phoronix.com###content:style(background-color: #F4ECD8 !important;)
-ycombinator.com##body:style(background-color: #F4ECD8 !important;)
 www.washingtonpost.com##*:style(background-color: #F4ECD8 !important;)
+ycombinator.com##body:style(background-color: #F4ECD8 !important;)
 
 ###############################################################################
 www.google.*##^script:has-text(consentCookiePayload)
