@@ -632,6 +632,7 @@
 			<string>*://*/*/premium/premium*</string>
 			<string>*://*/*/showads*</string>
 			<string>*://*/*/stats/*</string>
+			<string>*://*/pagead/*</string>
 			<string>*://*/*/subscribe/user/auth-status*</string>
 			<string>*://*/*/track*</string>
 			<string>*://*/*/widget/*</string>
