@@ -354,3 +354,8 @@ user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("webchannel.allowObject.urlWhitelist", "");
+user_pref("network.buffer.cache.size", 65535);
+user_pref("network.buffer.cache.count", 48);
+user_pref("dom.text_fragments.create_text_fragment.enabled", true);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
+user_pref("ui.SpellCheckerUnderlineStyle", 1);
