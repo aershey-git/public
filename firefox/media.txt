@@ -3,7 +3,13 @@ yt-dlp -v -f bestaudio --extract-audio --audio-quality 0 --add-metadata --audio-
 yt-dlp -v --progress --continue --no-check-certificates --no-cache-dir --all-subs --add-metadata --add-chapters --geo-bypass 
 
 -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"
+
+-f 247+251
+720 vp9 + opus
+-f 398+251
+720 mp4 + opus
 -f 137+140
+1080 mp4 + m4a
 
 ffmpeg.exe -i in.mp4 -c copy -map 0 -segment_time 01:00:00 -f segment -reset_timestamps 1 in%03d.mp4
 
