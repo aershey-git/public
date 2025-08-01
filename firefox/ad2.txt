@@ -2,6 +2,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/aershey-git/public/tree/main/firefox
 
+@@preview.redd.it
 ||pinimg.com^$important
 ||pinterest.com^$important
 ||appleid.apple.com^$important
