@@ -374,3 +374,7 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("ui.SpellCheckerUnderlineStyle", 1);
 user_pref("webchannel.allowObject.urlWhitelist", "");
+user_pref("browser.ml.chat.enabled", false);
+user_pref("browser.tabs.groups.smart", false);
+user_pref("browser.ml.enable", false);
+user_pref("browser.tabs.groups.smart.userEnabled", false);
