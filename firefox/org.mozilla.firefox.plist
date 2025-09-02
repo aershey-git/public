@@ -116,6 +116,8 @@
 	<true/>
 	<key>DontCheckDefaultBrowser</key>
 	<true/>
+	<key>MicrosoftEntraSSO</key>
+	<false/>
 	<key>EnableTrackingProtection</key>
 	<dict>
 		<key>Value</key>
@@ -127,6 +129,8 @@
 		<key>Fingerprinting</key>
 		<true/>
 		<key>EmailTracking</key>
+		<true/>
+		<key>SuspectedFingerprinting</key>
 		<true/>
 	</dict>
 	<key>EncryptedMediaExtensions</key>
@@ -246,6 +250,13 @@
 			<true/>
 		</dict>
 		<key>VirtualReality</key>
+		<dict>
+			<key>BlockNewRequests</key>
+			<true/>
+			<key>Locked</key>
+			<true/>
+		</dict>
+		<key>ScreenShare</key>
 		<dict>
 			<key>BlockNewRequests</key>
 			<true/>
@@ -430,6 +441,8 @@
 		<true/>
 		<key>Cookies</key>
 		<true/>
+		<key>FormData</key>
+		<true/>		
 		<key>History</key>
 		<true/>
 		<key>Sessions</key>
@@ -491,7 +504,7 @@
 			<string>*://*.advertising.*/*</string>
 			<string>*://*.amazon-adsystem.*/*</string>
 			<string>*://*.amplitude.*/*</string>
-			<string>*://*.app-analytics-services.*/*</string>			
+			<string>*://*.app-analytics-services.*/*</string>
 			<string>*://*.app-measurement.*/*</string>
 			<string>*://*.app.link/*</string>
 			<string>*://*.applovin.*/*</string>
@@ -557,7 +570,7 @@
 			<string>*://*.moatads.*/*</string>
 			<string>*://*.newrelic.*/*</string>
 			<string>*://*.nr-data.*/*</string>
-			<string>*://*.omtrdc.*/*</string>			
+			<string>*://*.omtrdc.*/*</string>
 			<string>*://*.onetag-sys.*/*</string>
 			<string>*://*.onetrust.*/*</string>
 			<string>*://*.online-metrix.*/*</string>
