@@ -6,13 +6,9 @@ Pin-Priority: -1
 
 Package: *
 Pin: release o=Debian Backports
-Pin-Priority: 500
+Pin-Priority: 525
 
-Package: xfce6* xfwm4* thunar* mousepad parole ristretto orage exo* xfconf* xfdesktop4*
-Pin: release o=Debian,a=testing
-Pin-Priority: 550
-
-Package: fonts-* libgtk-3-0t64 libgtk-3-common libxfce4ui-2-0 libexo-2-0
+Package: fonts-* xfce6* xfwm4* thunar* mousepad parole ristretto orage exo* xfconf* xfdesktop4*
 Pin: release o=Debian,a=testing
 Pin-Priority: 525
 
