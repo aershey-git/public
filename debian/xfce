@@ -1,12 +1,25 @@
 xfce4-keyboard-shortcuts.xml
 
+      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="tile_down_left_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Page_Down" type="string" value="tile_up_right_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Page_Up" type="string" value="tile_up_left_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="tile_down_right_key"/>
       <property name="&lt;Super&gt;0" type="string" value="xfce4-terminal"/>
-      <property name="&lt;Super&gt;1" type="string" value="firefox -private -no-remote"/>
+      <property name="&lt;Super&gt;1" type="string" value="/usr/lib/firefox/firefox -private -no-remote"/>
       <property name="&lt;Super&gt;2" type="string" value="chromium --incognito"/>
       <property name="&lt;Super&gt;3" type="string" value="flatpak run org.mozilla.firefox -private -no-remote"/>
       <property name="&lt;Super&gt;4" type="string" value="flatpak run com.google.Chrome --incognito"/>
-      <property name="&lt;Super&gt;7" type="string" value="libreoffice --calc"/>
+      <property name="&lt;Super&gt;5" type="string" value="flatpak run app.zen_browser.zen -private -no-remote"/>
+      <property name="&lt;Super&gt;6" type="string" value="firefox-esr -private -no-remote"/>
+      <property name="&lt;Super&gt;7" type="string" value="libreoffice"/>
+      <property name="&lt;Super&gt;8" type="string" value="flatpak run io.gitlab.librewolf-community -private -no-remote"/>
       <property name="&lt;Super&gt;9" type="string" value="/opt/sublime_text/sublime_text"/>
       <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
-      <property name="&lt;Super&gt;e" type="string" value="thunar"/>      
+      <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
+      <property name="&lt;Super&gt;e" type="string" value="thunar"/>
+      <property name="&lt;Super&gt;f" type="string" value="maximize_window_key"/>
+      <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;m" type="string" value="mousepad"/>
+      <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
+      <property name="&lt;Super&gt;Up" type="string" value="tile_up_key"/>
+
