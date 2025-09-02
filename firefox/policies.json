@@ -1,6 +1,6 @@
 {
     "policies": {
-      "DisablePocket": true,
+    "DisablePocket": true,
 	  "PrivateBrowsingModeAvailability": 2,
 	  "AutofillAddressEnabled": false,
 	  "AutofillCreditCardEnabled": false,
@@ -9,6 +9,7 @@
 	  "DisableFirefoxAccounts": true,
 	  "DisableFirefoxStudies": true,
 	  "DisableTelemetry": true,
+	  "SkipTermsOfUse": true,	  
 	  "DontCheckDefaultBrowser": true,
 	  "HardwareAcceleration": true,
 	  "HttpsOnlyMode": "force_enabled",
@@ -21,6 +22,7 @@
 	  "SearchSuggestEnabled": false,
 	  "SSLVersionMin": "tls1.2",
 	  "TranslateEnabled": false,
+	  "MicrosoftEntraSSO": false,
 	  "WindowsSSO": false,
       "Preferences": {
         "intl.accept_languages": "en-US"
@@ -45,15 +47,15 @@
       "Locked": true
     },
 	
-      "UserMessaging": {
-	  "WhatsNew": false,
-	  "ExtensionRecommendations": false,
-	  "FeatureRecommendations": false,
-	  "UrlbarInterventions": false,
-	  "FirefoxLabs": false,
-	  "SkipOnboarding": true,
-	  "MoreFromMozilla": false,
-	  "Locked": true
+    "UserMessaging": {
+		  "WhatsNew": false,
+		  "ExtensionRecommendations": false,
+		  "FeatureRecommendations": false,
+		  "UrlbarInterventions": false,
+		  "FirefoxLabs": false,
+		  "SkipOnboarding": true,
+		  "MoreFromMozilla": false,
+		  "Locked": true
       },
          
       "Authentication": {
@@ -66,7 +68,7 @@
           "NTLM": false
         },
         "Locked": true,
-        "PrivateBrowsing": false	  
+        "PrivateBrowsing": false
       },
   
       "DisableSecurityBypass": {
@@ -100,7 +102,8 @@
         "Value": true,
         "Cryptomining": true,
         "Fingerprinting": true,
-		"EmailTracking": true,
+				"EmailTracking": true,
+				"SuspectedFingerprinting": true,
         "Locked": true
       },
    
@@ -136,6 +139,14 @@
           "BlockNewRequests": true,
           "Locked": true
         },
+      "VirtualReality": {
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "ScreenShare": {
+        "BlockNewRequests": true,
+        "Locked": true
+      },        
         "Autoplay": {
           "Default": "block-audio-video",
           "Locked": true
