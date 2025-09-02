@@ -1,0 +1,27 @@
+Package: *
+Pin: release o=Debian,a=testing
+Pin-Priority: -1 
+
+Package: linux-doc* linux-headers-* linux-base*, linux-image-* linux-source* linux-libc-*
+Pin: release o=Debian Backports,a=stable-backports
+Pin-Priority: -1
+
+Package: *
+Pin: release o=Debian Backports,a=stable-backports
+Pin-Priority: 500
+
+Package: fonts-* xfce* xfwm4* thunar* mousepad parole ristretto orage exo* xfconf* xfdesktop4*
+Pin: release o=Debian,a=testing
+Pin-Priority: 525
+
+Package: *
+Pin: release o=Unofficial Multimedia Packages,a=stable
+Pin-Priority: 525
+
+Package: *
+Pin: release o=Unofficial Multimedia Packages,a=stable-backports
+Pin-Priority: 525
+
+Package: *
+Pin: origin packages.mozilla.org
+Pin-Priority: 1000
