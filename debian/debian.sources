@@ -20,7 +20,14 @@ Signed-By: /etc/apt/keyrings/packages.mozilla.org.asc
 
 Types: deb
 URIs: https://www.deb-multimedia.org
-Suites: trixie trixie-backports
+Suites: trixie
 Components: main non-free
+Enabled: yes
+Signed-By: /usr/share/keyrings/deb-multimedia-keyring.pgp
+
+Types: deb
+URIs: https://www.deb-multimedia.org
+Suites: trixie-backports
+Components: main
 Enabled: yes
 Signed-By: /usr/share/keyrings/deb-multimedia-keyring.pgp
