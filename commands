@@ -22,3 +22,10 @@ dig +tcp +nocomment chaos apple.com @ecs-test.nextdns.io
 
 /usr/lib/firefox/distribution
 /etc/firefox/policies
+
+
+
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
+
+dpkg -l  | awk '/^ii/ && $3 ~ /bpo[0-9]/ {print $2}'
+dpkg -l  | awk '/^ii/ && $3 ~ /dmo[0-9]/ {print $2}'
