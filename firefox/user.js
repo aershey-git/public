@@ -390,3 +390,7 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("ui.SpellCheckerUnderlineStyle", 1);
 user_pref("webchannel.allowObject.urlWhitelist", "");
+user_pref("devtools.toolbox.host", "window");
+user_pref("browser.uidensity", 1);
+user_pref("browser.toolbars.bookmarks.visibility", "never");
+user_pref("browser.bookmarks.restore_default_bookmarks", false);
