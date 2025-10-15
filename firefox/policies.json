@@ -1,34 +1,24 @@
 {
-    "policies": {
+  "policies": {
     "DisablePocket": true,
-	  "PrivateBrowsingModeAvailability": 2,
-	  "AutofillAddressEnabled": false,
-	  "AutofillCreditCardEnabled": false,
-	  "DisableFeedbackCommands": true,
-	  "DisableEncryptedClientHello": false,
-	  "DisableFirefoxAccounts": true,
-	  "DisableFirefoxStudies": true,
-	  "DisableTelemetry": true,
-	  "SkipTermsOfUse": true,	  
-	  "DontCheckDefaultBrowser": true,
-	  "HardwareAcceleration": true,
-	  "HttpsOnlyMode": "force_enabled",
-	  "NetworkPrediction": false,
-	  "OfferToSaveLogins": false,
-	  "PasswordManagerEnabled": false,
-	  "PostQuantumKeyAgreementEnabled": true,
-	  "RequestedLocales": "en-US",
-	  "SanitizeOnShutdown": true,
-	  "SearchSuggestEnabled": false,
-	  "SSLVersionMin": "tls1.2",
-	  "TranslateEnabled": false,
-	  "MicrosoftEntraSSO": false,
-	  "WindowsSSO": false,
-      "Preferences": {
-        "intl.accept_languages": "en-US"
-	}, 
-
-   "SanitizeOnShutdown": {
+    "PrivateBrowsingModeAvailability": 2,
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "DisableFeedbackCommands": true,
+    "DisableEncryptedClientHello": false,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableTelemetry": true,
+    "SkipTermsOfUse": true,
+    "DontCheckDefaultBrowser": true,
+    "HardwareAcceleration": true,
+    "HttpsOnlyMode": "force_enabled",
+    "NetworkPrediction": false,
+    "OfferToSaveLogins": false,
+    "PasswordManagerEnabled": false,
+    "PostQuantumKeyAgreementEnabled": true,
+    "RequestedLocales": "en-US",
+    "SanitizeOnShutdown": {
       "Cache": true,
       "Cookies": true,
       "Downloads": true,
@@ -39,106 +29,108 @@
       "OfflineApps": true,
       "Locked": true
     },
- 
-	  "FirefoxSuggest": {
+    "SearchSuggestEnabled": false,
+    "SSLVersionMin": "tls1.2",
+    "TranslateEnabled": false,
+    "MicrosoftEntraSSO": false,
+    "VisualSearchEnabled": false,
+    "WindowsSSO": false,
+    "GenerativeAI": {
+      "Chatbot": false,
+      "LinkPreviews": false,
+      "TabGroups": false,
+      "Locked": false
+    },
+    "Preferences": {
+      "intl.accept_languages": "en-US"
+    },
+    "FirefoxSuggest": {
       "WebSuggestions": false,
       "SponsoredSuggestions": false,
       "ImproveSuggest": false,
       "Locked": true
     },
-	
     "UserMessaging": {
-		  "WhatsNew": false,
-		  "ExtensionRecommendations": false,
-		  "FeatureRecommendations": false,
-		  "UrlbarInterventions": false,
-		  "FirefoxLabs": false,
-		  "SkipOnboarding": true,
-		  "MoreFromMozilla": false,
-		  "Locked": true
+      "WhatsNew": false,
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "FirefoxLabs": false,
+      "SkipOnboarding": true,
+      "MoreFromMozilla": false,
+      "Locked": true
+    },
+    "Authentication": {
+      "AllowNonFQDN": {
+        "SPNEGO": false,
+        "NTLM": false
       },
-         
-      "Authentication": {
-        "AllowNonFQDN": {
-          "SPNEGO": false,
-          "NTLM": false
-        },
-        "AllowProxies": {
-          "SPNEGO": false,
-          "NTLM": false
-        },
-        "Locked": true,
-        "PrivateBrowsing": false
+      "AllowProxies": {
+        "SPNEGO": false,
+        "NTLM": false
       },
-  
-      "DisableSecurityBypass": {
-        "SafeBrowsing": true
-      },
-  
-      "Cookies": {
-        "AcceptThirdParty": "never",
-        "RejectTracker": true,
-        "Locked": true,
-        "Behavior": "reject-tracker-and-partition-foreign",
-        "BehaviorPrivateBrowsing": "reject-tracker-and-partition-foreign"
-      },
-      
-        "PictureInPicture": {
-          "Enabled": true,
-          "Locked": true
-      },
-        
-      "PDFjs": {
-        "Enabled": true,
-        "EnablePermissions": false
-      },
-     
-      "PopupBlocking": {
-        "Default": true,
+      "Locked": true,
+      "PrivateBrowsing": false
+    },
+    "DisableSecurityBypass": {
+      "SafeBrowsing": true
+    },
+    "Cookies": {
+      "AcceptThirdParty": "never",
+      "RejectTracker": true,
+      "Locked": true,
+      "Behavior": "reject-tracker-and-partition-foreign",
+      "BehaviorPrivateBrowsing": "reject-tracker-and-partition-foreign"
+    },
+    "PictureInPicture": {
+      "Enabled": true,
+      "Locked": true
+    },
+    "PDFjs": {
+      "Enabled": true,
+      "EnablePermissions": false
+    },
+    "PopupBlocking": {
+      "Default": true,
+      "Locked": true
+    },
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true,
+      "SuspectedFingerprinting": true,
+      "Locked": true
+    },
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "Homepage": {
+      "Locked": true,
+      "StartPage": "none"
+    },
+    "Permissions": {
+      "Camera": {
+        "BlockNewRequests": true,
         "Locked": true
       },
-  
-        "EnableTrackingProtection": {
-        "Value": true,
-        "Cryptomining": true,
-        "Fingerprinting": true,
-				"EmailTracking": true,
-				"SuspectedFingerprinting": true,
+      "Microphone": {
+        "BlockNewRequests": true,
         "Locked": true
       },
-   
-  
-      "FirefoxHome": {
-        "Search": false,
-        "TopSites": false,
-        "Highlights": false,
-        "Pocket": false,
-        "Snippets": false,
+      "Location": {
+        "BlockNewRequests": true,
         "Locked": true
       },
-  
-      "Homepage": {
-        "Locked": true,
-        "StartPage": "none"
+      "Notifications": {
+        "BlockNewRequests": true,
+        "Locked": true
       },
-  
-      "Permissions": {
-        "Camera": {
-          "BlockNewRequests": true,
-          "Locked": true
-        },
-        "Microphone": {
-          "BlockNewRequests": true,
-          "Locked": true
-        },
-        "Location": {
-          "BlockNewRequests": true,
-          "Locked": true
-        },
-        "Notifications": {
-          "BlockNewRequests": true,
-          "Locked": true
-        },
       "VirtualReality": {
         "BlockNewRequests": true,
         "Locked": true
@@ -146,18 +138,16 @@
       "ScreenShare": {
         "BlockNewRequests": true,
         "Locked": true
-      },        
-        "Autoplay": {
-          "Default": "block-audio-video",
-          "Locked": true
-        }
       },
-  
-      "Certificates": {
-        "ImportEnterpriseRoots": false
-      },
-   
-      "ExtensionSettings": {
+      "Autoplay": {
+        "Default": "block-audio-video",
+        "Locked": true
+      }
+    },
+    "Certificates": {
+      "ImportEnterpriseRoots": false
+    },
+    "ExtensionSettings": {
       "google@search.mozilla.org": {
         "installation_mode": "blocked"
       },
@@ -166,7 +156,7 @@
       },
       "amazondotcom@search.mozilla.org": {
         "installation_mode": "blocked"
-      },          
+      },
       "bing@search.mozilla.org": {
         "installation_mode": "blocked"
       },
@@ -174,261 +164,255 @@
         "installation_mode": "blocked"
       },
       "uBlock0@raymondhill.net": {
-          "installation_mode": "force_installed",
-          "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
       },
-          
       "@unitedstatesenglishdictionary": {
-          "installation_mode": "force_installed",
-          "install_url": "https://addons.mozilla.org/firefox/downloads/latest/us-english-dictionary/latest.xpi"
-       }
-      },
-          
-      "EncryptedMediaExtensions": {
-        "Enabled": true,
-        "Locked": true
-      },
-  
-      "WebsiteFilter": {
-        "Block": [
-			"*://*.2mdn.*/*",
-			"*://*.2o7.*/*",
-			"*://*.3lift.*/*",
-			"*://*.a-msedge.net/*",
-			"*://*.aaxads.*/*",
-			"*://*.ad-delivery.*/*",
-			"*://*.addthis.*/*",
-			"*://*.adnxs.*/*",
-			"*://*.adobedtm.*/*",
-			"*://*.ads.yahoo.*/*",
-			"*://*.adsafeprotected.*/*",
-			"*://*.adsrvr.*/*",
-			"*://*.advertising.*/*",
-			"*://*.amazon-adsystem.*/*",
-			"*://*.amplitude.*/*",
-			"*://*.app-analytics-services.*/*",			
-			"*://*.app-measurement.*/*",
-			"*://*.app.link/*",
-			"*://*.applovin.*/*",
-			"*://*.atdmt.*/*",
-			"*://*.bidgear.*/*",
-			"*://*.bidswitch.*/*",
-			"*://*.braze.*/*",
-			"*://*.brightcove.*/*",
-			"*://*.btloader.*/*",
-			"*://*.btrll.*/*",
-			"*://*.bugsnag.*/*",
-			"*://*.casalemedia.*/*",
-			"*://*.cedexis.*/*",
-			"*://*.comscoreresearch.*/*",
-			"*://*.cookielaw.org/*",
-			"*://*.crashlytics.*/*",
-			"*://*.criteo.*/*",
-			"*://*.crwdcntrl.*/*",
-			"*://*.demdex.*/*",
-			"*://*.disqus.*/*",
-			"*://*.doubleclick.*/*",
-			"*://*.doubleverify.*/*",
-			"*://*.facebook.*/*",
-			"*://*.fb.*/*",
-			"*://*.fbcdn.*/*",
-			"*://*.fbsbx.*/*",
-			"*://*.fc.yahoo.com/*",
-			"*://*.footprintdns.*/*",
-			"*://*.g00.*/*",
-			"*://*.ga.gfycat.com/*",
-			"*://*.gemini.yahoo.com/*",
-			"*://*.getpocket.*/*",
-			"*://*.globalsign.com/*",
-			"*://*.go-mpulse.*/*",
-			"*://*.google-analytics.*/*",
-			"*://*.googleadapis.l.google.com/*",
-			"*://*.googleadservices.*/*",
-			"*://*.googlesyndication.*/*",
-			"*://*.googletagmanager.*/*",
-			"*://*.googletagservices.*/*",
-			"*://*.gravatar.*/*",
-			"*://*.heapanalytics.com/*",
-			"*://*.iadsdk.apple.com/*",
-			"*://*.imrworldwide.*/*",
-			"*://*.indexww.*/*",
-			"*://*.inmobi.*/*",
-			"*://*.inscname.net/*",
-			"*://*.insnw.net/*",
-			"*://*.instagram.*/*",
-			"*://*.janrain.com/*",
-			"*://*.jwpltx.com/*",
-			"*://*.kochava.com/*",
-			"*://*.krxd.*/*",
-			"*://*.lencr.org/*",
-			"*://*.lijit.*/*",
-			"*://*.litix.*/*",
-			"*://*.marketo.*/*",
-			"*://*.measuread.*/*",
-			"*://*.media.*/*",
-			"*://*.meter-svc.nytimes.*/*",
-			"*://*.metrics.gfycat.com/*",
-			"*://*.mixpanel.*/*",
-			"*://*.moatads.*/*",
-			"*://*.newrelic.*/*",
-			"*://*.nr-data.*/*",
-			"*://*.omtrdc.*/*",			
-			"*://*.onetag-sys.*/*",
-			"*://*.onetrust.*/*",
-			"*://*.online-metrix.*/*",
-			"*://*.openx.*/*",
-			"*://*.optimizely.*/*",
-			"*://*.outbrain.*/*",
-			"*://*.pinimg.*/*",
-			"*://*.pinterest.*/*",
-			"*://*.pro-market.*/*",
-			"*://*.pubmatic.*/*",
-			"*://*.quantserve.*/*",
-			"*://*.reddit.com/api/*",
-			"*://*.redditstatic.com/awards2/*",
-			"*://*.redditstatic.com/desktoponboarding*",
-			"*://*.redditstatic.com/icon-badge-xpost*",
-			"*://*.redditstatic.com/popup-notification*",
-			"*://*.rlcdn.*/*",
-			"*://*.rubiconproject.*/*",
-			"*://*.rvapps.io/*",
-			"*://*.sail-horizon.com/*",
-			"*://*.scorecardresearch.*/*",
-			"*://*.segment.io/*",
-			"*://*.sentry.io/*",
-			"*://*.serving-sys.*/*",
-			"*://*.smartadserver.*/*",
-			"*://*.stack-sonar.*/*",
-			"*://*.stacksocial.*/*",
-			"*://*.stannum-sub.azurewebsites.net/*",
-			"*://*.supersonicads.*/*",
-			"*://*.taboola.*/*",
-			"*://*.telemetry.mozilla.org/*",
-			"*://*.tfbnw.*/*",
-			"*://*.thefacebook.*/*",
-			"*://*.tiktok.*/*",
-			"*://*.tiktokcdn-us.*/*",
-			"*://*.tiktokcdn.*/*",
-			"*://*.tiktokv.*/*",
-			"*://*.trafficstars.*/*",
-			"*://*.use.typekit.net/*",
-			"*://*.ybp.yahoo.com/*",
-			"*://*.zog.link/*",
-			"*://*/*/ads*",
-			"*://*/*/ads/google/*",
-			"*://*/*/adsby*",
-			"*://*/*/adslot*",
-			"*://*/*/advertis*",
-			"*://*/*/amp-ad*",
-			"*://*/*/amp-analytic*",
-			"*://*/*/amp4ad*",
-			"*://*/*/analytic*",
-			"*://*/*/avatar*",
-			"*://*/*/beacon*",
-			"*://*/*/classifieds/*",
-			"*://*/*/faceb*",
-			"*://*/*/favicon*",
-			"*://*/*/favicon/*",
-			"*://*/*/geoip*",
-			"*://*/*/getVisitorLocation/*",
-			"*://*/*/gpt_and_prebid/*",
-			"*://*/*/gtm*",
-			"*://*/*/icon-sponsored*",
-			"*://*/*/imdbads/*",
-			"*://*/*/istats/*",
-			"*://*/*/istats/istats*",
-			"*://*/*/logging/*",
-			"*://*/*/modules/idcta*",
-			"*://*/*/oauth/*",
-			"*://*/*/oauth2/*",
-			"*://*/*/pixel*",
-			"*://*/*/plugins/*",
-			"*://*/*/prebid*",
-			"*://*/*/premium/premium*",
-			"*://*/*/showads*",
-			"*://*/*/stats/*",
-			"*://*/*/subscribe/user/auth-status*",
-			"*://*/*/track*",
-			"*://*/*/widget/*",
-			"*://*/ads*",
-			"*://*/appleauth*",
-			"*://*/favicon*",
-			"*://*/gold/awards/icon/*",
-			"*://*/gold/premium/*",
-			"*://*/gtm*",
-			"*://*/pagead/*",		
-			"*://*/icon-spons*",
-			"*://*/icon-sponsored*",
-			"*://*/listingsignupbar*",
-			"*://ads-api.twitter.com/*",
-			"*://adservice.google.com/*",
-			"*://alb.reddit.com/*",
-			"*://analytics.google.com/*",
-			"*://analytics.twitter.com/*",
-			"*://api.gfycat.com/*",
-			"*://api.radar.io/*",
-			"*://app-measurement.com/*",
-			"*://assets.gfycat.com/*",
-			"*://atlas.cdn.yimg.com/*",
-			"*://beacon.rum.dynapis.info/*",
-			"*://beap-bc.yahoo.com/*",
-			"*://c.bing.com/*",
-			"*://c.brightcove.com/*",
-			"*://c.msn.com/*",
-			"*://csi.gstatic.com/*",
-			"*://dtm.*.*/*",
-			"*://fc.yahoo.com/*",
-			"*://fls-na.amazon.com/*",
-			"*://ga.gfycat.com/*",
-			"*://geo.yahoo.com/*",
-			"*://gql.reddit.com/*",
-			"*://imasdk.googleapis.com/*",
-			"*://imdb.com/list/*",
-			"*://imdb.com/oscars/*",
-			"*://imdb.com/video/embed/*",
-			"*://improving.duckduckgo.com/*",
-			"*://js-agent.newrelic.com/*",
-			"*://mads.amazon.com/*",
-			"*://mail-ads.google.com/*",
-			"*://metric.gstatic.com/*",
-			"*://metrics.gfycat.com/*",
-			"*://mybbc.files.bbci.co.uk/*",
-			"*://platform.twitter.com/*",
-			"*://polling.bbc.co.uk/*",
-			"*://profiles.gfycat.com/*",
-			"*://push.api.bbci.co.uk/*",
-			"*://reddit-image.s3.amazonaws.com/*",
-			"*://s.youtube.com/*",
-			"*://weblogin.gfycat.com/*",		
-          "ftp://*/*",
-          "ws://*/*"
-        ]
-      },
-  
-      "DNSOverHTTPS": {
-        "Enabled": false,
-        "ProviderURL": "https://dns11.quad9.net/dns-query",
-        "Locked": true
-      },
-  
-      "DisabledCiphers": {
-		"TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA": true,
-		"TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA": true,
-		"TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA": true,
-		"TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA": true,
-		"TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384": false,
-		"TLS_RSA_WITH_AES_128_CBC_SHA": true,
-		"TLS_RSA_WITH_AES_128_GCM_SHA256": true,
-		"TLS_RSA_WITH_AES_256_GCM_SHA384": true,
-		"TLS_RSA_WITH_AES_256_CBC_SHA": true
-      },
-  
-      "Proxy": {
-        "Mode": "none",
-        "Locked": true,
-        "UseHTTPProxyForAllProtocols": false,
-        "AutoLogin": false,
-        "UseProxyForDNS": true
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/us-english-dictionary/latest.xpi"
       }
+    },
+    "EncryptedMediaExtensions": {
+      "Enabled": true,
+      "Locked": true
+    },
+    "WebsiteFilter": {
+      "Block": [
+        "*://*.2mdn.*/*",
+        "*://*.2o7.*/*",
+        "*://*.3lift.*/*",
+        "*://*.a-msedge.net/*",
+        "*://*.aaxads.*/*",
+        "*://*.ad-delivery.*/*",
+        "*://*.addthis.*/*",
+        "*://*.adnxs.*/*",
+        "*://*.adobedtm.*/*",
+        "*://*.ads.yahoo.*/*",
+        "*://*.adsafeprotected.*/*",
+        "*://*.adsrvr.*/*",
+        "*://*.advertising.*/*",
+        "*://*.amazon-adsystem.*/*",
+        "*://*.amplitude.*/*",
+        "*://*.app-analytics-services.*/*",
+        "*://*.app-measurement.*/*",
+        "*://*.app.link/*",
+        "*://*.applovin.*/*",
+        "*://*.atdmt.*/*",
+        "*://*.bidgear.*/*",
+        "*://*.bidswitch.*/*",
+        "*://*.braze.*/*",
+        "*://*.brightcove.*/*",
+        "*://*.btloader.*/*",
+        "*://*.btrll.*/*",
+        "*://*.bugsnag.*/*",
+        "*://*.casalemedia.*/*",
+        "*://*.cedexis.*/*",
+        "*://*.comscoreresearch.*/*",
+        "*://*.cookielaw.org/*",
+        "*://*.crashlytics.*/*",
+        "*://*.criteo.*/*",
+        "*://*.crwdcntrl.*/*",
+        "*://*.demdex.*/*",
+        "*://*.disqus.*/*",
+        "*://*.doubleclick.*/*",
+        "*://*.doubleverify.*/*",
+        "*://*.facebook.*/*",
+        "*://*.fb.*/*",
+        "*://*.fbcdn.*/*",
+        "*://*.fbsbx.*/*",
+        "*://*.fc.yahoo.com/*",
+        "*://*.footprintdns.*/*",
+        "*://*.g00.*/*",
+        "*://*.ga.gfycat.com/*",
+        "*://*.gemini.yahoo.com/*",
+        "*://*.getpocket.*/*",
+        "*://*.globalsign.com/*",
+        "*://*.go-mpulse.*/*",
+        "*://*.google-analytics.*/*",
+        "*://*.googleadapis.l.google.com/*",
+        "*://*.googleadservices.*/*",
+        "*://*.googlesyndication.*/*",
+        "*://*.googletagmanager.*/*",
+        "*://*.googletagservices.*/*",
+        "*://*.gravatar.*/*",
+        "*://*.heapanalytics.com/*",
+        "*://*.iadsdk.apple.com/*",
+        "*://*.imrworldwide.*/*",
+        "*://*.indexww.*/*",
+        "*://*.inmobi.*/*",
+        "*://*.inscname.net/*",
+        "*://*.insnw.net/*",
+        "*://*.instagram.*/*",
+        "*://*.janrain.com/*",
+        "*://*.jwpltx.com/*",
+        "*://*.kochava.com/*",
+        "*://*.krxd.*/*",
+        "*://*.lencr.org/*",
+        "*://*.lijit.*/*",
+        "*://*.litix.*/*",
+        "*://*.marketo.*/*",
+        "*://*.measuread.*/*",
+        "*://*.media.*/*",
+        "*://*.meter-svc.nytimes.*/*",
+        "*://*.metrics.gfycat.com/*",
+        "*://*.mixpanel.*/*",
+        "*://*.moatads.*/*",
+        "*://*.newrelic.*/*",
+        "*://*.nr-data.*/*",
+        "*://*.omtrdc.*/*",
+        "*://*.onetag-sys.*/*",
+        "*://*.onetrust.*/*",
+        "*://*.online-metrix.*/*",
+        "*://*.openx.*/*",
+        "*://*.optimizely.*/*",
+        "*://*.outbrain.*/*",
+        "*://*.pinimg.*/*",
+        "*://*.pinterest.*/*",
+        "*://*.pro-market.*/*",
+        "*://*.pubmatic.*/*",
+        "*://*.quantserve.*/*",
+        "*://*.reddit.com/api/*",
+        "*://*.redditstatic.com/awards2/*",
+        "*://*.redditstatic.com/desktoponboarding*",
+        "*://*.redditstatic.com/icon-badge-xpost*",
+        "*://*.redditstatic.com/popup-notification*",
+        "*://*.rlcdn.*/*",
+        "*://*.rubiconproject.*/*",
+        "*://*.rvapps.io/*",
+        "*://*.sail-horizon.com/*",
+        "*://*.scorecardresearch.*/*",
+        "*://*.segment.io/*",
+        "*://*.sentry.io/*",
+        "*://*.serving-sys.*/*",
+        "*://*.smartadserver.*/*",
+        "*://*.stack-sonar.*/*",
+        "*://*.stacksocial.*/*",
+        "*://*.stannum-sub.azurewebsites.net/*",
+        "*://*.supersonicads.*/*",
+        "*://*.taboola.*/*",
+        "*://*.telemetry.mozilla.org/*",
+        "*://*.tfbnw.*/*",
+        "*://*.thefacebook.*/*",
+        "*://*.tiktok.*/*",
+        "*://*.tiktokcdn-us.*/*",
+        "*://*.tiktokcdn.*/*",
+        "*://*.tiktokv.*/*",
+        "*://*.trafficstars.*/*",
+        "*://*.use.typekit.net/*",
+        "*://*.ybp.yahoo.com/*",
+        "*://*.zog.link/*",
+        "*://*/*/ads*",
+        "*://*/*/ads/google/*",
+        "*://*/*/adsby*",
+        "*://*/*/adslot*",
+        "*://*/*/advertis*",
+        "*://*/*/amp-ad*",
+        "*://*/*/amp-analytic*",
+        "*://*/*/amp4ad*",
+        "*://*/*/analytic*",
+        "*://*/*/avatar*",
+        "*://*/*/beacon*",
+        "*://*/*/classifieds/*",
+        "*://*/*/faceb*",
+        "*://*/*/favicon*",
+        "*://*/*/favicon/*",
+        "*://*/*/geoip*",
+        "*://*/*/getVisitorLocation/*",
+        "*://*/*/gpt_and_prebid/*",
+        "*://*/*/gtm*",
+        "*://*/*/icon-sponsored*",
+        "*://*/*/imdbads/*",
+        "*://*/*/istats/*",
+        "*://*/*/istats/istats*",
+        "*://*/*/logging/*",
+        "*://*/*/modules/idcta*",
+        "*://*/*/oauth/*",
+        "*://*/*/oauth2/*",
+        "*://*/*/pixel*",
+        "*://*/*/plugins/*",
+        "*://*/*/prebid*",
+        "*://*/*/premium/premium*",
+        "*://*/*/showads*",
+        "*://*/*/stats/*",
+        "*://*/*/subscribe/user/auth-status*",
+        "*://*/*/track*",
+        "*://*/*/widget/*",
+        "*://*/ads*",
+        "*://*/appleauth*",
+        "*://*/favicon*",
+        "*://*/gold/awards/icon/*",
+        "*://*/gold/premium/*",
+        "*://*/gtm*",
+        "*://*/pagead/*",
+        "*://*/icon-spons*",
+        "*://*/icon-sponsored*",
+        "*://*/listingsignupbar*",
+        "*://ads-api.twitter.com/*",
+        "*://adservice.google.com/*",
+        "*://alb.reddit.com/*",
+        "*://analytics.google.com/*",
+        "*://analytics.twitter.com/*",
+        "*://api.gfycat.com/*",
+        "*://api.radar.io/*",
+        "*://app-measurement.com/*",
+        "*://assets.gfycat.com/*",
+        "*://atlas.cdn.yimg.com/*",
+        "*://beacon.rum.dynapis.info/*",
+        "*://beap-bc.yahoo.com/*",
+        "*://c.bing.com/*",
+        "*://c.brightcove.com/*",
+        "*://c.msn.com/*",
+        "*://csi.gstatic.com/*",
+        "*://dtm.*.*/*",
+        "*://fc.yahoo.com/*",
+        "*://fls-na.amazon.com/*",
+        "*://ga.gfycat.com/*",
+        "*://geo.yahoo.com/*",
+        "*://gql.reddit.com/*",
+        "*://imasdk.googleapis.com/*",
+        "*://imdb.com/list/*",
+        "*://imdb.com/oscars/*",
+        "*://imdb.com/video/embed/*",
+        "*://improving.duckduckgo.com/*",
+        "*://js-agent.newrelic.com/*",
+        "*://mads.amazon.com/*",
+        "*://mail-ads.google.com/*",
+        "*://metric.gstatic.com/*",
+        "*://metrics.gfycat.com/*",
+        "*://mybbc.files.bbci.co.uk/*",
+        "*://platform.twitter.com/*",
+        "*://polling.bbc.co.uk/*",
+        "*://profiles.gfycat.com/*",
+        "*://push.api.bbci.co.uk/*",
+        "*://reddit-image.s3.amazonaws.com/*",
+        "*://s.youtube.com/*",
+        "*://weblogin.gfycat.com/*",
+        "ftp://*/*",
+        "ws://*/*"
+      ]
+    },
+    "DNSOverHTTPS": {
+      "Enabled": false,
+      "ProviderURL": "https://dns11.quad9.net/dns-query",
+      "Locked": true
+    },
+    "DisabledCiphers": {
+      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384": false,
+      "TLS_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_RSA_WITH_AES_128_GCM_SHA256": true,
+      "TLS_RSA_WITH_AES_256_GCM_SHA384": true,
+      "TLS_RSA_WITH_AES_256_CBC_SHA": true
+    },
+    "Proxy": {
+      "Mode": "none",
+      "Locked": true,
+      "UseHTTPProxyForAllProtocols": false,
+      "AutoLogin": false,
+      "UseProxyForDNS": true
     }
   }
+}
