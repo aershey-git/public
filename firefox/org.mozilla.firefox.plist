@@ -178,7 +178,16 @@
 		<key>Locked</key>
 		<true/>
 	</dict>
-
+    <dict>
+        <key>Chatbot</key>
+        <false/>
+        <key>LinkPreviews</key>
+        <false/>
+        <key>TabGroups</key>
+        <false/>
+        <key>Locked</key>
+        <true/>
+	</dict>
 	<key>HardwareAcceleration</key>
 	<true/>
 	<key>Homepage</key>
@@ -487,6 +496,8 @@
 	</dict>
 	<key>UseSystemPrintDialog</key>
 	<true/>
+	<key>VisualSearchEnabled</key>
+	<false/>	
 	<key>WebsiteFilter</key>
 	<dict>
 		<key>Block</key>
