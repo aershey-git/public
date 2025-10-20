@@ -178,6 +178,7 @@
 		<key>Locked</key>
 		<true/>
 	</dict>
+	<key>GenerativeAI</key>
     <dict>
         <key>Chatbot</key>
         <false/>
