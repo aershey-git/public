@@ -400,3 +400,6 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("ui.SpellCheckerUnderlineStyle", 1);
 user_pref("webchannel.allowObject.urlWhitelist", "");
+user_pref("sidebar.visibility", "hide-sidebar");
+user_pref("privacy.history.custom", true);
+user_pref("intl.locale.requested", "en-US");
