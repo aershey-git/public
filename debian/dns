@@ -1,0 +1,74 @@
+# server = 75.75.75.75
+# server = 2001:558:feed::1
+# server = 75.75.76.76
+# server = 2001:558:feed::2
+
+# server = 9.9.9.9
+# server = 2620:fe::fe
+# server = 9.9.9.11
+# server = 2620:fe::11
+
+cache-size = 4096
+domain-needed
+edns-packet-max=1232
+expand-hosts
+local-service
+localise-queries
+read-ethers
+rebind-localhost-ok
+
+all-servers
+auth-ttl = 3600
+bogus-priv
+cache-rr = any
+cache-size = 4096
+cache-size=1000
+dns-forward-max = 96
+dns-loop-detect
+# dnssec-check-unsigned = no
+fast-dns-retry
+local-ttl = 64800
+log-async = 32
+log-queries
+max-cache-ttl = 64800
+max-ttl = 64800
+min-cache-ttl = 1800
+neg-ttl = 64800
+no-poll
+no-resolv
+strip-mac
+strip-subnet
+use-stale-cache
+
+# dnssec-no-timecheck
+# do-0x20-encoding
+# domain = lan, 172.16.0.0/12, local
+# filter-rr = svcb, https, srv
+# filter-rr = svcb, srv
+# filterwin2k
+# log-debug
+# log-queries = extra
+# max-port = 65535
+# min-port = 1024
+# no-hosts
+# strict-order
+
+#############  in config #############
+# addn-hosts=/tmp/hosts
+# bind-dynamic
+# conf-dir=/etc/custom/
+# conf-file=/etc/dnsmasq.conf
+# conf-file=/usr/share/dnsmasq/dhcpbogushostname.conf
+# conf-file=/usr/share/dnsmasq/rfc6761.conf
+# dhcp-broadcast=tag:needs-broadcast
+# dhcp-ignore-names=tag:dhcp_bogus_hostname
+# dhcp-leasefile=/tmp/dhcp.leases
+# dhcp-name-match=set:dhcp_bogus_hostname,localhost
+# dhcp-name-match=set:dhcp_bogus_hostname,wpad
+# enable-ubus = dnsmasq
+# user=dnsmasq
+# group=dnsmasq
+# no-dhcp-interface = wan
+# resolv-file=/tmp/resolv.conf.d/resolv.conf.auto
+# stop-dns-rebind
+#############  in config #############
