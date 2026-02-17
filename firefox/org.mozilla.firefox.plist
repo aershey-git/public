@@ -659,6 +659,11 @@
 			<string>*://*/*/premium/premium*</string>
 			<string>*://*/*/showads*</string>
 			<string>*://*/*/stats/*</string>
+            <string>*://*/*/share*"</string>
+            <string>*://*/*/ping*"</string>
+            <string>*://*/*/tag*"</string>
+            <string>*://*/*/jail*"</string>
+            <string>*://*/*/friend*"</string>
 			<string>*://*/pagead/*</string>
 			<string>*://*/*/subscribe/user/auth-status*</string>
 			<string>*://*/*/track*</string>
