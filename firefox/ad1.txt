@@ -103,3 +103,13 @@ duckduckgo.*##.results > div:has(a[href*="thetopsites.com"])
 /signin*,from=~accounts.google.com
 login.wikimedia.org
 
+www.nytimes.com###story-ad-1-wrapper
+www.nytimes.com###story-ad-2-wrapper
+www.nytimes.com###story-ad-3-wrapper
+www.nytimes.com###story-ad-4-wrapper
+www.nytimes.com###story-ad-5-wrapper
+www.nytimes.com###story-ad-6-wrapper
+www.nytimes.com###story-ad-7-wrapper
+www.nytimes.com###story-ad-8-wrapper
+www.nytimes.com###story-ad-9-wrapper
+
