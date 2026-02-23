@@ -492,3 +492,9 @@ runnersworld.com/auth/checkaccess*
 *$removeparam=udm
 *$removeparam=pws
 *$removeparam=adtest
+*$removeparam=_trksid
+*$removeparam=epid
+*$removeparam=gad_campaignid
+*$removeparam=gad_source
+*$removeparam=outputType
+*$removeparam=ref
