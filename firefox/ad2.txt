@@ -38,9 +38,27 @@
 ||techrepublic.com^$font
 ||runnersworld.com^$font
 
-||ycombinator.com/y18.svg
-||ycombinator.com/triangle.svg
+||reddit.com/api/friend*
+||reddit.com/api/login*
+||redditstatic.com/about-this-ad*
+||redditstatic.com/author-tooltip*
 ||redditstatic.com/droparrowgray.gif
+||redditstatic.com/icon-sponsored-rank.png
+||redditstatic.com/listing-comments*
+||redditstatic.com/logo.svg
+||strapi.reddit.com^$xhr,domain=reddit.com
+||styles.redditmedia.com^$image
+||ycombinator.com/triangle.svg
+||ycombinator.com/y18.svg
+
+/shreddit/assets/right-rail/
+/styles/communityIcon
+/shreddit/assets/right-rail/
+/shreddit/en-US/ad-event*
+/shreddit/en-US/auth-*
+/shreddit/en-US/feed-ad*
+/shreddit/en-US/left-nav*
+/shreddit/en-US/notifications*
 
 /breakingNewsBanner*
 /ad.js
@@ -72,8 +90,6 @@
 /signin*,from=~accounts.google.com
 /suggest-translation*
 /premium/premium*
-
-
 dslr.net/nav/w50/
 duckduckgo.com/assets/logo*
 duckduckgo.com/locale/en_US/duckduckgo*
@@ -84,11 +100,7 @@ google.com/s2/favicons*
 gstatic.com/favicon*
 login.wikimedia.org
 nyt.com/fonts/
-redditstatic.com/author-tooltip*
-redditstatic.com/listing-comments*
-redditstatic.com/logo.svg
-redditstatic.com/icon-sponsored-rank.png
-redditstatic.com/about-this-ad*
+
 timespeople.nytimes.com/avatars/
 wikipedia.org/static/images/footer/*
 wikipedia.org/static/images/project-logos/*
@@ -219,14 +231,6 @@ ycombinator.com##.fatitem form
 zdnet.com##.breaking-news-container
 zdnet.com##.page-header
 www.ebay.com##.x-vi-evo-main-container__top-panel
-/shreddit/assets/right-rail/
-/styles/communityIcon
-/shreddit/en-US/feed-ad*
-/shreddit/en-US/auth-*
-/shreddit/en-US/left-nav*
-/shreddit/en-US/ad-event*
-/shreddit/en-US/notifications*
-redditstatic.com/about-this-ad*
 
 # lwn.net##*:style(font-family: unset !important;)
 # lwn.net##pre:style(font-family: monospace !important;)
