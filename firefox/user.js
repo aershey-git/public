@@ -350,7 +350,7 @@ user_pref("privacy.history.custom", true);
 user_pref("privacy.query_stripping.enabled", true);
 user_pref("privacy.query_stripping.enabled.pbmode", true);
 user_pref("privacy.query_stripping.redirect", true);
-user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking ICID igshid mc_cid mc_eid mkt_tok ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id originalSubdomain otc pfbid psc rb_clickid s_cid sdsrc smid soc_src soc_trk twclid utm_campaign utm_cid utm_content utm_medium utm_name utm_reader utm_referrer utm_social utm_source utm_term vero_conv vero_id wbraid wickedid yclid ysclid itmmeta hash");
+user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat _trksid adtest dclid epid fbclid gad_campaignid gad_source gbraid gclid hsCtaTracking hsctatracking ICID igshid itmmeta mc_cid mc_eid mkt_tok ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id originalSubdomain otc outputType pfbid psc pws rb_clickid ref s_cid sdsrc smid soc_src soc_trk twclid udm utm_campaign utm_cid utm_content utm_medium utm_name utm_reader utm_referrer utm_social utm_source utm_term vero_conv vero_id wbraid wickedid yclid ysclid");
 user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
