@@ -428,3 +428,7 @@ user_pref("security.ssl3.dhe_rsa_aes_128_sha", false);
 user_pref("security.ssl3.dhe_rsa_aes_256_sha", false);
 user_pref("security.ssl3.ecdh_rsa_aes_128_sha", false);
 user_pref("security.ssl3.ecdh_rsa_aes_256_sha", false);
+user_pref("browser.translations.select.enable", false);
+user_pref("dom.text_fragments.enabled", false);
+user_pref("privacy.query_stripping.strip_on_share.enabled", false);
+user_pref("devtools.accessibility.enabled", false);
