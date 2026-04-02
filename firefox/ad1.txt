@@ -115,4 +115,12 @@ www.nytimes.com###story-ad-9-wrapper
 www.nytimes.com###story-ad-10-wrapper
 www.nytimes.com###story-ad-11-wrapper
 www.nytimes.com###story-ad-12-wrapper
+www.nytimes.com###story-ad-13-wrapper
+www.nytimes.com###story-ad-14-wrapper
+www.nytimes.com###story-ad-15-wrapper
+www.nytimes.com###story-ad-16-wrapper
+www.nytimes.com###story-ad-17-wrapper
+www.nytimes.com###story-ad-18-wrapper
+www.nytimes.com###story-ad-19-wrapper
+www.nytimes.com###story-ad-20-wrapper
 www.nytimes.com###bottom-wrapper
