@@ -18,6 +18,37 @@
     "PasswordManagerEnabled": false,
     "PostQuantumKeyAgreementEnabled": true,
     "RequestedLocales": "en-US",
+    "IPProtectionAvailable": false,
+    "AIControls": {
+        "Default": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "Translations": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "PDFAltText": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "SmartTabGroups": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "LinkPreviewKeyPoints": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "SidebarChatbot": {
+            "Value": "blocked",
+            "Locked": false
+        },
+        "SmartWindow": {
+            "Value": "blocked",
+            "Locked": false
+        }
+    }, 
     "SanitizeOnShutdown": {
       "Cache": true,
       "Cookies": true,
