@@ -448,5 +448,6 @@ user_pref("pdfjs.enableAltText", false);
 user_pref("pdfjs.enableAltTextForEnglish", false);
 user_pref("dom.text-recognition.enabled", false);
 user_pref("widget.macos.native-context-menus", false);
+user_pref("dom.serviceWorkers.privateBrowsing.enabled", false);
 user_pref("privacy.trackingprotection.content.protection.enabled", true);
 user_pref("privacy.trackingprotection.content.protection.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt|https://raw.githubusercontent.com/aershey-git/public/refs/heads/main/firefox/ad.txt|https://raw.githubusercontent.com/aershey-git/public/refs/heads/main/firefox/ad1.txt|https://secure.fanboy.co.nz/fanboy-annoyance.txt");
