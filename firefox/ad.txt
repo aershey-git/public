@@ -70,7 +70,6 @@
 ||lijit.com^$important
 ||litix.io^$important
 ||measuread.com^$important
-||meter-svc.nytimes.com^$important
 ||metrics.brightcove.com^$important
 ||metrics.gfycat.com^$important
 ||mixpanel.com^$important
@@ -168,7 +167,7 @@
 ||washpostpodcasts.com^$important
 ||weather.com^$important,third-party
 #######################################################
-||a-reporting.nytimes.com^
+
 ||adpmbglobal.com^
 ||dmeserve.newsinc.com^
 ||launch.inform.com^
@@ -219,23 +218,6 @@ slashdot.org/purple.gif
 ||redditstatic.com/onetrust*
 ||redditstatic.com^$font
 ||thumbs.redditmedia.com^$stylesheet
-
-||cigsvc.nytimes.com^
-||content.api.nytimes.com^
-||mwcm.nytimes.com^
-||myaccount.nytimes.com^
-||nyt.com/ads/google/adsbygoogle.js^$important
-||nytimes.com/ads/google/adsbygoogle.js^$important
-||nytimes.com/svc/web-products/userinfo-*
-||nytimes.com/track*
-||nytimes.com/vi-assets/static-assets/activationBlock*
-||nytimes.com/vi-assets/static-assets/adslot-*
-||nytimes.com/vi-assets/static-assets/footerBlock*
-||nytimes.com/vi-assets/static-assets/getstarted*
-||nytimes.com/vi-assets/static-assets/related*
-||purr.nytimes.com^
-||s3.amazonaws.com/pimage.timespeople.nytimes.com/avatars^
-||ugc-personas.api.nytimes.com^
 
 @@||www.washingtonpost.com/wp-stat/pwapi/prod/fusion/pwapi-proxy.min.js$script,domain=www.washingtonpost.com
 ||d155hi8td9k2ns.cloudfront.net^
@@ -370,8 +352,6 @@ slashdot.org/purple.gif
 /adManager*
 
 /vi-assets/static-assets/icon-t-logo*
-int.nyt.com/apps/formacist/assets/embedded_form*
-
 bbci.co.uk//user-activity-helper/*
 /subscribe/user/auth-status*
 /tetro/evaluate*
