@@ -48,6 +48,9 @@
 ||redditstatic.com/logo.svg
 ||strapi.reddit.com^$xhr,domain=reddit.com
 ||styles.redditmedia.com^$image
+||reddit.com/api/register*
+||rlcdn.com^$image,domain=reddit.com
+||i.redd.it/cms/*
 ||ycombinator.com/triangle.svg
 ||ycombinator.com/y18.svg
 
