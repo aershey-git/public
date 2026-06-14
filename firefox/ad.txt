@@ -205,18 +205,33 @@ slashdot.org/purple.gif
 
 /icon-sponsored*
 ||gql.reddit.com^
+||i.redd.it/cms/*
 ||reddit-image.s3.amazonaws.com^$important
 ||reddit.com/api/^$important
+||reddit.com/api/friend*
+||reddit.com/api/login*
+||reddit.com/api/register*
+||reddit.com/api/share.json
 ||reddit.com/i.gif^$important
 ||reddit.com/static/pixel.png^$important
+||reddit.com/user/*/about.json
 ||redditmedia.com/gtm*
 ||redditstatic.com/$xhr
+||redditstatic.com/about-this-ad*
+||redditstatic.com/author-tooltip*
 ||redditstatic.com/desktop2x^$important
+||redditstatic.com/droparrowgray.gif
 ||redditstatic.com/gtm*
+||redditstatic.com/icon-sponsored-rank.png
 ||redditstatic.com/listing*
+||redditstatic.com/listing-comments*
+||redditstatic.com/logo.svg
 ||redditstatic.com/logo.svg^$important
 ||redditstatic.com/onetrust*
 ||redditstatic.com^$font
+||rlcdn.com^$image,domain=reddit.com
+||strapi.reddit.com^$xhr,domain=reddit.com
+||styles.redditmedia.com^$image
 ||thumbs.redditmedia.com^$stylesheet
 
 @@||www.washingtonpost.com/wp-stat/pwapi/prod/fusion/pwapi-proxy.min.js$script,domain=www.washingtonpost.com
