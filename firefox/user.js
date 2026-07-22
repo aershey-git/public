@@ -459,3 +459,6 @@ user_pref("browser.urlbar.market.featureGate", false);
 user_pref("browser.urlbar.yelpRealtime.featureGate", false);
 user_pref("security.ssl3.deprecated.rsa_des_ede3_sha",false);
 user_pref("security.tls.version.enable-deprecated",false);
+user_pref("network.lna.enabled", true);
+user_pref("network.lna.block_trackers", true);
+user_pref("network.lna.blocking", true);
