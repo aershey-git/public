@@ -4,63 +4,8 @@
 <dict>
 	<key>EnterprisePoliciesEnabled</key>
 	<true/>
-
-  <key>IPProtectionAvailable</key>
-  <false/>
-
-  <key>AIControls</key>
-  <dict>
-    <key>Default</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>Translations</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>PDFAltText</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>SmartTabGroups</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>LinkPreviewKeyPoints</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>SidebarChatbot</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-    <key>SmartWindow</key>
-    <dict>
-      <key>Value</key>
-      <string>blocked</string>
-      <key>Locked</key>
-      <true/>
-    </dict>
-  </dict>
-
+	<key>IPProtectionAvailable</key>
+	<false/>
 	<key>AppAutoUpdate</key>
 	<true/>
 	<key>Authentication</key>
@@ -84,13 +29,23 @@
 		<key>Locked</key>
 		<true/>
 	</dict>
-	
-	  <key>AutofillAddressEnabled</key>
-	  <false/>
-
-	  <key>AutofillCreditCardEnabled</key>
-	  <false/>
-	  
+	<key>CNSA2KeyAgreementEnabled</key>
+	<true/>
+	<key>LocalNetworkAccess</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+		<key>BlockTrackers</key>
+		<true/>
+		<key>EnablePrompting</key>
+		<true/>
+		<key>Locked</key>
+		<true/>
+	</dict>
+	<key>AutofillAddressEnabled</key>
+	<false/>
+	<key>AutofillCreditCardEnabled</key>
+	<false/>
 	<key>CaptivePortal</key>
 	<false/>
 	<key>Certificates</key>
@@ -98,7 +53,6 @@
 		<key>ImportEnterpriseRoots</key>
 		<false/>
 	</dict>
-
 	<key>Cookies</key>
 	<dict>
 		<key>Behavior</key>
@@ -106,7 +60,6 @@
 		<key>Locked</key>
 		<true/>
 	</dict>
-
 	<key>DNSOverHTTPS</key>
 	<dict>
 		<key>Enabled</key>
@@ -187,19 +140,18 @@
 		<true/>
 	</dict>
 	<key>EncryptedMediaExtensions</key>
-		<dict>
+	<dict>
 		<key>Enabled</key>
 		<false/>
 		<key>Locked</key>
 		<false/>
 	</dict>
-
 	<key>ExtensionSettings</key>
 	<dict>
 		<key>uBlock0@raymondhill.net</key>
 		<dict>
 			<key>installation_mode</key>
-			 <string>force_installed</string>
+			<string>force_installed</string>
 			<key>install_url</key>
 			<string>https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi</string>
 		</dict>
@@ -229,7 +181,6 @@
 		<key>Locked</key>
 		<true/>
 	</dict>
-
 	<key>HardwareAcceleration</key>
 	<true/>
 	<key>Homepage</key>
@@ -237,34 +188,23 @@
 		<key>StartPage</key>
 		<string>none</string>
 	</dict>
-
 	<key>HttpsOnlyMode</key>
 	<string>force_enabled</string>
-
-
 	<key>NetworkPrediction</key>
 	<false/>
 	<key>OfferToSaveLogins</key>
-	<false/>	
-
+	<false/>
 	<key>NoDefaultBookmarks</key>
 	<true/>
-	<key>OfferToSaveLogins</key>
-	<false/>
-	<key>OfferToSaveLoginsDefault</key>
-	<false/>
-
-
 	<key>PasswordManagerEnabled</key>
 	<false/>
 	<key>PDFjs</key>
-		<dict>
+	<dict>
 		<key>Enabled</key>
 		<true/>
 		<key>EnablePermissions</key>
 		<false/>
 	</dict>
-
 	<key>Permissions</key>
 	<dict>
 		<key>Camera</key>
@@ -298,7 +238,7 @@
 		<key>Autoplay</key>
 		<dict>
 			<key>Default</key>
-				<string>block-audio-video</string>
+			<string>block-audio-video</string>
 			<key>Locked</key>
 			<true/>
 		</dict>
@@ -334,7 +274,7 @@
 			<integer>1</integer>
 			<key>Status</key>
 			<string>default</string>
-			</dict>
+		</dict>
 		<key>privacy.globalprivacycontrol.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -342,7 +282,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>privacy.userContext.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -350,7 +289,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>geo.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -358,7 +296,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>browser.cache.disk.enable</key>
 		<dict>
 			<key>Value</key>
@@ -366,7 +303,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>browser.urlbar.speculativeConnect.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -374,7 +310,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>browser.cache.memory.enable</key>
 		<dict>
 			<key>Value</key>
@@ -382,7 +317,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>datareporting.policy.dataSubmissionEnabled</key>
 		<dict>
 			<key>Value</key>
@@ -390,7 +324,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>geo.provider.use_corelocation</key>
 		<dict>
 			<key>Value</key>
@@ -398,7 +331,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>keyword.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -406,7 +338,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.dns.disablePrefetch</key>
 		<dict>
 			<key>Value</key>
@@ -414,7 +345,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.dns.disablePrefetchFromHTTPS</key>
 		<dict>
 			<key>Value</key>
@@ -422,7 +352,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.http.http3.enable_kyber</key>
 		<dict>
 			<key>Value</key>
@@ -430,7 +359,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.predictor.enable-prefetch</key>
 		<dict>
 			<key>Value</key>
@@ -438,7 +366,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.predictor.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -446,7 +373,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>network.prefetch-next</key>
 		<dict>
 			<key>Value</key>
@@ -454,7 +380,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-
 		<key>places.history.enabled</key>
 		<dict>
 			<key>Value</key>
@@ -462,7 +387,6 @@
 			<key>Status</key>
 			<string>locked</string>
 		</dict>
-		
 	</dict>
 	<key>PrintingEnabled</key>
 	<true/>
@@ -499,17 +423,13 @@
 	<key>SearchSuggestEnabled</key>
 	<false/>
 	<key>WindowsSSO</key>
-	<false/>	
-
+	<false/>
 	<key>ShowHomeButton</key>
 	<false/>
 	<key>SSLVersionMin</key>
 	<string>tls1.2</string>
 	<key>SSLVersionMax</key>
 	<string>tls1.3</string>
-
-	<key>TranslateEnabled</key>
-	<false/>
 	<key>UserMessaging</key>
 	<dict>
 		<key>ExtensionRecommendations</key>
@@ -548,7 +468,7 @@
 			<string>*://*.advertising.*/*</string>
 			<string>*://*.amazon-adsystem.*/*</string>
 			<string>*://*.amplitude.*/*</string>
-			<string>*://*.app-analytics-services.*/*</string>			
+			<string>*://*.app-analytics-services.*/*</string>
 			<string>*://*.app-measurement.*/*</string>
 			<string>*://*.app.link/*</string>
 			<string>*://*.applovin.*/*</string>
@@ -614,7 +534,7 @@
 			<string>*://*.moatads.*/*</string>
 			<string>*://*.newrelic.*/*</string>
 			<string>*://*.nr-data.*/*</string>
-			<string>*://*.omtrdc.*/*</string>			
+			<string>*://*.omtrdc.*/*</string>
 			<string>*://*.onetag-sys.*/*</string>
 			<string>*://*.onetrust.*/*</string>
 			<string>*://*.online-metrix.*/*</string>
@@ -744,7 +664,6 @@
 			<string>ftp://*/*</string>
 			<string>ws://*/*</string>
 		</array>
-
 	</dict>
 </dict>
 </plist>
