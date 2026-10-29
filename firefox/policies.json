@@ -2,7 +2,7 @@
   "policies": {
     "AutofillAddressEnabled": false,
     "AutofillCreditCardEnabled": false,
-    "BlockAboutConfig": true,
+    "BlockAboutConfig": false,
     "BlockAboutProfiles": true,
     "BlockAboutSupport": false,
     "CaptivePortal": false,
