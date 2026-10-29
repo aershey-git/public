@@ -80,7 +80,7 @@
 	<key>AutofillCreditCardEnabled</key>
 	<false/>
 	<key>BlockAboutConfig</key>
-	<true/>
+	<false/>
 	<key>BlockAboutProfiles</key>
 	<true/>
 	<key>BlockAboutSupport</key>
