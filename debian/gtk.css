@@ -1,0 +1,32 @@
+/* ~/.config/gtk-3.0/gtk.css */
+#XfceNotifyWindow {
+    background-color: #f8f9fa;
+    color: #333333;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: #e9ecef;
+    padding: 12px;
+}
+
+#XfceNotifyWindow label#summary {
+    font-weight: bold;
+    color: #111111;
+}
+
+#XfceNotifyWindow label#body {
+    color: #495057;
+}
+
+#XfceNotifyWindow button {
+    background-color: #e9ecef;
+    color: #333333;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    padding: 4px 12px;
+}
+
+#XfceNotifyWindow button:hover {
+    background-color: #dee2e6;
+    border-color: #adb5bd;
+}
+
