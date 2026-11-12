@@ -457,3 +457,4 @@ user_pref("widget.macos.native-context-menus", false);
 user_pref("privacy.resistFingerprinting.randomDataOnCanvasExtract", true);
 user_pref("media.peerconnection.enabled", false);
 user_pref("media.peerconnection.ice.no_host", true);
+user_pref("network.security.esni.enabled", true);
