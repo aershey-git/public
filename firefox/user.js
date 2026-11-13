@@ -458,3 +458,5 @@ user_pref("privacy.resistFingerprinting.randomDataOnCanvasExtract", true);
 user_pref("media.peerconnection.enabled", false);
 user_pref("media.peerconnection.ice.no_host", true);
 user_pref("network.security.esni.enabled", true);
+user_pref("security.tls.ech.grease_probability", 100);
+user_pref("security.tls.ech.grease_http3", true);
